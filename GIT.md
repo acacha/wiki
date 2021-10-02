@@ -1,3 +1,10 @@
+# Guio
+
+- Creació d'un repositori a Github
+- Git Clone
+- Git workflow
+- 
+
 # Recursos
 
 - Curs Ray wanderlich: https://www.raywenderlich.com/4418-beginning-git
