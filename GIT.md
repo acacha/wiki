@@ -9,4 +9,5 @@
 
 - Curs Ray wanderlich: https://www.raywenderlich.com/4418-beginning-git
 - Laracasts: https://laracasts.com/series/git-me-some-version-control
-- Git: https://platzi.com/cursos/git-github/
+- Git Platzi: https://platzi.com/cursos/git-github/
+- Docs oficials: https://git-scm.com/video/what-is-version-control
