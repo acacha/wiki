@@ -3,7 +3,11 @@
 - Creació d'un repositori a Github
 - Git Clone
 - Git workflow
-- 
+
+
+# The Three States
+
+https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 
 # Recursos
 
