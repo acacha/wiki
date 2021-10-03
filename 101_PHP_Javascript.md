@@ -5,6 +5,10 @@
 Vegeu el videotutorial a: 
 - https://youtu.be/w8j07_DBl_I
 
+# Recursos
+- https://github.com/2DAM-2020-21/sergitur/blob/master/101_21_09_2020.md
+- http://acacha.org/mediawiki/Upgrade
+-
 # Llista de tasques realitzades
 
 - [ ] Actualització del sistema amb sudo apt-get update && sudo apt-get dist-upgrade
@@ -25,6 +29,8 @@ Vegeu el videotutorial a:
 - [ ] Instal·lació Ionic
 - [ ] Instal·lació Vue
 - [ ] Altres: Redis, http-server, supervisor, gh i git-open
+
+
 
 # Comandes
 
@@ -207,6 +213,4 @@ Seguiu les passes de:
  https://help.github.com/articles/connecting-to-github-with-ssh/
 
 
-# Recursos
-- https://github.com/2DAM-2020-21/sergitur/blob/master/101_21_09_2020.md
-- http://acacha.org/mediawiki/Upgrade
+
