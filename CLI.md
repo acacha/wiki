@@ -6,5 +6,6 @@
   - Eina Z
   - Eina trash
   
-  # Recursos
-  - https://commandlinepoweruser.com/
+# Recursos
+- https://commandlinepoweruser.com/
+- https://laracasts.com/series/setup-a-mac-dev-machine-from-scratch/episodes/1
