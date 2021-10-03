@@ -7,8 +7,6 @@ Vegeu el videotutorial a:
 
 # Llista de tasques realitzades
 
-# LLista de comandes per preparar el sistema operatiu
-
 - [ ] Actualització del sistema amb sudo apt-get update && sudo apt-get dist-upgrade
 - [ ] Instal·lació de Chrome
 - [ ] Instal·lació eines bàsiques línia comandes: joe, nmap, curl http://acacha.org/mediawiki/Upgrade
