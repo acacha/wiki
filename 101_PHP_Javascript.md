@@ -1,4 +1,4 @@
-# Clase 101. Preparar sistema Ubuntu 20.04 acabat instal·lar per treballar amb PHP, composer, Laravel i Javascript/Nodejs amb PppStorm
+# Clase 101. Preparar sistema Ubuntu 20.04 acabat instal·lar per treballar amb PHP, composer, Laravel i Javascript/Nodejs amb PhpStorm
 
 [![Alt text](https://img.youtube.com/vi/w8j07_DBl_I/0.jpg)](https://www.youtube.com/watch?v=w8j07_DBl_I)
 
