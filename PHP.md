@@ -13,7 +13,18 @@ Guió:
 - Variables: signe de dolar, substitució de string fixe hello world, concatenació de variables (period), {$braces}, diferencia entre '' i ""
 - Variable a un input text.
 - PHP i html: 
-- Phpstorm i ! més tabulador
+- Phpstorm i emmet ! més tabulador
+- Visualitació d Code a Google Chrome dev tools. Diferènca entre txt i HTML.
+- <?php i <?=
+- $GET per obtenir variables,
+- Seguretat per injecció htmlspecialchars -> Primera funció
+- Laravel blade
+- Separation of concerns: responsabilities -> Separar la vista del codi (lògica de negoci/Model)
+- Sistema de plantilles manual simple: index.view.php -> index.blade.php . A view! Primer require -> Ho eliminarem amb Composer!
+- Arrays -> Laravel collections -> []
+- Foreach i associative arrays
+- Booleans i condicionals -> if
+- Base de dades 101 -> Mysql -> Utilitzarem Eloquent
 
 # Eines
 - Emmet: https://www.jetbrains.com/help/idea/using-zen-coding-support.html
