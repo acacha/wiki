@@ -1,7 +1,8 @@
 # Continguts previs
 
 - Preparació d'una Ubuntu Desktop per programar. https://www.youtube.com/watch?v=w8j07_DBl_I&t=152s
-
+- https://guides.github.com/features/mastering-markdown/
+- 
 # Guio
 
 - Creació d'un repositori a Github
@@ -25,3 +26,4 @@ https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 - Docs oficials: https://git-scm.com/video/what-is-version-control
 - https://www.atlassian.com/es/git/tutorials/what-is-git
 - https://platzi.com/clases/2383-prework-linux/39145-que-es-git-y-github/?utm_source=google&utm_medium=paid&utm_campaign=14603491644&utm_adgroup=&utm_content=&gclid=CjwKCAjwzOqKBhAWEiwArQGwaCjs4ES7nyRld5GutiE5KtSDmGWeWwKwSPjtK85vhBu28fg-q9UXIhoCOKoQAvD_BwE&gclsrc=aw.ds
+- https://guides.github.com/features/mastering-markdown/
