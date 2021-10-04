@@ -2,7 +2,8 @@
 
 - Preparació d'una Ubuntu Desktop per programar. https://www.youtube.com/watch?v=w8j07_DBl_I&t=152s
 - https://guides.github.com/features/mastering-markdown/
-- 
+- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
 # Guio
 
 - Creació d'un repositori a Github
@@ -16,6 +17,8 @@
 
 https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 
+# Creació de clauss SSH
+- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 
 # Recursos
