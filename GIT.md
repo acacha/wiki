@@ -1,3 +1,7 @@
+# Continguts previs
+
+- Preparació d'una Ubuntu Desktop per programar. https://www.youtube.com/watch?v=w8j07_DBl_I&t=152s
+
 # Guio
 
 - Creació d'un repositori a Github
@@ -10,6 +14,8 @@
 # The Three States
 
 https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+
+
 
 # Recursos
 
