@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=SwX37ML7shU&list=PLyasg1A0hpk2znLNLz5DCvhfNWgSdo
 
 Screencasts:
 - https://youtu.be/SwX37ML7shU | 1 Instal·lació Android Studio i primera execució, configuració AVD
-- 2 Execució en dispositiu mòbil real i creació repositori Github
+- https://www.youtube.com/watch?v=6Lpa02F9JEg | 2 Execució en dispositiu mòbil real i creació repositori Github
 
 Codi Github disponible a:
 - https://github.com/acacha/Comptador
