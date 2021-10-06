@@ -7,7 +7,7 @@ https://youtu.be/XBKg-EYW0nM
 
 # Codi font
 
-https://github.com/acacha/wiki/blob/main/COMPOSER_PHP.md
+https://github.com/acacha/101_COMPOSER_PHP
 
 # Tasques
 - [ ] Crear un compte d'usuari a packagist.
