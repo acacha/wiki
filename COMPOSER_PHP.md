@@ -1,6 +1,13 @@
+# Screencasts
+
+https://youtu.be/XBKg-EYW0nM
 
 # Instal·lació
 - https://getcomposer.org/download/
+
+# Codi font
+
+https://github.com/acacha/wiki/blob/main/COMPOSER_PHP.md
 
 # Tasques
 - [ ] Crear un compte d'usuari a packagist.
