@@ -11,3 +11,4 @@
 - https://www.npmjs.com/package/nps
 - https://www.w3schools.com/nodejs/nodejs_get_started.asp
 - https://medium.com/codex/8-powerful-npm-packages-for-all-web-developers-e626a0ce0784
+- https://codingpotions.com/npm-tutorial
