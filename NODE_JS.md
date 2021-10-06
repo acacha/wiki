@@ -16,3 +16,5 @@
 - https://medium.com/codex/8-powerful-npm-packages-for-all-web-developers-e626a0ce0784
 - https://codingpotions.com/npm-tutorial
 - https://lodash.com/docs/#now
+- https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore
+- https://www.w3schools.com/js/js_whereto.asp
