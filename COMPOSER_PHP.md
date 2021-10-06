@@ -12,3 +12,5 @@
 - http://acacha.org/mediawiki/Upgrade#.YV3eplNByV4
 - https://www.php.net/
 - https://github.com/fzaninotto/Faker
+- https://laracasts.com/series/php-for-beginner
+- https://laracasts.com/series/php-for-beginners/episodes/21s
