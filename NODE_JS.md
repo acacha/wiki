@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/4015406/136238320-90e8df3b-2e40-469a-ac5a-8c4b9a72196a.png)
+
+
 # Tasques
 
 - [ ] Crear compte al web https://www.npmjs.com/signup
