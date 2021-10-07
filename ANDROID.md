@@ -12,7 +12,7 @@ Codi Github disponible a:
 - Tag: [v0.1](https://github.com/acacha/Comptador/tree/v0.1)
 
 ### 2 Execució en dispositiu mòbil real i creació repositori Github
-- https://www.youtube.com/watch?v=6Lpa02F9JEg | 2 Execució en dispositiu mòbil real i creació repositori Github
+- https://youtu.be/GTDHBNb08UA | 2 Execució en dispositiu mòbil real i creació repositori Github
 - Tag: [v0.1](https://github.com/acacha/Comptador/tree/v0.1)
 
 ## 3 Lo bàsic de Android. User Interface
