@@ -4,12 +4,19 @@ https://www.youtube.com/watch?v=SwX37ML7shU&list=PLyasg1A0hpk2znLNLz5DCvhfNWgSdo
 
 ## Primera aplicació Android amb Kotlin i Android Studio, Ubuntu Desktop. Comptador
 
-Screencasts:
-- https://youtu.be/SwX37ML7shU | 1 Instal·lació Android Studio i primera execució, configuració AVD
-- https://www.youtube.com/watch?v=6Lpa02F9JEg | 2 Execució en dispositiu mòbil real i creació repositori Github
-
 Codi Github disponible a:
 - https://github.com/acacha/Comptador
+
+### 1 Instal·lació Android Studio i primera execució, configuració AVD
+- https://youtu.be/SwX37ML7shU | 1 Instal·lació Android Studio i primera execució, configuració AVD
+- Tag: [v0.1](https://github.com/acacha/Comptador/tree/v0.1)
+
+### 2 Execució en dispositiu mòbil real i creació repositori Github
+- https://www.youtube.com/watch?v=6Lpa02F9JEg | 2 Execució en dispositiu mòbil real i creació repositori Github
+- Tag: [v0.1](https://github.com/acacha/Comptador/tree/v0.1)
+
+## 3 
+
 
 # Eines utilitzades
 
