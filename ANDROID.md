@@ -17,11 +17,18 @@ Codi Github disponible a:
 
 ## 3 Lo bàsic de Android. User Interface
 
+Screencasts
+- https://youtu.be/b3HNH21vrqc | 3 Primers passos comptador. Kotlin, activitats Android i esdeveniments.
+
+Tasques
+
 - [X] Afegir un botó. Toca'm i objectiu serà augmentar un comptador
 - [X] Afegir un text -> Objectiu mostrar el comptador.
 - [X] Afegir un altre altext -> Objectiu de mostrar el temps restant. Hi haurà un temps màxim
 - [X] Customitzar els elements gràfics: Posant textos, recurs string, Identificadors
-- [ ] Interaccións amb UI: Tap/Touch/Click botó -> Actualitzar el comptador
+- [X] Interaccións amb UI: Tap/Touch/Click botó -> Actualitzar el comptador
+- [X] Crear versió 0.2 de l'aplicació
+- Tag: [v0.2](https://github.com/acacha/Comptador/tree/v0.2)
 
 # Kotlin
 
