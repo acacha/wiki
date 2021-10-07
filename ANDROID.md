@@ -23,6 +23,9 @@ Codi Github disponible a:
 - [X] Customitzar els elements gràfics: Posant textos, recurs string, Identificadors
 - [ ] Interaccións amb UI: Tap/Touch/Click botó -> Actualitzar el comptador
 
+# Kotlin
+
+Variables, funcions i classes: https://www.raywenderlich.com/4936497-your-first-kotlin-android-app/lessons/24
 
 # Activitats
 
