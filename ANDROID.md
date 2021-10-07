@@ -17,8 +17,9 @@ Codi Github disponible a:
 
 ## 3 Lo bàsic de Android. User Interface
 
-- [ ] Tasca 1
-- [ ] Tasca 2
+- [ ] Afegir un botó. Toca'm i objectiu serà augmentar un comptador
+- [ ] Afegir un text -> Objectiu mostrar el comptador.
+- [ ] Afegir un altre altext -> Objectiu de mostrar el temps restant. Hi haurà un temps màxim
 
 
 # Eines utilitzades
