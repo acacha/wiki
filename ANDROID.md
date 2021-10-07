@@ -20,6 +20,20 @@ Codi Github disponible a:
 - [X] Afegir un botó. Toca'm i objectiu serà augmentar un comptador
 - [X] Afegir un text -> Objectiu mostrar el comptador.
 - [X] Afegir un altre altext -> Objectiu de mostrar el temps restant. Hi haurà un temps màxim
+- [X] Customitzar els elements gràfics: Posant textos, recurs string, Identificadors
+- [ ] Interaccións amb UI: Tap/Touch/Click botó -> Actualitzar el comptador
+
+
+# Activitats
+
+
+Recursos:
+- https://developer.android.com/guide/components/activities/activity-lifecycle
+- https://www.raywenderlich.com/4936497-your-first-kotlin-android-app/lessons/19
+
+# Cicle de vida
+
+![image](https://user-images.githubusercontent.com/4015406/136361713-3bde1a2a-cf84-41b8-a974-be9becab5d61.png)
 
 
 # Eines utilitzades
