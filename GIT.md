@@ -17,7 +17,7 @@
 
 https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 
-# Creació de clauss SSH
+# Creació de claus SSH
 - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 
