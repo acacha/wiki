@@ -26,15 +26,18 @@ Codi Github disponible a:
 
 # Activitats
 
-
 Recursos:
 - https://developer.android.com/guide/components/activities/activity-lifecycle
 - https://www.raywenderlich.com/4936497-your-first-kotlin-android-app/lessons/19
-
-# Cicle de vida
+- https://www.raywenderlich.com/4936497-your-first-kotlin-android-app/lessons/20
+-
+## Cicle de vida
 
 ![image](https://user-images.githubusercontent.com/4015406/136361713-3bde1a2a-cf84-41b8-a974-be9becab5d61.png)
 
+# Manifest
+
+https://www.raywenderlich.com/4936497-your-first-kotlin-android-app/lessons/21
 
 # Eines utilitzades
 
