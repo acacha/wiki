@@ -12,6 +12,20 @@ https://github.com/acacha/101_COMPOSER_PHP
 # Tasques
 - [ ] Crear un compte d'usuari a packagist.
 
+# COMPOSER GLOBAL
+
+Un exemple d'aplicació d'instal·lació aplicació PHP global és Laravel:
+
+https://laravel.com/docs/8.x/installation#the-laravel-installer
+
+També Valet o Phpunit
+
+La línia del ~/.zshrc és:
+
+```bash
+export PATH=${PATH}:~/.config/composer/vendor/bin
+```
+
 # Recursos
 
 - https://getcomposer.org/
