@@ -30,6 +30,12 @@ Tasques
 - [X] Crear versió 0.2 de l'aplicació
 - Tag: [v0.2](https://github.com/acacha/Comptador/tree/v0.2)
 
+## 4 Afegir el timer
+
+Screencasts
+- https://youtu.be/Zt4nWQ_JTiM
+- Tag: [v0.3](https://github.com/acacha/Comptador/tree/v0.3)
+
 # Kotlin
 
 Variables, funcions i classes: https://www.raywenderlich.com/4936497-your-first-kotlin-android-app/lessons/24
