@@ -9,7 +9,7 @@
 Cal saber:
 
 -[ ] Javascript i la programació modular:
-  - https://exploringjs.com/impatient-js/ch_modules.html
+- [ ] https://exploringjs.com/impatient-js/ch_modules.html
 - [ ] En tema mòduls/paquets qu no suporten els Navegadors? Que no suporta NodeJS?
 - [ ] Per què necessitem Web build Tools? A més de per empquetar per altres tasques de construcció com: 
 - [ ] Compilació assets: imatges, CSS, suport de llenguatges per a CSS com Sass o Less, Tailwind CSS.
