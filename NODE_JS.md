@@ -20,7 +20,7 @@ Cal saber:
 - [ ] Compilació assets: imatges, CSS, suport de llenguatges per a CSS com Sass o Less, Tailwind CSS.
 - [ ] Millores en rendiment i altres: minimitzacions de fitxers, source maps, versioning/cache busting, suport de frameworks com Vue...
 
--[ ] Bundlers/Empaquetadors/Web development build tools:
+- [ ] Bundlers/Empaquetadors/Web development build tools:
   - [ ] Webpack: https://webpack.js.org/
   - [ ] Vite: https://harlanzw.com/blog/how-the-heck-does-vite-work/
   - [ ] Laravel mix (utilitza webpack) https://laracasts.com/series/learn-laravel-mix/episodes/3
