@@ -1,8 +1,7 @@
 # Screencast
 
 - [Introducció a NodeJS i NPM](https://youtu.be/tdVbtP4xtk0): En aquest vídeo poder veure com instal·lar NodeJS a Ubuntu, i veure'm el bàsic sobre l'ús de npm com a gestor de paquets. Comparació de com s'utilitzaven abans (desenvolupament web clàsic) llibreries Javascript de tercers i com ho fem ara amb NPM.
-- [Paquets (bundles) i Javascript. Distribució d'aplicacions i paquets Javascript](): 
-- [NPM I Laravel. Laravel Mix]():
+- [Paquets (bundles) i Javascript. Distribució d'aplicacions i paquets Javascript, Webpack, Laravel Mix, Vue i Vite](): 
 
 ## Paquets (bundles) i Javascript. Distribució d'aplicacions i paquets Javascript
 
