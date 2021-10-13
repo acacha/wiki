@@ -7,7 +7,12 @@
 ## Paquets (bundles) i Javascript. Distribució d'aplicacions i paquets Javascript
 
 Cal saber:
--[] 
+-[] Javascript i la programació modular:
+  - https://exploringjs.com/impatient-js/ch_modules.html
+-[] Bundlers/Empaquetadors/Web development build tools:
+  - [ ] Webpack: https://webpack.js.org/
+  - [ ] Vite: https://harlanzw.com/blog/how-the-heck-does-vite-work/
+  - [ ] Laravel mix (utilitza webpack) https://laracasts.com/series/learn-laravel-mix/episodes/3
 
 ## NPM I Laravel. Laravel Mix
 
