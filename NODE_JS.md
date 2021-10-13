@@ -7,9 +7,15 @@
 ## Paquets (bundles) i Javascript. Distribució d'aplicacions i paquets Javascript
 
 Cal saber:
--[] Javascript i la programació modular:
+
+-[ ] Javascript i la programació modular:
   - https://exploringjs.com/impatient-js/ch_modules.html
--[] Bundlers/Empaquetadors/Web development build tools:
+- [ ] En tema mòduls/paquets qu no suporten els Navegadors? Que no suporta NodeJS?
+- [ ] Per què necessitem Web build Tools? A més de per empquetar per altres tasques de construcció com: 
+- [ ] Compilació assets: imatges, CSS, suport de llenguatges per a CSS com Sass o Less, Tailwind CSS.
+- [ ] Millores en rendiment i altres: minimitzacions de fitxers, source maps, versioning/cache busting, suport de frameworks com Vue...
+
+-[ ] Bundlers/Empaquetadors/Web development build tools:
   - [ ] Webpack: https://webpack.js.org/
   - [ ] Vite: https://harlanzw.com/blog/how-the-heck-does-vite-work/
   - [ ] Laravel mix (utilitza webpack) https://laracasts.com/series/learn-laravel-mix/episodes/3
