@@ -8,8 +8,13 @@
 
 Cal saber:
 
+- [ ] Versions de javascript. https://www.educative.io/blog/javascript-versions-history
+- [ ] Javascript en entorn client i entorn de servidor. Javascript com un dels entorns més multiplataforma del moment? El nou Java?
+- [ ] Electronjs: Javascript per aplicacions escriptori
+- [ ] ExpressJS: Web framework (Laravel per javascript?): https://expressjs.com/
 - [ ] Javascript i la programació modular:
 - [ ] https://exploringjs.com/impatient-js/ch_modules.html
+- [ ] import/export: ECMAScript modules 
 - [ ] En tema mòduls/paquets qu no suporten els Navegadors? Que no suporta NodeJS?
 - [ ] Per què necessitem Web build Tools? A més de per empquetar per altres tasques de construcció com: 
 - [ ] Compilació assets: imatges, CSS, suport de llenguatges per a CSS com Sass o Less, Tailwind CSS.
