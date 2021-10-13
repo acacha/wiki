@@ -2,7 +2,16 @@
 
 - [Introducció a NodeJS i NPM](https://youtu.be/tdVbtP4xtk0): En aquest vídeo poder veure com instal·lar NodeJS a Ubuntu, i veure'm el bàsic sobre l'ús de npm com a gestor de paquets. Comparació de com s'utilitzaven abans (desenvolupament web clàsic) llibreries Javascript de tercers i com ho fem ara amb NPM.
 - Distribució d'aplicacions Javascript: 
-- NPM I Laravel:
+- [NPM I Laravel. Laravel Mix]():
+
+
+## NPM I Laravel. Laravel Mix
+
+Cal saber:
+- [ ] Què és Laravel Mix (abans Laravel elixir)
+- [ ] Laravel Mix utilitza webpack. És un wrapper de webpack per poder utilitzar webpack sense tenir que ser un expert en la eina. A més ja adaptat a laravel i la majoria de casos ús més habituals. No cal ser un expert però 4 coneixements sobre webpack poden anar bé.
+- [ ] Utilitza NodeJs i NPM. Vegeu els vídeos anteriors.
+- [ ] Conèixer cursos de tercers -> laracasts: https://laracasts.com/series/learn-laravel-mix
 
 # Codi font del screencast
 
