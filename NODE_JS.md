@@ -1,9 +1,13 @@
 # Screencast
 
 - [Introducció a NodeJS i NPM](https://youtu.be/tdVbtP4xtk0): En aquest vídeo poder veure com instal·lar NodeJS a Ubuntu, i veure'm el bàsic sobre l'ús de npm com a gestor de paquets. Comparació de com s'utilitzaven abans (desenvolupament web clàsic) llibreries Javascript de tercers i com ho fem ara amb NPM.
-- Distribució d'aplicacions Javascript: 
+- [Paquets (bundles) i Javascript. Distribució d'aplicacions i paquets Javascript](): 
 - [NPM I Laravel. Laravel Mix]():
 
+## Paquets (bundles) i Javascript. Distribució d'aplicacions i paquets Javascript
+
+Cal saber:
+-[] 
 
 ## NPM I Laravel. Laravel Mix
 
@@ -14,6 +18,10 @@ Cal saber:
 - [ ] Codi font Laravel Mix: https://github.com/laravel-mix/laravel-mix
 - [ ] Paquet npm: https://www.npmjs.com/package/laravel-mix  
 - [ ] Conèixer cursos de tercers -> laracasts: https://laracasts.com/series/learn-laravel-mix
+- [ ] Fitxer de configuració webpack.mix.js
+- [ ] Laravel porta ja per defecte instal·lat i configurat amb plantilla mínima Laravel Mix.
+- [ ] Conèixer els Npm scripts relacionats amb Laravel mix. Fitxer packaje.json. https://laracasts.com/series/learn-laravel-mix/episodes/2
+
 
 # Codi font del screencast
 
