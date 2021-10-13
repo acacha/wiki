@@ -38,7 +38,8 @@ https://github.com/acacha/101_NODEJS_NPM
 - [ ] Hello world node.js
 
 # Llibreries de tercers utilitzades
-- https://lodash.com/
+- Lodash: https://lodash.com/
+- cross-env: https://www.npmjs.com/package/cross-env
 
 # Recursos
 - Upgrade: http://acacha.org/mediawiki/Upgrade#.YV22eVNByV4
