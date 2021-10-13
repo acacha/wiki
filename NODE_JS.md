@@ -1,7 +1,7 @@
 # Screencast
 
 - [Introducció a NodeJS i NPM](https://youtu.be/tdVbtP4xtk0): En aquest vídeo poder veure com instal·lar NodeJS a Ubuntu, i veure'm el bàsic sobre l'ús de npm com a gestor de paquets. Comparació de com s'utilitzaven abans (desenvolupament web clàsic) llibreries Javascript de tercers i com ho fem ara amb NPM.
-
+- Distribució d'aplicacions Javascript: 
 
 # Codi font del screencast
 
@@ -16,6 +16,9 @@ https://github.com/acacha/101_NODEJS_NPM
 
 - [ ] Crear compte al web https://www.npmjs.com/signup
 - [ ] Hello world node.js
+
+# Llibreries de tercers utilitzades
+- https://lodash.com/
 
 # Recursos
 - Upgrade: http://acacha.org/mediawiki/Upgrade#.YV22eVNByV4
