@@ -8,7 +8,7 @@
 
 Cal saber:
 
--[ ] Javascript i la programació modular:
+- [ ] Javascript i la programació modular:
 - [ ] https://exploringjs.com/impatient-js/ch_modules.html
 - [ ] En tema mòduls/paquets qu no suporten els Navegadors? Que no suporta NodeJS?
 - [ ] Per què necessitem Web build Tools? A més de per empquetar per altres tasques de construcció com: 
