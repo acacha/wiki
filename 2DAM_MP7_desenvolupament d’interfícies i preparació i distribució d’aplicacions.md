@@ -10,6 +10,30 @@ Cal tenir en compte a més que en aquesta UF s'estableixen les bases per a (Prim
 
 # Currículum
 
+## Continguts
+
+1. Realització de proves:
+- 1.1 Objectiu, importància i limitacions del procés de prova. Estratègies.
+- 1.2 Proves d’integració: ascendents i descendents.
+- 1.3 Proves de sistema: configuració, recuperació, entre d’altres.
+- 1.4 Proves d’ús de recursos.
+- 1.5 Proves de seguretat.
+- 1.6 Proves manuals i automàtiques. Eines de programari per a la realització de proves.
+
+2. Documentació d’aplicacions:
+- 2.1 Fitxers d’ajuda. Formats.
+- 2.2 Eines de generació d’ajudes.
+- 2.3 Taules de continguts, índexs, sistemes de cerca, entre d’altres.
+- 2.4 Tipus de manuals: manual d’usuari, guia de referència, guies ràpides, manuals d’instal·lació, configuració i administració. Destinataris i estructura.
+
+3. Distribució d’aplicacions:
+- 3.1 Components d’una aplicació. Empaquetatge.
+- 3.2 Instal·ladors.
+- 3.3 Paquets autoinstal·lables.
+- 3.4 Eines per crear paquets d’instal·lació.
+- 3.5 Personalització de la instal·lació: logotips, fons, diàlegs, botons, idioma, entre d’altres.
+- 3.6 Assistents d’instal·lació i desinstal·lació.
+
 ## Resultats d’aprenentatge i criteris d’avaluació
 
 1. Avalua el funcionament d’aplicacions dissenyant i executant proves.
