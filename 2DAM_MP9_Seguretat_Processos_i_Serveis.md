@@ -1,3 +1,3 @@
 # Continguts
 
-- (Laravel)[Laravel.md]
+- [Laravel](Laravel.md)
