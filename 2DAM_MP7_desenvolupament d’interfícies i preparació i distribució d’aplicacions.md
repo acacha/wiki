@@ -1,5 +1,9 @@
 # UF2 Preparació i distribució d’aplicacions
 
+
+https://user-images.githubusercontent.com/4015406/137270070-c8239c9c-fce1-4929-a145-f8ed4d43138f.mp4
+
+
 ## Introducció
 
 Aquesta unitat formativa tot i ser la segona la realitzem la primera abans de la d'interfícies ja que així podrem des de un bon principi treballar per projectes i a més que aquests projectes siguin projectes els menys "juguet" possible. És a dir, primer us ensenyem a preparar i distribuir les aplicacions i durant la resta del curs fem ús d'aquests coneixements de forma transversal i continuada. Aquí apliquem el **RA3** (Prepara aplicacions per a la seva distribució avaluant i analitzant eines específiques.)
