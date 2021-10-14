@@ -11,13 +11,13 @@ Cal tenir en compte a més que en aquesta UF s'estableixen les bases per a (Prim
 
 # Materials
 
-# Distribució d’aplicacions
+## Distribució d’aplicacions
 
 - **Situació en el currículum**: Apliquem el **RA3** Prepara aplicacions per a la seva distribució avaluant i analitzant eines específiques i els seus corresponents CA i continguts
 
 Els següents materials seran continguts transversals per a tot el curs que es permetren distribuir totes les aplicacions que desenvolupem durant el curs segons l'entorn i o llenguatge de programació
 
-**Backend, entorns de servidor**
+### Backend, entorns de servidor
 
 Bàsicament utilitzarem dos llenguatges de programació
 
@@ -30,7 +30,7 @@ Un cop dominats els llenguatges de backend del curs veiem:
 - Distribució aplicacions backend dinàmiques: Amb Digital Ocean i Laravel Forge. Aprendreu a crear el vostre propi servidor
 - Distribució aplicacions backend estàtiques: en aquest cas el servidor funciona com un simple contenidor de fitxers i realment l'execució dinàmica de codi es fa al frontend. Consulteu l'apartat de frontend
 
-**Frontend, entorns de client
+### Frontend, entorns de client
 
 Bàsicament utilitzarem dos llenguatges de programació o entorns
 - **Javascript i lleguatges de marques**
