@@ -16,3 +16,4 @@ https://github.com/acacha/php_for_laravel_developers
 - https://emmet.io/
 - https://laravel.com/docs/8.x/blade
 - https://www.youtube.com/watch?v=5MKd5X2zIIA
+- https://www.php.net/manual/es/control-structures.alternative-syntax.php
