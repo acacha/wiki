@@ -26,7 +26,7 @@ Els següents materials seran continguts transversals per a tot el curs que es p
 Bàsicament utilitzarem dos llenguatges de programació
 
 **Javascript**:
-- [NodeJS i dsitribució aplicacions Javascript. Mòduls ES6](https://github.com/acacha/wiki/blob/main/NODE_JS.md): En aquesta article trobareu informació sobre NodeJs i Javascript i el gestor de paquets NPM. També trobareu continguts sobre programació modular amb Javascript (Mòduls ES6 i historia versions Javascript i mòduls). També us ensenyo a distribuir aplicacions Javascript amb NPM.
+- [NodeJS i distribució aplicacions Javascript. Mòduls ES6](https://github.com/acacha/wiki/blob/main/NODE_JS.md): En aquesta article trobareu informació sobre NodeJs i Javascript i el gestor de paquets NPM. També trobareu continguts sobre programació modular amb Javascript (Mòduls ES6 i historia versions Javascript i mòduls). També us ensenyo a distribuir aplicacions Javascript amb NPM.
 
 **PHP**
 - [COMPOSER i PHP](COMPOSER_PHP.md): La importància de composer en el món de PHP com a gestor de paquets, veiem també el repositori packagist i exemples d'ús a Laravel. 
