@@ -33,7 +33,7 @@ Un cop dominats els llenguatges de backend del curs veiem:
 ### Frontend, entorns de client
 
 Bàsicament utilitzarem dos llenguatges de programació o entorns
-- **Javascript i lleguatges de marques**
+- **Javascript i lleguatges de marques**: S'utilitza el mateix sistema -> NPM de NodeJS i per tant els continguts apresos a entorns de backend també serveixen.
 - **Android**: Utilitzem Kotlin com a llenguatge de programació. La distribució d'aplicacions Android la fem al [MP8](https://github.com/acacha/wiki/blob/main/2DAM_MP8_Programaci%C3%B3%20multim%C3%A8dia%20i%20dispositius%20m%C3%B2bils.md)
 
 
