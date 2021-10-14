@@ -1,6 +1,11 @@
 # Continguts
 
-- [Laravel](Laravel.md)
+- [Laravel](Laravel.md). El llenguatge que utilitzarem per al MP9 principalment és PHP (també veurem exemples amb Javascript) i especialment el framework Laravel. Per tant el primer es aprendre com funciona aquestes eines per tal de poder aplicar els coneixemnets teòrics de Seguretat i Criptogradia, Procesos i Sockets a exemples reals.
+
+# Canal Youtube
+
+Playlist MP9:
+- https://www.youtube.com/playlist?list=PLyasg1A0hpk15NJVObhR_o_4KrRofB9z1
 
 ## UF 1: seguretat i criptografia
 
