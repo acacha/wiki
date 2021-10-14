@@ -6,18 +6,19 @@
 
 Resultats d’aprenentatge i criteris d’avaluació
 
-- 1. Protegeix les aplicacions i les dades definint i aplicant criteris de seguretat en l’accés, emmagatzematge i
+1 Protegeix les aplicacions i les dades definint i aplicant criteris de seguretat en l’accés, emmagatzematge i
 transmissió de la informació.
+
 Criteris d’avaluació
 - 1.1 Identifica i aplica principis i pràctiques de programació segura.
 - 1.2 Analitza les principals tècniques i pràctiques criptogràfiques.
-- 1.3 Defineix i implanta polítiques de seguretat per limitar i controlar l’accés dels usuaris a les aplicacions
-desenvolupades.
+- 1.3 Defineix i implanta polítiques de seguretat per limitar i controlar l’accés dels usuaris a les aplicacions desenvolupades.
 - 1.4 Utilitza esquemes de seguretat basats en rols.
 - 1.5 Usa algoritmes criptogràfics per protegir l’accés a la informació emmagatzemada.
 - 1.6 Identifica mètodes per assegurar la informació transmesa.
 - 1.7 Desenvolupa aplicacions que utilitzin sòcols segurs per a la transmissió d’informació.
 - 1.8 Depura i documenta les aplicacions desenvolupades.
+
 Continguts
 - 1. Ús de tècniques de programació segura
 - 1.1 Pràctiques de programació segura.
