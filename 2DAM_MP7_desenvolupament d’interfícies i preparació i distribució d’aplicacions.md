@@ -25,6 +25,19 @@ Criteris d’avaluació
 - 2.6 Confecciona els manuals d’instal·lació, configuració i administració.
 - 2.7 Confecciona tutorials.
 
+3. Prepara aplicacions per a la seva distribució avaluant i analitzant eines específiques.
+
+Criteris d’avaluació
+
+-3.1 Empaqueta els components que requereix l’aplicació.
+- 3.2 Personalitza l’assistent d’instal·lació.
+- 3.3 Empaqueta l’aplicació per ser instal·lada de forma típica, completa o personalitzada.
+- 3.4 Genera paquets d’instal·lació fent servir l’entorn de desenvolupament.
+- 3.5 Genera paquets d’instal·lació fent servir eines externes.
+- 3.6 Genera paquets instal·lables en mode desatès.
+- 3.7 Prepara el paquet d’instal·lació perquè l’aplicació pugui ser correctament desinstal·lada.
+- 3.8 Prepara l’aplicació per ser descarregada des d’un servidor web i executada.
+
 # Recursos
 - Curriculum: http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0052/64a26049-c0c0-45cc-baa0-a4f831059839/DOGC_TS_desenvolupament_aplicacions_multiplataforma.pdf
 - Apunt IOC: 
