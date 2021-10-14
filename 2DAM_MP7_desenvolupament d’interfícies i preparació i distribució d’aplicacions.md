@@ -34,7 +34,7 @@ Un cop dominats els llenguatges de backend del curs veiem:
 
 Bàsicament utilitzarem dos llenguatges de programació o entorns
 - **Javascript i lleguatges de marques**
-- **Android**: Utilitzem Kotlin com a llenguatge de programació. La distribució d'aplicacions Android la fem al [MP8](Mòdul professional 8: programació multimèdia i dispositius mòbils.md)
+- **Android**: Utilitzem Kotlin com a llenguatge de programació. La distribució d'aplicacions Android la fem al [MP8](2DAM_MP8_Programació multimèdia i dispositius mòbils.md)
 
 
 # Currículum
