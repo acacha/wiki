@@ -8,6 +8,35 @@ Cal tenir en compte a més que en aquesta UF s'estableixen les bases per a (Prim
 - **RA1** Avaluar el funcionament d’aplicacions dissenyant i executant proves. Expliquem que són les proves i durant el curs les apliquem ja sigui manualment o amb TDD (Test Driven Development)
 - **RA2** Documenta aplicacions seleccionant i utilitzant eines específiques. Des de un bon principi fem ús d'eines com Gihub (el codi font és la milor documentació) i els formwats Wiki com Markdown per tal de documentar.
 
+
+# Materials
+
+# Distribució d’aplicacions
+
+- **Situació en el currículum**: Apliquem el **RA3** Prepara aplicacions per a la seva distribució avaluant i analitzant eines específiques i els seus corresponents CA i continguts
+
+Els següents materials seran continguts transversals per a tot el curs que es permetren distribuir totes les aplicacions que desenvolupem durant el curs segons l'entorn i o llenguatge de programació
+
+**Backend, entorns de servidor**
+
+Bàsicament utilitzarem dos llenguatges de programació
+
+**Javascript**:
+- [](): En aquesta article trobareu informació sobre NodeJs i Javascript i el gestor de paquets NPM. També trobareu continguts sobre programació modular amb Javascript (Mòduls ES6 i historia versions Javascript i mòduls). També us ensenyo a distribuir aplicacions Javascript amb NPM.
+- **PHP**
+- [](): La importància de composer en el món de PHP com a gestor de paquets, veiem també el repositori packagist i exemples d'ús a Laravel. 
+
+Un cop dominats els llenguatges de backend del curs veiem:
+- Distribució aplicacions backend dinàmiques: Amb Digital Ocean i Laravel Forge. Aprendreu a crear el vostre propi servidor
+- Distribució aplicacions backend estàtiques: en aquest cas el servidor funciona com un simple contenidor de fitxers i realment l'execució dinàmica de codi es fa al frontend. Consulteu l'apartat de frontend
+
+**Frontend, entorns de client
+
+Bàsicament utilitzarem dos llenguatges de programació o entorns
+- **Javascript i lleguatges de marques**
+- **Android**: Kotlin
+
+
 # Currículum
 
 ## Continguts
