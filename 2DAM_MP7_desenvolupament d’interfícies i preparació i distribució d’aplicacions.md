@@ -2,11 +2,11 @@
 
 ## Introducció
 
-Aquesta UF tot i ser la segona la realitzem la primera abans de la d'interfícies ja que així podrem des de un bon principi treballar per projectes i a més que aquests projectes siguin projectes els menys "juguet" possible. És a dir, primer us ensenyem a preparar i distribuir les aplicacions i durant la resta del curs fem ús d'aquests coneixements de forma transversal i continuada. Aquí apliquem el CA3 (Prepara aplicacions per a la seva distribució avaluant i analitzant eines específiques.)
+Aquesta UF tot i ser la segona la realitzem la primera abans de la d'interfícies ja que així podrem des de un bon principi treballar per projectes i a més que aquests projectes siguin projectes els menys "juguet" possible. És a dir, primer us ensenyem a preparar i distribuir les aplicacions i durant la resta del curs fem ús d'aquests coneixements de forma transversal i continuada. Aquí apliquem el *RA3* (Prepara aplicacions per a la seva distribució avaluant i analitzant eines específiques.)
 
 Cal tenir en compte a més que en aquesta UF s'estableixen les bases per a (Primer i Segon criteri d'avaluació):
-- CA1 Avaluar el funcionament d’aplicacions dissenyant i executant proves. Expliquem que són les proves i durant el curs les apliquem ja sigui manualment o amb TDD (Test Driven Development)
-- CA2 Documenta aplicacions seleccionant i utilitzant eines específiques. Des de un bon principi fem ús d'eines com Gihub (el codi font és la milor documentació) i els formwats Wiki com Markdown per tal de documentar.
+- *RA1* Avaluar el funcionament d’aplicacions dissenyant i executant proves. Expliquem que són les proves i durant el curs les apliquem ja sigui manualment o amb TDD (Test Driven Development)
+- *RA2* Documenta aplicacions seleccionant i utilitzant eines específiques. Des de un bon principi fem ús d'eines com Gihub (el codi font és la milor documentació) i els formwats Wiki com Markdown per tal de documentar.
 
 # Currículum
 
