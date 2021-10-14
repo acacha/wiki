@@ -8,6 +8,8 @@ Cal tenir en compte a més que en aquesta UF s'estableixen les bases per a (Prim
 - CA1 Avaluar el funcionament d’aplicacions dissenyant i executant proves. Expliquem que són les proves i durant el curs les apliquem ja sigui manualment o amb TDD (Test Driven Development)
 - CA2 Documenta aplicacions seleccionant i utilitzant eines específiques. Des de un bon principi fem ús d'eines com Gihub (el codi font és la milor documentació) i els formwats Wiki com Markdown per tal de documentar.
 
+# Currículum
+
 ## Resultats d’aprenentatge i criteris d’avaluació
 
 1. Avalua el funcionament d’aplicacions dissenyant i executant proves.
