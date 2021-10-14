@@ -15,4 +15,4 @@ https://github.com/acacha/php_for_laravel_developers
 - Emmet per a PHPStorm: https://www.jetbrains.com/help/objc/settings-emmet.html?source=google&medium=cpc&campaign=14300625510&gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aL5u0fTFW-bFIEVvDy_Q5hEgg6r-TXUE78z9Uehp-Bzg2dgzNmEOv4aAs7MEALw_wcB
 - https://emmet.io/
 - https://laravel.com/docs/8.x/blade
-- 
+- https://www.youtube.com/watch?v=5MKd5X2zIIA
