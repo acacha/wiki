@@ -29,7 +29,7 @@ Criteris d’avaluació
 
 Criteris d’avaluació
 
--3.1 Empaqueta els components que requereix l’aplicació.
+- 3.1 Empaqueta els components que requereix l’aplicació.
 - 3.2 Personalitza l’assistent d’instal·lació.
 - 3.3 Empaqueta l’aplicació per ser instal·lada de forma típica, completa o personalitzada.
 - 3.4 Genera paquets d’instal·lació fent servir l’entorn de desenvolupament.
