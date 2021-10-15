@@ -23,5 +23,22 @@ El que primer fa el navegador és comunicar-se amb un servidor de noms per obten
 connecta a la màquina servidor. A continuació, el navegador crea una connexió amb l’adreça IP del servidor al port 80, que és el port utilitzat per defecte en els
 servidors web. Una vegada el client i el servidor estan connectats, “parlen” fent servir el protocol HTTP per tal que el client indiqui quins recursos vol del servidor. El servidor enviarà aquests recursos al client a través de la connexió establerta.
 
+# HTTP
+
+![image](https://user-images.githubusercontent.com/4015406/137494778-16c71211-4f3a-4070-bf7e-44236b6aeeb8.png)
+
+
+## Servidors HTTPS
+
+
+**Desenvolupament**:
+- http-server: instal·lable amb node.js
+- Laravel valet
+- Laravel Sail -> Docker instance
+
+**Explotació**:
+- nginx
+- Apache
+
 # Recursos
 - https://ioc.xtec.cat/materials/FP/Recursos/fp_asx_m09_/web/fp_asx_m09_htmlindex/media/fp_asix_m09_u1_pdfindex.pdf
