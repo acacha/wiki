@@ -5,16 +5,16 @@ Totes les adreces URL tenen diferents parts; agafem com a exemple
 
 Exemple:
 
-- *Protocol*: s’indica abans de :// i en aquest cas és HTTP. Hi ha altres
+- **Protocol**: s’indica abans de :// i en aquest cas és HTTP. Hi ha altres
 protocols, com ara FTP o HTTPS. Protocols El navegador utilitza el protocol
 HTTP sobre TCP/IP perdemanar recursos (URL) als servidors web.
-- *Adreça del servidor*: el lloc d’on es vol obtenir el recurs.
-- *Port: el port del servidor destinat a l’aplicació encarregada de gestionar les
+- **Adreça del servidor**: el lloc d’on es vol obtenir el recurs.
+- **Port**: el port del servidor destinat a l’aplicació encarregada de gestionar les
 peticions HTTP (port del servidor web). En cas de que no estigui especificat
 es fa servir el port estàndard per HTTP (el port 80).
-- Ruta fins al recurs: correspon a la ruta a la carpeta dins del servidor web
+- **Ruta fins al recurs**: correspon a la ruta a la carpeta dins del servidor web
 on es troba el recurs (educacio/fp-cicles-formatius/cfgs/).
-- Recurs: és el recurs o fitxer que demanem al servidor (index.html).
+- **Recurs**: és el recurs o fitxer que demanem al servidor (index.html).
 
 El que primer fa el navegador és comunicar-se amb un servidor de noms per obtenir l’adreça IP que correspon al nom de la màquina ioc.xtec.cat. Amb aquesta IP es
 connecta a la màquina servidor. A continuació, el navegador crea una connexió amb l’adreça IP del servidor al port 80, que és el port utilitzat per defecte en els
