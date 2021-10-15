@@ -1,5 +1,8 @@
 # URL 
 
+Vegeu:
+- https://en.wikipedia.org/wiki/URL
+
 Una adreça URL té la finalitat d’accedir a un recurs en un servidor.
 Totes les adreces URL tenen diferents parts; agafem com a exemple
 
