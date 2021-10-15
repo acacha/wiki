@@ -6,7 +6,7 @@
 
 # Screencast
 
-https://github.com/acacha/wiki/blob/main/LARAVEL_SAIL.md
+- https://youtu.be/8kNSpFLzuRc
 
 # Recursos
 - https://laravel.com/docs/8.x/sail
