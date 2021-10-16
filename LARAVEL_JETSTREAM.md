@@ -46,6 +46,7 @@ I executeu:
 
 ```bash
 touch database/database.sqlite
+apt-get install php7.4-sqlite
 php artisan migrate
 ```
 
