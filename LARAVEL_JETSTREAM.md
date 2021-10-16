@@ -53,7 +53,7 @@ php artisan migrate
 
 # Screencast
 
-
+IMPORTANT -> treure driver sqlite per veure els errors
 
 # Recursos
 - https://laravel.com/docs/8.x/starter-kits
