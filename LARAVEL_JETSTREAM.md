@@ -7,7 +7,7 @@
 - [Livewire](): NO cal ser un expert per començar però almenys saber què és pot ajudar.
 - [NPM]() i [Laravel Mix](): Cal conèixer lo bàsic, és a dir que Laravel utilitza una eina que és diu Laravel Mix, que realment és un webpack adaptat per a Laravel que utilitza script npm per gestionar els assets Javascript de la nostra aplicació Laravel. Full Stack development
 - [Laravel Bases de dades](): Migracions i configuració bàsica de base de dades. Comanda php artisan migrate.
-
+- [Laravel valet](): Per provar l'aplicació.
 # Què és?
 
 Segons la documentació (https://laravel.com/docs/8.x/starter-kits) es tracta d'un dels starter kits de Laravel. Proporciona un scaffolding/una plantilla bàsica amb funcionalitat habitual com Authenticació, Login i Registre i altres.
@@ -50,6 +50,13 @@ apt-get install php7.4-sqlite
 php artisan migrate
 ```
 
+Suposem teniu [Laravel Valet]() instal·lat:
+
+```bash
+valet link
+valet open
+```
+I
 
 # Screencast
 
