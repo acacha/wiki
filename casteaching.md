@@ -1,4 +1,5 @@
 # Coneixements previs
+- Entorn de desenvolupament amb Ubuntu Desktop: https://www.youtube.com/watch?v=w8j07_DBl_I
 - Git i Github: https://www.youtube.com/watch?v=hRcIuEtXaBc
 
 # Screencasts
