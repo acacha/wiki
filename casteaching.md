@@ -16,3 +16,4 @@ https://github.com/acacha/casteaching
 - https://course.testdrivenlaravel.com/
 - [TDD](TDD.md)
 - https://www.youtube.com/watch?v=hRcIuEtXaBc
+- https://laravel.com/docs/8.x/http-tests#making-requests
