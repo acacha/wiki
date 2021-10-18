@@ -7,7 +7,17 @@ No calen gaires coneixements previs ja que és una eina pensada per ser utilitza
 - Es tracta d'un paquet PHP que s'instal·la globalment utilitzant [Composer](COMPOSER.md)
 - Utilitza DnsMasq per mapejar les URL .test a les adreces locals (no són dominis valids a Internet i no poden provocar cap conflicte)
 - Serveis per a altres eines no només Laravel fins i tot per estatic HTML
-- 
+
+Si que és interessant que tingueu un entorn de desenvolupament amb Ubuntu Desktop. Podeu veure tots els passos a:
+
+https://youtube.acacha.org -> https://www.youtube.com/watch?v=w8j07_DBl_I
+
+# Screencasts
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZjVe8W0ozm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://youtu.be/ZjVe8W0ozm8
+
 # Instal·lació a Linux
 
 https://github.com/cpriego/valet-linux | https://cpriego.github.io/valet-linux/
