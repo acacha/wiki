@@ -6,10 +6,6 @@ Si que és interessant que tingueu un entorn de desenvolupament amb Ubuntu Deskt
 
 https://youtube.acacha.org -> https://www.youtube.com/watch?v=w8j07_DBl_I
 
-# Screencasts
-
-https://youtu.be/ZjVe8W0ozm8
-
 # Què aprendreu en aquesta activitat?
 - Instal·lació de PHP. PHP per CLI i execució de servidors web amb php -S. No cal tenir una stack LAMP completa per fer aquest curs. Més endavant recomano aprendre [Laravel Valet](LARAVEL_VALET.md) o altres eines com [Laravel Sail](LARAVEL_SAIL) que utilitza Docker o ja veurem la comanda php artisan serve
 - Instal·lació de PHPStorm
