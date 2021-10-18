@@ -14,9 +14,7 @@ https://youtube.acacha.org -> https://www.youtube.com/watch?v=w8j07_DBl_I
 
 # Screencasts
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZjVe8W0ozm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-https://youtu.be/ZjVe8W0ozm8
+[![Alt text](https://img.youtube.com/vi/ZjVe8W0ozm8/0.jpg)](https://youtu.be/ZjVe8W0ozm8)
 
 # Instal·lació a Linux
 
