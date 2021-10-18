@@ -12,6 +12,16 @@ Cal tenir en compte a més que en aquesta UF s'estableixen les bases per a (Prim
 - **RA1** Avaluar el funcionament d’aplicacions dissenyant i executant proves. Expliquem que són les proves i durant el curs les apliquem ja sigui manualment o amb TDD (Test Driven Development)
 - **RA2** Documenta aplicacions seleccionant i utilitzant eines específiques. Des de un bon principi fem ús d'eines com Gihub (el codi font és la milor documentació) i els formwats Wiki com Markdown per tal de documentar.
 
+# YOUTUBE
+
+Screencasts, elstrobareu a la playlist:
+- https://www.youtube.com/playlist?list=PLyasg1A0hpk2MhbwKbDimNHQXmdqC8CYi
+
+Ordre dels vídeos: 
+- [2021 10 06 19 32 19 101 COMPOSER](https://youtu.be/XBKg-EYW0nM)
+- [2021 10 06 16 30 16 NODEJS NPM 101](https://youtu.be/tdVbtP4xtk0)
+- [2021 10 13 17 03 32 JavascriptBundlesBuildtoolsLaravelMixwebPackViteiVue](https://youtu.be/VmlSy0Y7uso)
+
 
 # Materials
 
