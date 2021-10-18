@@ -1,3 +1,19 @@
+# Coneixements previs
+
+Ben pocs ja que es tracta d'una activitat d'introducció al llenguatge de programació PHP però adaptat per anar cap a barraca i aprendre l'important per començar a treballar amb Laravel.
+
+Si que és interessant que tingueu un entorn de desenvolupament amb Ubuntu Desktop. Podeu veure tots els passos a:
+
+https://youtube.acacha.org -> https://www.youtube.com/watch?v=w8j07_DBl_I
+
+# Screencasts
+
+https://youtu.be/ZjVe8W0ozm8
+
+# Què aprendreu en aquesta activitat?
+- Instal·lació de PHP. PHP per CLI i execució de servidors web amb php -S. No cal tenir una stack LAMP completa per fer aquest curs. Més endavant recomano aprendre [Laravel Valet](LARAVEL_VALET.md) o altres eines com [Laravel Sail](LARAVEL_SAIL) que utilitza Docker o ja veurem la comanda php artisan serve
+- Instal·lació de PHPStorm
+
 # Screencast
 
 - [IntroduccióPHPperALaravel. Vídeo 1](https://youtu.be/s1h0SIt0g3I)
