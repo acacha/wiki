@@ -10,9 +10,10 @@ No calen gaires coneixements previs ja que és una eina pensada per ser utilitza
 - 
 # Instal·lació a Linux
 
-https://github.com/cpriego/valet-linux
+https://github.com/cpriego/valet-linux | https://cpriego.github.io/valet-linux/
 
 
 # Recursos
 - https://laravel.com/docs/8.x/valet
 - https://github.com/cpriego/valet-linux
+- https://cpriego.github.io/valet-linux/
