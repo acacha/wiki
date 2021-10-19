@@ -8,6 +8,10 @@ ns2.digitalocean.com
 ns3.digitalocean.com
 ```
 
+## Named.com
+
+- https://www.digitalocean.com/community/tutorials/how-to-point-to-digitalocean-nameservers-from-common-domain-registrars
+
 ## namecheap
 
 ### Gestionar DNS de namecheap per Digital Ocean
