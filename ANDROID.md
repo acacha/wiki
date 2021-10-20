@@ -1,9 +1,10 @@
+Tags del codi: https://github.com/acacha/Comptador/tags
+
 # Screencasts DAM
 
 - Canal de Youtube acacha_dev: https://youtube.acacha.org
 - https://www.youtube.com/watch?v=SwX37ML7shU&list=PLyasg1A0hpk2znLNLz5DCvhfNWgSdoIaq
 - Llista de reproducció: https://www.youtube.com/playlist?list=PLyasg1A0hpk2znLNLz5DCvhfNWgSdoIaq
-
 
 ## Primera aplicació Android amb Kotlin i Android Studio, Ubuntu Desktop. Comptador
 
@@ -37,6 +38,11 @@ Tasques
 
 Screencasts
 - https://youtu.be/Zt4nWQ_JTiM
+- Tag: [v0.3](https://github.com/acacha/Comptador/tree/v0.3)
+
+## 5 
+
+Screencast: 
 - Tag: [v0.3](https://github.com/acacha/Comptador/tree/v0.3)
 
 # Kotlin
