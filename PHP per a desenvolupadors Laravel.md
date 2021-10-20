@@ -13,9 +13,10 @@ https://youtube.acacha.org -> https://www.youtube.com/watch?v=w8j07_DBl_I
 - Conèixements bàsics de PHP -> Variables, funcions, arrays, loops, booleans i expresions de control de flux de l'aplicatiu (condicionals).
 - MYSQL i PDO -> Connexió a base de dades
 - Programació Orientada a Objectes (PPO) amb PHP
+- Conceptes sobre creació de codi net (Clean Code) i patrons de disseny: SOLID
+- Utilització de composer per a utilitzar llibreries de tercers, configuració autoload i fitxers helpers.
 
-
-# Screencast
+# Screencasts
 
 - [IntroduccióPHPperALaravel. Vídeo 1](https://youtu.be/s1h0SIt0g3I)
 
