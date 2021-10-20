@@ -1,6 +1,9 @@
 # Screencasts DAM
 
-https://www.youtube.com/watch?v=SwX37ML7shU&list=PLyasg1A0hpk2znLNLz5DCvhfNWgSdoIaq
+- https://www.youtube.com/watch?v=SwX37ML7shU&list=PLyasg1A0hpk2znLNLz5DCvhfNWgSdoIaq
+- Canal de Youtube acacha_dev: https://youtube.acacha.org
+- Llista de reproducció: https://www.youtube.com/playlist?list=PLyasg1A0hpk2znLNLz5DCvhfNWgSdoIaq
+
 
 ## Primera aplicació Android amb Kotlin i Android Studio, Ubuntu Desktop. Comptador
 
