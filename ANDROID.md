@@ -40,10 +40,18 @@ Screencasts
 - https://youtu.be/Zt4nWQ_JTiM
 - Tag: [v0.3](https://github.com/acacha/Comptador/tree/v0.3)
 
-## 5 
+## 5 Controlar el reinici del joc -> Implementació reset game
 
 Screencast: 
-- Tag: [v0.3](https://github.com/acacha/Comptador/tree/v0.3)
+- https://youtu.be/h3AXbivldrY
+- Tag: [v0.4](https://github.com/acacha/Comptador/tree/v0.4)
+
+## 5 Depuració. Breakpoints i xivatos Log.d
+
+Screencast: 
+- https://youtu.be/UfFkKhqLjk4
+- Tag: [v0.5](https://github.com/acacha/Comptador/tree/v0.5)
+
 
 # Kotlin
 
