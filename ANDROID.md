@@ -55,10 +55,10 @@ Screencast:
 
 Screencast: 
 - https://youtu.be/UfFkKhqLjk4
-- Tag: TODO
+- Tag: https://youtu.be/h3AXbivldrY
 
 ## 7 Nova branca Raywenderlich
-- Screencast: 
+- Screencast: https://youtu.be/8stC7bfXdV4
 - Codi: https://github.com/acacha/Comptador/tree/raywenderlich
 
 
