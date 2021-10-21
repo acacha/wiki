@@ -1,3 +1,56 @@
+# Notes
+
+![image](https://user-images.githubusercontent.com/4015406/138273302-3341e84f-3365-46c1-8df4-30bd34995a96.png)
+
+
+- Coneixements previs: URL: https://en.wikipedia.org/wiki/URL
+- Per dominar al nivell màxim caldira llegir les specs: https://url.spec.whatwg.org/
+- RFC -> Request For Comments -> pq estan obertes a discusions i realitzats per experts
+- Ho porta la Internet Engineering Task Force
+- Inventat per Tim Berners-Lee al 1991 -> Base de la WWW -> Protocols HTTP, HTML i URLs
+- HTTP: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+- Inicials del nom -> HyperText_Transfer_Protocol
+- Protocol per transferir documents HTML -> inicialment -> Ara suporta moltes més opcions
+- Client Server Model
+- Servidors HTTP: Nginx, Apache, http-server, php -S, entorns de desenvolupament npm run dev, 
+- Clients HTTP: telnet, navegadors web, clients per CLI httpi, curl, wget, el propi llenguatge php suporta descarregar fitxers via HTTP
+- Protocol basat en text i per missatges. Dos tipus de missatges
+
+Missatges
+- HTTP REQUEST
+- HTTP RESPONSE
+
+Parts d'un paquet HTTP
+- Capçalera/Headers
+- Línia en blanc
+- Contingut (sol ser un HTML) però pot ser qualsevol tipus de fitxers
+
+Exemples:
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP
+
+HTTP per a documents que no siguin HTML -> MimeType
+
+REQUEST
+https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_messages
+- Request syntax
+- User Agent
+- REQUEST METHODS https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods
+
+RESPONSE
+https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Response_messages
+- Response Syntax
+-STATUS CODES
+  - 200
+  - 300
+
+Eines:
+- telnet -> Repàs xarxes connexió via socket TCP/IP
+- Navegadors web: Chrome defveloper Tools F12 pestanya Network
+- Client HTTP inclòs a PHPStorm
+- Plugins browser -> POSTMAN
+- CLI: curl, web, HTTP pie
+
 # URL 
 
 Vegeu:
