@@ -1,5 +1,13 @@
 # Notes
 
+Què és? https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+
+![image](https://user-images.githubusercontent.com/4015406/138273490-8bb5868e-9bef-4553-83d9-f28c314b1f7d.png)
+
+![image](https://user-images.githubusercontent.com/4015406/138273564-164a4367-1ead-490b-8f94-be36540271f4.png)
+
+
+
 ![image](https://user-images.githubusercontent.com/4015406/138273302-3341e84f-3365-46c1-8df4-30bd34995a96.png)
 
 
