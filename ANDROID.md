@@ -52,6 +52,16 @@ Screencast:
 - https://youtu.be/UfFkKhqLjk4
 - Tag: [v0.5](https://github.com/acacha/Comptador/tree/v0.5)
 
+## 6 Intent (no regit per part del professor) de arreglar els problemes al girar la pantall
+
+Screencast: 
+- https://youtu.be/UfFkKhqLjk4
+- Tag: TODO
+
+## 7 Nova branca Raywenderlich
+- Screencast: 
+- Codi: https://github.com/acacha/Comptador/tree/raywenderlich
+
 
 # Kotlin
 
