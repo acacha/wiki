@@ -6,7 +6,8 @@ Què és? https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
 
 ![image](https://user-images.githubusercontent.com/4015406/138273564-164a4367-1ead-490b-8f94-be36540271f4.png)
 
-
+![image](https://user-images.githubusercontent.com/4015406/138273869-6ea67d98-4010-4df8-984e-6e5e366bfb0e.png)
+https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it/
 
 ![image](https://user-images.githubusercontent.com/4015406/138273302-3341e84f-3365-46c1-8df4-30bd34995a96.png)
 
