@@ -21,7 +21,10 @@
 
 Llista de tasques:
 - TODO posar aquí
-- 
+
+
+Codi/Commit:
+- https://github.com/acacha/casteaching/tree/896eceac9f0e1d584c8d36c4a4371142e737705d
 
 ## Segon vídeo. Creació del projecte Laravel i repositori Github
 
@@ -72,9 +75,49 @@ git push -u origin main
 - Noms de testos que es puguin llegir en llenguatge natural i siguin una descripció del que comprova el test
 - RIGHT PASS: pas correcte i pas incorrecte
 - Valet: executar la nostra aplicació amb valet link i valet links
+
+Coses que heu de saber/aprendre?
+- Codis d'estatus i protocol HTTP -> 404 i 200, GET requests . Vegeu https://tubeme.acacha.org/HTTP
+- PHP artisan: Artisan console -> Laravel executat per línia de comandes: https://laravel.com/docs/8.x/artisan
+
+Qüestions pendents:
+- Tipus de Testos: Testos unitaris i testos de Feature
+- [PHPUnit](https://phpunit.de/): és la llibreria que utilitzem per a fer testos amb PHP. Existeixen altres eines com PEST
+
+Transcripció de comandes:
+
+Crear i executar testos
+
+```
+$ php artisan make:test Videos/VideoTest
+$ git status
+$ phpunit
+$ php artisan test
+
+Executar un sol test
+
+```
+$ php artisan test test/Features/Videos/VideoTest
+```
+
+Parts de un test:
+
+1) Preparació del codi que volem executar: preparar la base de dades, simular unes condicions prèvies, etc
+2) Execució
+3) Comprovació/assertions
+
+IMPORTANT: Cal tenir en compte que els testos han de començar sempre des de un estat preconegut o estat zero. En el cas de Laravel sobretot cal tenir en compte que la base de dades estarà buida. 
+
+Documentació Laravel sobre testos:
+- https://laravel.com/docs/8.x/testing
+- Testos HTTP: https://laravel.com/docs/8.x/http-tests
+
+Enllaç al codi del primer test:
+
 - 
 
 # Coneixements previs
+
 - Sistema operatiu Ubuntu 20.04 preparat amb totes les eines necessaries per desenvolupar en Laravel. Veieu https://tubeme.acacha.org/101
 - Entorn de desenvolupament amb Ubuntu Desktop: https://www.youtube.com/watch?v=w8j07_DBl_I
 - Git i Github: https://www.youtube.com/watch?v=hRcIuEtXaBc
