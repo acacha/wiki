@@ -1,6 +1,7 @@
 # Temes currículars que tractarem
 
 - MP9 UF1: Seguretat. Accés a recursos publicats o no publicats, usuaris registrats i no registrats, autoritzacions (subscriptors)
+- MP7 UF2: TDD, testos manuals i testos automàtics
 
 # Notes vídeos
 
@@ -24,6 +25,8 @@ Llista de tasques:
 
 ## Segon vídeo. Creació del projecte Laravel i repositori Github
 
+NOTES: S¡acaba bruscament i alguna edició extra que caldria afegir.
+
 Links als materials, apunts wiki:
 - https://github.com/acacha/wiki/blob/main/casteaching.md
 Links a recursos
@@ -33,11 +36,12 @@ Links a recursos
 - TailwindCSS: https://tailwindcss.com/
 - Tailwind UI: https://tailwindui.com/
 - Acacha_dev: https://youtube.acacha.org
+- Repositori Github: https://github.com/acacha/casteaching
 
 Eines necessàries:
 - Laravel instal·lat: https://tubeme.acacha.org/101
 - Github CLI: https://cli.github.com/
-- PHPStorm:
+- PHPStorm: Instal·lar segons vídeo 101 amb Toolbox app de Jetbrains: https://www.jetbrains.com/toolbox-app/
 
 Petit tall: EDITAR -> TODO
 
