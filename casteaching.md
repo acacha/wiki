@@ -5,7 +5,7 @@
 
 # Llista de reproducció Youtube
 
-https://www.youtube.com/playlist?list=PLyasg1A0hpk07HA0VCApd4AGd3Xm45LQv
+https://tubeme.acacha.org/tdd | https://www.youtube.com/playlist?list=PLyasg1A0hpk07HA0VCApd4AGd3Xm45LQv
 
 # Notes vídeos
 
