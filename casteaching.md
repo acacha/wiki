@@ -4,7 +4,7 @@
 
 # Notes vídeos
 
-## Primer vídeo
+## Primer vídeo. Introducció
 
 - Learning by doing: https://en.wikipedia.org/wiki/Learning-by-doing
 - Laravel: El framework que utilitzarem
@@ -16,7 +16,12 @@
 - Pàgines web estàtiques
 - SaaS: Software as a Service. https://en.wikipedia.org/wiki/Software_as_a_service is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted.[2][3] SaaS is also known as "on-demand software" and Web-based/Web-hosted software.[4]
 - CRUD: Create Retrieve Update Delete: Acrònim per recordar les operacion més habituals amb recursos.
+- Focusing on the value -> No sempre el CRUD és el més important
+
+Llista de tasques:
+- TODO posar aquí
 - 
+
 # Coneixements previs
 - Entorn de desenvolupament amb Ubuntu Desktop: https://www.youtube.com/watch?v=w8j07_DBl_I
 - Git i Github: https://www.youtube.com/watch?v=hRcIuEtXaBc
