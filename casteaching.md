@@ -3,9 +3,15 @@
 - MP9 UF1: Seguretat. Accés a recursos publicats o no publicats, usuaris registrats i no registrats, autoritzacions (subscriptors)
 - MP7 UF2: TDD, testos manuals i testos automàtics
 
+# Llista de reproducció Youtube
+
+https://www.youtube.com/playlist?list=PLyasg1A0hpk07HA0VCApd4AGd3Xm45LQv
+
 # Notes vídeos
 
 ## Primer vídeo. Introducció
+
+Link: https://youtu.be/ednlsVl-NHA
 
 - Learning by doing: https://en.wikipedia.org/wiki/Learning-by-doing
 - Laravel: El framework que utilitzarem
