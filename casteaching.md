@@ -34,6 +34,16 @@ Links a recursos
 - Tailwind UI: https://tailwindui.com/
 - Acacha_dev: https://youtube.acacha.org
 
+Petit tall: EDITAR -> TODO
+
+Comandes:
+
+```bash
+cd ~/Code
+cd acacha
+laravel new casteaching
+```
+
 # Coneixements previs
 - Entorn de desenvolupament amb Ubuntu Desktop: https://www.youtube.com/watch?v=w8j07_DBl_I
 - Git i Github: https://www.youtube.com/watch?v=hRcIuEtXaBc
