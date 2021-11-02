@@ -24,6 +24,15 @@ Llista de tasques:
 
 ## Segon vídeo. Creació del projecte Laravel i repositori Github
 
+Links als materials, apunts wiki:
+- https://github.com/acacha/wiki/blob/main/casteaching.md
+Links a recursos
+- TDD by Adam Wathan: https://course.testdrivenlaravel.com/
+- Adam Wathan: https://adamwathan.me/
+- TDD Laracasts: https://laracasts.com/series/build-a-laravel-app-with-tdd
+- TailwindCSS: https://tailwindcss.com/
+- Tailwind UI: https://tailwindui.com/
+- Acacha_dev: https://youtube.acacha.org
 
 # Coneixements previs
 - Entorn de desenvolupament amb Ubuntu Desktop: https://www.youtube.com/watch?v=w8j07_DBl_I
