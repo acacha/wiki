@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/4015406/139868779-d929922d-f2a0-4ae2-8f06-e2eb3c9dbf4f.png)
+
+
 # Temes currículars que tractarem
 
 - MP9 UF1: Seguretat. Accés a recursos publicats o no publicats, usuaris registrats i no registrats, autoritzacions (subscriptors)
