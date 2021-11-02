@@ -78,6 +78,7 @@ git push -u origin main
 
 Coses que heu de saber/aprendre?
 - Codis d'estatus i protocol HTTP -> 404 i 200, GET requests . Vegeu https://tubeme.acacha.org/HTTP
+- URI i URLS. Vegeu https://tubeme.acacha.org/URL
 - PHP artisan: Artisan console -> Laravel executat per línia de comandes: https://laravel.com/docs/8.x/artisan
 
 Qüestions pendents:
@@ -112,13 +113,21 @@ Documentació Laravel sobre testos:
 - https://laravel.com/docs/8.x/testing
 - Testos HTTP: https://laravel.com/docs/8.x/http-tests
 
+Conceptes vists als vídeos:
+- Wishful programming: Escriure primer el codi que volem tenir i després fer que funcioni i no pas al revés. Està molt relacionat amb pensar sempre en la API de la nostra aplicació, és a dir primer centrar-nos en el que volem fer i després en el com
+- API: Application Public Interface: part vísible (pública) del nostres codi, defineix la forma en que s'ha d'utilitzar el codi i per tant la interfície d'interacció entre el programador (usuari de la API/codi) i el codi. La API sól tenir tres parts:
+  - Nom del mètode/funció/codi que volem utilitzar: obligatori
+  - INPUT: paràmetres d'entrada: poden ser opcionals
+  - OUTPUT: sortida, pot ser opcional (NULL) o pot ser un tipus bàsic de dades o qualsevol estructura de dades complexa de programació (arrays, llistes, objectes)
+
 Enllaç al codi del primer test:
 
 - 
 
 # Coneixements previs
 
-- Sistema operatiu Ubuntu 20.04 preparat amb totes les eines necessaries per desenvolupar en Laravel. Veieu https://tubeme.acacha.org/101
+- Sistema operatiu Ubuntu 20.04 preparat amb totes les eines necessaries per desenvolupar en Laravel. Veieu 
+s://tubeme.acacha.org/101
 - Entorn de desenvolupament amb Ubuntu Desktop: https://www.youtube.com/watch?v=w8j07_DBl_I
 - Git i Github: https://www.youtube.com/watch?v=hRcIuEtXaBc
 - GH: https://cli.github.com/
