@@ -67,12 +67,19 @@ git remote add origin git@github.com:acacha/empty.git
 git push -u origin main
 ```
 
+## Tercer vídeo. Pensar que volem fer -> Primer test
+- Pensar els noms dels testos. Definim primer els noms i després el codi
+- Noms de testos que es puguin llegir en llenguatge natural i siguin una descripció del que comprova el test
+- RIGHT PASS: pas correcte i pas incorrecte
+- Valet: executar la nostra aplicació amb valet link i valet links
+- 
 
 # Coneixements previs
 - Sistema operatiu Ubuntu 20.04 preparat amb totes les eines necessaries per desenvolupar en Laravel. Veieu https://tubeme.acacha.org/101
 - Entorn de desenvolupament amb Ubuntu Desktop: https://www.youtube.com/watch?v=w8j07_DBl_I
 - Git i Github: https://www.youtube.com/watch?v=hRcIuEtXaBc
 - GH: https://cli.github.com/
+- Laravel valet | https://tubeme.acacha.org/laravel_valet
 
 # Screencasts
 
