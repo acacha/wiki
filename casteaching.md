@@ -71,8 +71,15 @@ git push -u origin main
 ```
 
 ## Tercer vídeo. Pensar que volem fer -> Primer test
-- Pensar els noms dels testos. Definim primer els noms i després el codi
-- Noms de testos que es puguin llegir en llenguatge natural i siguin una descripció del que comprova el test
+
+Pensar els noms dels testos. Definim primer els noms i després el codi:
+- Els usuaris poden veure vídeos -> users_can_view_videos
+- Els usuaris poden veure vídeos publicats -> users_can_view_published_videos
+- Els usuaris NO poden veure vídeos NO PUBLICATS -> users_cannot_view_unpublished_videos
+
+Els Noms de testos que es puguin llegir en llenguatge natural i siguin una descripció del que comprova el test.
+
+Altres:
 - RIGHT PASS: pas correcte i pas incorrecte
 - Valet: executar la nostra aplicació amb valet link i valet links
 
