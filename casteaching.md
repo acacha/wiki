@@ -34,6 +34,8 @@ Codi/Commit:
 
 ## Segon vídeo. Creació del projecte Laravel i repositori Github
 
+Link: https://github.com/acacha/casteaching
+
 NOTES: S¡acaba bruscament i alguna edició extra que caldria afegir.
 
 Links als materials, apunts wiki:
