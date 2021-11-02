@@ -80,6 +80,8 @@ git push -u origin main
 
 ## Tercer vídeo. Pensar que volem fer -> Primer test
 
+Link: https://youtu.be/6SxjClAdXZ8
+
 Pensar els noms dels testos. Definim primer els noms i després el codi:
 - Els usuaris poden veure vídeos -> users_can_view_videos
 - Els usuaris poden veure vídeos publicats -> users_can_view_published_videos
