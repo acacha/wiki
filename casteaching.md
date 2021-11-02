@@ -34,6 +34,11 @@ Links a recursos
 - Tailwind UI: https://tailwindui.com/
 - Acacha_dev: https://youtube.acacha.org
 
+Eines necessàries:
+- Laravel instal·lat: https://tubeme.acacha.org/101
+- Github CLI: https://cli.github.com/
+- PHPStorm:
+
 Petit tall: EDITAR -> TODO
 
 Comandes:
@@ -44,9 +49,26 @@ cd acacha
 laravel new casteaching
 ```
 
+I podeu veure els passos que cal per crear repositori Github amb l'ajuda que ens dona quan teniu un repositori buit, Exemple:
+
+https://github.com/acacha/empty
+
+```bash
+echo "# empty" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:acacha/empty.git
+git push -u origin main
+```
+
+
 # Coneixements previs
+- Sistema operatiu Ubuntu 20.04 preparat amb totes les eines necessaries per desenvolupar en Laravel. Veieu https://tubeme.acacha.org/101
 - Entorn de desenvolupament amb Ubuntu Desktop: https://www.youtube.com/watch?v=w8j07_DBl_I
 - Git i Github: https://www.youtube.com/watch?v=hRcIuEtXaBc
+- GH: https://cli.github.com/
 
 # Screencasts
 
