@@ -1,4 +1,4 @@
-# Temes currícularts que tractarem
+# Temes currículars que tractarem
 
 - MP9 UF1: Seguretat. Accés a recursos publicats o no publicats, usuaris registrats i no registrats, autoritzacions (subscriptors)
 
