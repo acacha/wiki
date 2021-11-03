@@ -8,8 +8,29 @@
 - Installation
 - Code editor: phpstorm -> webstorm
 - Variables
-- Objecte predefinits: DOcument -> DOM
+- Objecte predefinits: Document Object-> DOM
+- Separate Logic form presentation -> MVC -> Model Vista controlador
+- Quin és el model en javascript? No hi ha base de dades? APIs, XHR -> Si ens centrem purament frontend -> variables
+- I el controlador? simplement el codi que junta Vista i Model
+- La vista -> document HTML -> plantilles
+- Exemple comptador -> variable counter és el model, variable que representa l'estat de la vista
 
+Concepte estat:
+- Dos formes de manipular/canviar l'estat:
+  - Paradigma imperatiu -> indiquem amb comances com fer la modificació
+  - Paradigma declaratiu -> Definim el que cal fer i un altre ho fa (framework declaratiu tipus Vue, React)
+
+
+# VueJs
+
+![image](https://user-images.githubusercontent.com/4015406/140136582-68f852e8-47fa-459b-8e0a-f802a970792f.png)
+
+
+
+# Counter
+
+https://michaelzanggl.com/articles/vue-vs-vanilla-javascript-for-beginners/
+  
 # DOM TREE i HTML
 
 ![image](https://user-images.githubusercontent.com/4015406/140091803-77d95010-a805-4640-9f65-657513de0629.png)
