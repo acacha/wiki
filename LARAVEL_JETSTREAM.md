@@ -1,6 +1,6 @@
 # SCREENCAST
 
-https://tubeme.acacha.org/laraveljtstream
+https://tubeme.acacha.org/laraveljetstream
 
 # Codi font
 
