@@ -28,8 +28,21 @@ Però també crearem els nostres propis reptes/sistemes autenticació:
 - HTTPS: Totes les web que farem tindran suport per a HTTPS
 - En general totes les comunicacions de xarxa que farem a producció seran segures
 
-### Desenvolupament d'aplicacions i seguretat
+## Desenvolupament d'aplicacions i seguretat
 
+### Autenticació Backend
+
+#### Laravel / Aplicació web
+
+Objectiu:
+- Afegir autenticació al projecte que estem realitzant
+- Afegir autenticació en dos pasos
+- Compliment llei: usuaris puguin eliminar les seva compte d'usuari
+
+#### API. Token Based authentication
+
+Objectiu:
+- Afegir autenticació a la API REST del projecte que estem realitzant
 
 ### Videos
 
