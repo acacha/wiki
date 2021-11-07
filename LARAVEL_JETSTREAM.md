@@ -2,6 +2,10 @@
 
 https://tubeme.acacha.org/laraveljtstream
 
+# Codi font
+
+https://github.com/acacha/laravel_jetstream
+
 # Coneixements previs
 
 - [Composer](): Saber instal·lar paquets PHP amb composer
