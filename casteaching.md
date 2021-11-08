@@ -12,7 +12,7 @@ https://tubeme.acacha.org/tdd | https://www.youtube.com/playlist?list=PLyasg1A0h
 
 # Notes vídeos
 
-## Primer vídeo. Introducció
+## 101 Primer vídeo. Introducció
 
 Link: https://youtu.be/ednlsVl-NHA
 
@@ -35,7 +35,7 @@ Llista de tasques:
 Codi/Commit:
 - https://github.com/acacha/casteaching/tree/896eceac9f0e1d584c8d36c4a4371142e737705d
 
-## Segon vídeo. Creació del projecte Laravel i repositori Github
+## 102 Segon vídeo. Creació del projecte Laravel i repositori Github
 
 Link: https://github.com/acacha/casteaching
 
@@ -81,7 +81,7 @@ git remote add origin git@github.com:acacha/empty.git
 git push -u origin main
 ```
 
-## Tercer vídeo. Pensar que volem fer -> Primer test
+## 103 Tercer vídeo. Pensar que volem fer -> Primer test
 
 Link: https://youtu.be/6SxjClAdXZ8
 
@@ -176,6 +176,15 @@ https://github.com/acacha/casteaching/blob/cfab8322d8fad4a70a104935abf3330c40369
 
 Codi/commit:
 - https://github.com/acacha/casteaching/tree/cfab8322d8fad4a70a104935abf3330c403690e9
+
+# 104
+
+# 105
+
+# 106
+
+# 107
+
 
 # Coneixements previs
 
