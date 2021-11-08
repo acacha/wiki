@@ -1,0 +1,33 @@
+# LARAVEL SEGURETAT
+
+Screencasts: https://tubeme.acacha.org/laravel_seguretat
+
+# NOTES
+
+- [ ] Laravel Middlewares by example -> Authentication
+- [ ] Crear un vídeo de Laravel Breeze
+- [X] Crear un video de Laravel Jetstream
+
+Diferències entre:
+- Laralve Breeze
+- Laravel Jetstream
+- Laravel Fortify
+- Laravel Sanctum
+
+Moure aquest apartat
+
+Conceptes:
+
+Laravel té un apartat dedicat a la seguretat:
+- Middleware: https://laravel.com/docs/8.x/middleware . Middleware provide a convenient mechanism for inspecting and filtering HTTP requests entering your application. For example, Laravel includes a middleware that verifies the user of your application is authenticated. If the user is not authenticated, the middleware will redirect the user to your application's login screen. However, if the user is authenticated, the middleware will allow the request to proceed further into the application.
+- Middleware com una forma de mantenir els controladors THIN (lleugers) i evitar Controladors FAT. També és una forma de centralitzar codi de controls d'accés i evitar codi WET
+
+Laravel té una secció de seguretat amb els següents apartats
+- Authentication: podeu crear el vostre propi sistema però es recomanable utilitzar un starter kit o adaptar-lo a les vostres necessitats.
+  - No confondre l'autenticació amb l'autorització
+  - Configuració config/auth.php
+- Authorization
+- Email Verification
+- Encryption
+- Hashing
+- Password Reset
