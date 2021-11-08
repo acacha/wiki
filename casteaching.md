@@ -218,6 +218,44 @@ En aquest capitol comencem a refactoritzar les nostres vistes per millorar el "L
 
 https://youtu.be/ofSbYUEml4c
 
+# 109 Tailwind CSS i primer disseny vista show de vídeos
+
+# TODO . Crear apartat Laravel Seguretat
+
+Crear un vídeo de Laravel Breeze
+
+Diferències entre:
+- Laralve Breeze
+- Laravel Jetstream
+- Laravel Fortify
+- Laravel Sanctum
+
+Moure aquest apartat
+
+Conceptes:
+
+Laravel té un apartat dedicat a la seguretat:
+- Middleware: https://laravel.com/docs/8.x/middleware . Middleware provide a convenient mechanism for inspecting and filtering HTTP requests entering your application. For example, Laravel includes a middleware that verifies the user of your application is authenticated. If the user is not authenticated, the middleware will redirect the user to your application's login screen. However, if the user is authenticated, the middleware will allow the request to proceed further into the application.
+- Middleware com una forma de mantenir els controladors THIN (lleugers) i evitar Controladors FAT. També és una forma de centralitzar codi de controls d'accés i evitar codi WET
+
+Laravel té una secció de seguretat amb els següents apartats
+- Authentication: podeu crear el vostre propi sistema però es recomanable utilitzar un starter kit o adaptar-lo a les vostres necessitats.
+  - No confondre l'autenticació amb l'autorització
+  - Configuració config/auth.php
+- Authorization
+- Email Verification
+- Encryption
+- Hashing
+- Password Reset
+
+
+# 110 Seguretat. Control d'accés a recursos segons l'usuari. Autenticació
+
+Vídeo previ sobre seguretat en Laravel
+
+Tipus de seguretat:
+- Control de visibilitat: estat dels vídeos published o unpublished
+
 # Coneixements previs
 
 - Sistema operatiu Ubuntu 20.04 preparat amb totes les eines necessaries per desenvolupar en Laravel. Veieu 
