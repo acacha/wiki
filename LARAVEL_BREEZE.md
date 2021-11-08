@@ -1,3 +1,10 @@
+# Screencast
+
+https://tubeme.acacha.org/laravelbreeze
+
+# Codi font:
+
+https://github.com/acacha/laravelbreeze
 
 # Recursos
 - Codi font: https://github.com/laravel/breeze
