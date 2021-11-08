@@ -39,7 +39,7 @@ Codi/Commit:
 
 Link: https://github.com/acacha/casteaching
 
-NOTES: S¡acaba bruscament i alguna edició extra que caldria afegir.
+NOTES: S'acaba bruscament i alguna edició extra que caldria afegir.
 
 Links als materials, apunts wiki:
 - https://github.com/acacha/wiki/blob/main/casteaching.md
