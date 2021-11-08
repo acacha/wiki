@@ -177,14 +177,46 @@ https://github.com/acacha/casteaching/blob/cfab8322d8fad4a70a104935abf3330c40369
 Codi/commit:
 - https://github.com/acacha/casteaching/tree/cfab8322d8fad4a70a104935abf3330c403690e9
 
-# 104
+# 104 Primer test en Verd
 
-# 105
+Errors més típics:
+- TODO
 
-# 106
+# 105 Afegir Laravel Jetstream a la nostra aplicació
 
-# 107
+Coneixements previs:
 
+[Laravel Jetstream](https://github.com/acacha/wiki/blob/main/LARAVEL_JETSTREAM.md): https://youtu.be/zyABmm6Dw64
+
+# 106 Entorn de Testing i entorn Local, bases de dades diferenciades, migrate fresh seed
+
+En aquest vídeo veiem la importància de tenir entorns (environments controlats pel fitxer .env)
+
+Vídeo
+
+Objectius:
+- Saber com canviar les variables d'entorn a PHPUnit utilitzant el fitxer phpunit.xml
+- Tenir clar que els testos parteixen d'un estat conegut inicial en cada test. Per tant en els testos de base de dades (trait RefreshDatabase) cada cop que executem un test la base de dades es buida i es torna a crear
+- Cal tenir l'entorn local i l'entorn d'explotació separats, especialment pel que fa a base de dades. NO poden utilitzar la mateixa base de dades.
+- Com es pot tenir en l'entorn local un estat preconegut de la base de dades útil per fer proves amb usuaris pre-generats, vídeos de proves .etc. Ús de seeders a Laravel.
+
+
+# 107 Testos unitaris solució exercicis proposats, helpers i refactoritzacions
+
+https://youtu.be/_rE2UE5J8Lk
+
+Un test unitari a diferència d'un test de Feature prova de forma aillada una funció, un mètode o una clase. En canvi els test de Feature proven una "feature" o característica de l'aplicació i solen tenir en compte/provar varies coses al mateix temps
+
+# 108 Laravel Blade components i Layouts
+
+En aquest capitol comencem a refactoritzar les nostres vistes per millorar el "Look&Feel", la interfície gràfica (UI) però també la UX (User Experience) de la nostra aplicació
+
+- Sistema de plantilles Laravel Blade: https://laravel.com/docs/8.x/blade
+- Components: concepte força genèric també veurem a Vue i en frameworks CSS com Vuetify, Ionic. S'utilitzen elements HTML creat per nosaltres mateixos
+- Els components laravel tenen un prefix per determinar un espai de noms segur i evitar col·lision de noms -> <x-NOM_COMPONENT_LARAVEL></x-NOM_COMPONENT_LARAVEL>
+- Layouts: permeten compartir una shell o closca entre diferents pàgines d'una mateixa aplicació web
+
+https://youtu.be/ofSbYUEml4c
 
 # Coneixements previs
 
