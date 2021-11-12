@@ -10,5 +10,9 @@
 - Full Stack development
 - API REST (Remote Procedures) . XML vs JSON
 
+# Art grafìc
+
+Una pila, stack
+
 # Recursos
 - SPA -> Single Page Application
