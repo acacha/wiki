@@ -2,6 +2,19 @@
 
 Screencasts: https://tubeme.acacha.org/laravel_seguretat | https://tubeme.acacha.org/laravel_security
 
+# Conceptes previs
+
+Laravel és una aplicació web i per tant és important prèviament conèixer els bé el protocol HTTP i que són les URL
+
+- https://tubeme.acacha.org/http
+- https://tubeme.acacha.org/url
+
+# Llista de vídeos:
+
+- HTTP: https://tubeme.acacha.org/http
+- URL: https://tubeme.acacha.org/url
+
+
 # NOTES
 
 - [ ] Laravel Middlewares by example -> Authentication
