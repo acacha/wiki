@@ -11,9 +11,21 @@ Laravel és una aplicació web i per tant és important prèviament conèixer el
 
 # Llista de vídeos:
 
+Conceptes previs:
 - HTTP: https://tubeme.acacha.org/http
 - URL: https://tubeme.acacha.org/url
+Laravel Starter Kits (https://laravel.com/docs/8.x/starter-kits)
+- https://tubeme.acacha.org/laravel_breeze
+- https://tubeme.acacha.org/laravel_jetstream
 
+Autenticicació i autorització amb Laravel:
+- https://tubeme.acacha.org/laravel_middleware
+- https://tubeme.acacha.org/laravel_authentication
+- https://tubeme.acacha.org/laravel_authorization
+- https://tubeme.acacha.org/laravel_fortify
+
+Veieu també els videos del curs https://tubeme.acacha.org/tdd:
+- 113: https://www.youtube.com/watch?v=jX6aHnvWOO4&list=PLyasg1A0hpk0Irrc0YE_OVY-8A2rUnJZU&index=8
 
 # NOTES
 
