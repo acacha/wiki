@@ -1,6 +1,6 @@
 # LARAVEL SEGURETAT
 
-Screencasts: https://tubeme.acacha.org/laravel_seguretat
+Screencasts: https://tubeme.acacha.org/laravel_seguretat | https://tubeme.acacha.org/laravel_security
 
 # NOTES
 
