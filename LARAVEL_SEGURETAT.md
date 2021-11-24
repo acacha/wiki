@@ -21,11 +21,17 @@ Laravel Starter Kits (https://laravel.com/docs/8.x/starter-kits)
 Autenticicació i autorització amb Laravel:
 - https://tubeme.acacha.org/laravel_middleware
 - https://tubeme.acacha.org/laravel_authentication
-- https://tubeme.acacha.org/laravel_authorization
+- https://tubeme.acacha.org/laravel_authorization | TODO
 - https://tubeme.acacha.org/laravel_fortify
 
+Token authentication:
+- https://tubeme.acacha.org/laravel_token | TODO
+- https://tubeme.acacha.org/laravel_sanctum | TODO
+- https://tubeme.acacha.org/laravel_passport | TODO
+- https://tubeme.acacha.org/laravel_sociallogin  | TODO
+
 Veieu també els videos del curs https://tubeme.acacha.org/tdd:
-- 113: https://www.youtube.com/watch?v=jX6aHnvWOO4&list=PLyasg1A0hpk0Irrc0YE_OVY-8A2rUnJZU&index=8
+- 113. Exemple d'autorització amb TDD: https://www.youtube.com/watch?v=jX6aHnvWOO4&list=PLyasg1A0hpk0Irrc0YE_OVY-8A2rUnJZU&index=8
 
 # NOTES
 
