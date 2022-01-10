@@ -5,6 +5,14 @@
   - Abans però cal aprenre com funcionen els events per tal de mantenir el codi net
   - També necessitem aprendre a realitzar tasques que siguin potencialment llargues en el temps com utilitzar APIs de tercers o enviar emails/notificacions.
 
+# Resum de passes
+
+1. Crear branca on fer les proves de la nova funcionalitat
+2. Crear la notificació de tipus email i provar-la via Tinker
+3. Crear via TDD el test per al Listener/Classe PHP que envia la notificació. Fí del video 1
+4. Vídeo 2. Lligar el codi ja existent amb la nova funcionalitat utilizant el patró observació i els events de Laravel.
+5. Un cop provada la nova funcionalitat fer un merge a main
+
 # Comandes
 
 Branca:
@@ -74,6 +82,16 @@ Notification::route('mail', 'taylor@example.com')
             ->route('slack', 'https://hooks.slack.com/services/...')
             ->notify(new InvoicePaid($invoice));
 ```
+
+Inicialment podem fer un test Manual executant el codi a Tinker:
+
+```
+php artisan tinker
+$video = create_sample_video();
+Notification::route('mail', 'sergiturbadenas@gmail.com')->notify(new VideoCreated($video);
+```
+
+El seguent pas es fer ja un test real i aprofitar el TDD per crear la classe (Listener) Encarregat de lligar el codi
 
 # Guió
 
