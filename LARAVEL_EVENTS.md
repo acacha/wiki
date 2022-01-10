@@ -6,6 +6,64 @@ Don't worry if you don't see these directories in your application as they will 
 
 Events serve as a great way to decouple various aspects of your application, since a single event can have multiple listeners that do not depend on each other. For example, you may wish to send a Slack notification to your user each time an order has shipped. Instead of coupling your order processing code to your Slack notification code, you can raise an App\Events\OrderShipped event which a listener can receive and use to dispatch a Slack notification.
 
+# TDD
+
+Si comencem a disparar events al nostre codi ens pot passar que els listeners associats a aquests events no siguinb codi nostre o fins i tot executin codi de tercers o crides a apis externes provocant que els nostres tests executin codi no desitjat que ho bé pot fer fallar els nostres testos o fins i tot pitjor pot executar codi en producció i modificard bases de dades propies o de tercers (apis externes).
+
+Per aquests casos existeix el concepte de Code Isolation o Test Isolation, és a dir assegurar-se que els testos només executin el codi que realment volem provar i no codis de tercers com per exemple Listeners.
+
+**Concepte de mocking | Event Fake**
+
+Laravel té suport via fakes (mentides) o mocking (burles). En general un fake o mock en testing es desactivar la execució dels events però sense deixar de tenir formes de comprovar que "s'ha disparat" el esdeveniment a nivell de codi tot i que realment no ho fem per evitar l'execució dels Listeners
+
+```php
+class ExampleTest extends TestCase
+{
+    /**
+     * Test order shipping.
+     */
+    public function test_orders_can_be_shipped()
+    {
+        Event::fake();
+
+        // Perform order shipping...
+
+        // Assert that an event was dispatched...
+        Event::assertDispatched(OrderShipped::class);
+
+        // Assert an event was dispatched twice...
+        Event::assertDispatched(OrderShipped::class, 2);
+
+        // Assert an event was not dispatched...
+        Event::assertNotDispatched(OrderFailedToShip::class);
+
+        // Assert that no events were dispatched...
+        Event::assertNothingDispatched();
+    }
+}
+```
+
+https://laravel.com/docs/8.x/mocking#event-fake
+
+Recursos
+- https://laravel.com/docs/8.x/mocking
+
+# Exercicis a Casteaching
+
+sOlid: Open to Extensión, closed to modification:
+
+Com podem extendre/ampliar codi ja existent i que funciona sense que deixi de funcionar i fins i tot que l'haguim de modificar el mínim possible?
+- Disparant events propis. VideoCRUD: VideoCreated | VideoUpdated | VideoDestroyed | VideoShowed
+- TDD -> 
+
+Relació 1 a n amb series
+- serie_id nullable -> Millor suport migracions, permet crear videos no associats a cap serie
+- Desplegable series al crear un vídeo
+- Cal CRUD de series? -> Podem utilitzar seeder/factoria de moment per afegir unes series per defecte. CRUD de series quedarà com a TODO
+- Definir model Serie
+- A la Dashboard i a la Landing Page mostrar una llista de series com un grid de cards: seeders i factories
+
+
 # Altres llenguatges
 
 Tots els llenguatges de frontend que utilitzem s'utilitzen principalment per disenyar User Interfaces (UI). Les UI funcionen principalment amb el mateix patró Observer amb events i Listeners amb els seu handlers
