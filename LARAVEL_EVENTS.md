@@ -13,7 +13,7 @@ Tots els llenguatges de frontend que utilitzem s'utilitzen principalment per dis
 
 ## Javascript
 
-Vanilla:
+### Vanilla
 
 En la majoria de casos no creem Events, sinó que utilitzem els events ja existents associats a la interacció de l'usuari amb el Navegador/Browser.
 
@@ -48,6 +48,22 @@ btn.addEventListener('click', () => {
 Recursos
 - https://www.w3schools.com/js/js_events.asp
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
+
+### NodeJs
+
+```javascript
+const EventEmitter = require('events');
+
+class MyEmitter extends EventEmitter {}
+
+const myEmitter = new MyEmitter();
+myEmitter.on('event', () => {
+  console.log('an event occurred!');
+});
+myEmitter.emit('event');
+``` 
+
+- https://nodejs.org/docs/latest-v12.x/api/events.html
 
 # Observer pattern
 
