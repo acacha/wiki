@@ -19,6 +19,7 @@ Com no programar en projectes grans i que calgui mantenir nets?
 
 - Teòria bàsica sobre notificacions. Diferències entre Notificacions i emails. Notificació -> Abstracció/Api i email és una implementació concreta de la API de notificacions/abstracció. Lligar-ho amb solid
 - Primer pas: crear un mòdul nou/classe PHP on afegir el codi nou de moment completament isolat/deslligat/decoupled (no acoblat) al codi antic
+- Dos parts: 1 ) Crear la notificació Laravel 2) Executar-la . Haurem de decidir on executar? Ho podriem fer al controlador on es crea el video però recordeu: volem fer decoupling del codi
 
 FUNCIONALITAT: Enviar email a una llista admins (llista de correus electrònics) notificant s'ha creat un nou vídeo
 
@@ -26,8 +27,17 @@ Com serà la API? Que cal definir?
 
 **Nom de la classe i mètodes** -> Cal implementar alguna interfície
 
-Nom de la classe: SendVideoCreatedNotification
+Noms de la classes: 
+
+**Notificació**:
+- VideoCreated: més que suficient
+- Altres: VideoCreatedNotification <- no recomano. Notification No cal ja estarà a una carpeta notifications però a més implementarà una interfície
 Mètode amb la lògica: podria ser send? però escolli un nom més genèric ja veurem més endavant pq -> handle
+
+**Enviament de la notificació**
+- SendVideoCreatedNotification
+- A evitar: onVideoCreated, posar el nom listener a la classe tampoc cals
+- Serà un Listener, ho veurem al pròxim vídeo (events Listeners)
 
 Paràmetres entrada (dependències): que necessita la classe per funcionar 
 - Video creat (objecte video) (injectat pel constructor)
