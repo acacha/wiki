@@ -45,6 +45,7 @@ class ExampleTest extends TestCase
 
 https://laravel.com/docs/8.x/mocking#event-fake
 
+
 Recursos
 - https://laravel.com/docs/8.x/mocking
 
@@ -56,6 +57,13 @@ Com podem extendre/ampliar codi ja existent i que funciona sense que deixi de fu
 - Disparant events propis. VideoCRUD: VideoCreated | VideoUpdated | VideoDestroyed | VideoShowed
 - TDD -> Crearem primers els testos amb Event:Fake i comprovarem s'executen 
 - Es tant important separar els testos dels controladors com els propis controladors (CRUD videos) dels testos dels listeners i dels propis listeners. L'únic nexe unió entre controladors que disparen events i listeners ha de ser el registre a EventServiceProvider, per a la resta han de funcionar de forma independent.
+
+Registre d'usuaris:
+- Especificació 1: Events ja existents a Laravel. Nou Usuari afegit al sistema -> Assignar permisos per defecte
+
+Enviament de notificacions (emails de moment)
+- Explicació: com enviar emails/notificacions
+- Especificació 1: enviar un email a una llista de admins (configuragles al fitxer config/casteaching.php) cada cop que es crea un nou Video. Event: VideoCreated, definir la dependència de l'event (Video injectat al constructor)
 
 
 ActivityLog
