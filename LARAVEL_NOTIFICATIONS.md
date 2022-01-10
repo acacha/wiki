@@ -1,3 +1,11 @@
+# Screencast
+
+Video: 127 TODO URL here
+
+De la sèrie:
+
+https://tubeme.acacha.org/tdd
+
 # Currículum
 
 - UF2 del mòdul MP9 (Processos i Serveis):  UF2 és la UF de processos, separació del codi en multiples mòduls que es poden executar concurrenment o linealment.
