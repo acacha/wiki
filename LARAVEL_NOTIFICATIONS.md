@@ -1,3 +1,15 @@
+# Guió
+
+Casteaching TDD
+- Nova funcionalitat: enviar emails formatats amb Markdown cada cop que es crea un nou vídeo. La notificació per email s'envia a una llista d'administradors obtinguda configurable (fitxer de configuració casteaching)
+- SOLID: Són les sigles d'una sèrie de tècniques/patrons/formes de treballar recomanables per mantenir el codi net (Clean Code)
+- La S és Single Responsability Principle -> Focus
+- La 0 de Open to Extensión / Closed to modification
+- Liskov Substitution: Programació utilitzant interficies/contractes. Al canviar una classe per un altre no ha de donar problemes si compleixen el mateix contracte o interfície.
+- Interface seggregation: Separar les intefícies/contractes complexes (amb molts mètodes) en interfíces més simples. Sempre podem implementar una classe que implmenti de cop múltiples interfícies. Més focus, més reaprofitables. Cap client ha de ser forçat a implementar mètodes que no utilitza. Múltiples interfícies concretes són millor que interfícies de proposit general
+- Dependency Inversion: Decoupling modules (fent que els trossos de codi no siguin dependents entre ells). De fet sempre hi ha una dependencia però aquesta ha de ser basada en abstraccions (interficies | API) i no pas en implementacions concretes de forma que si canvio la implementació no deixi de funcionar el codi
+
+
 # Notifications vs Emails
 
 Les notificacions són un concepte més global. Heu de veure els emails com un tipus de notificació. Els emails són un dels sistemes principals de notificar als usuaris i van ser el primer sistema de notificació, però actualment també podem utilitzar SMS, notificacions de broadcast en temps real i tot tipus de apis de tercers: Whatsapp, telegram, Webpush (notificacions mobils), VOIP, etc.
