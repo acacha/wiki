@@ -14,8 +14,8 @@ Events serve as a great way to decouple various aspects of your application, sin
 # Conceptes
 
 - Observer Pattern: The observer pattern is a software design pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. | https://en.wikipedia.org/wiki/Observer_pattern
-- Event classes: **app/Events**
-- Listeners:  **app/Listeners**
+- Event classes: **app/Events**. Són simples objectes/classes contenidores de dades (només contenen dades, cap lógica) amb les dades del event: nom del event i dades associades al event (dependencies injectades a través del constructor)
+- Listeners:  **app/Listeners**: Contenen la lògica associada al que cal executar quan succeix un esdeveniment. Seguint el *Single Responsability Principle* se sol dividir en tasques diferents (múltiples listenets) totes les accions a realitzar quan succeix un esdeveniment,
 
 
 # Coneixements previs
@@ -24,7 +24,7 @@ Events serve as a great way to decouple various aspects of your application, sin
 
 # Procediment
 
-1. Registrar els events i els listeners
+1. Crear i Registrar els events i els listeners
 2. 
 
 
