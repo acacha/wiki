@@ -13,7 +13,7 @@ https://tubeme.acacha.org/tdd
 
 - UF2 del mòdul MP9 (Processos i Serveis):  UF2 és la UF de processos, separació del codi en multiples mòduls que es poden executar concurrenment o linealment.
   - Amb Laravel i PHP utilitzarem les Cues o Jobs
-  - Abans però cal aprenre com funcionen els events per tal de mantenir el codi net
+  - Abans però cal aprendre com funcionen els events per tal de mantenir el codi net
   - També necessitem aprendre a realitzar tasques que siguin potencialment llargues en el temps com utilitzar APIs de tercers o enviar emails/notificacions.
 
 # Resum de passes
