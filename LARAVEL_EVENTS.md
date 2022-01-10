@@ -54,7 +54,13 @@ sOlid: Open to Extensión, closed to modification:
 
 Com podem extendre/ampliar codi ja existent i que funciona sense que deixi de funcionar i fins i tot que l'haguim de modificar el mínim possible?
 - Disparant events propis. VideoCRUD: VideoCreated | VideoUpdated | VideoDestroyed | VideoShowed
-- TDD -> 
+- TDD -> Crearem primers els testos amb Event:Fake i comprovarem s'executen 
+- Es tant important separar els testos dels controladors com els propis controladors (CRUD videos) dels testos dels listeners i dels propis listeners. L'únic nexe unió entre controladors que disparen events i listeners ha de ser el registre a EventServiceProvider, per a la resta han de funcionar de forma independent.
+
+
+ActivityLog
+- TODO
+- https://github.com/spatie/laravel-activitylog
 
 Relació 1 a n amb series
 - serie_id nullable -> Millor suport migracions, permet crear videos no associats a cap serie
