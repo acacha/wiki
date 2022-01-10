@@ -1,7 +1,7 @@
 # Guió
 
 Casteaching TDD
-- Nova funcionalitat: enviar emails formatats amb Markdown cada cop que es crea un nou vídeo. La notificació per email s'envia a una llista d'administradors obtinguda configurable (fitxer de configuració casteaching)
+- **Nova funcionalitat**: **enviar emails formatats amb Markdown** cada cop que **es crea un nou vídeo**. La notificació per email s'envia a una **llista d'administradors configurable** (fitxer de configuració casteaching)
 - SOLID: Són les sigles d'una sèrie de tècniques/patrons/formes de treballar recomanables per mantenir el codi net (Clean Code)
 - La S és Single Responsability Principle -> Focus
 - La 0 de Open to Extensión / Closed to modification
