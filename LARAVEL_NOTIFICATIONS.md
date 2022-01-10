@@ -1,7 +1,6 @@
 # Guió
 
-Casteaching TDD
-- **Nova funcionalitat**: **enviar emails formatats amb Markdown** cada cop que **es crea un nou vídeo**. La notificació per email s'envia a una **llista d'administradors configurable** (fitxer de configuració casteaching)
+**Nova funcionalitat**: **enviar emails formatats amb Markdown** cada cop que **es crea un nou vídeo**. La notificació per email s'envia a una **llista d'administradors configurable** (fitxer de configuració casteaching)
 
 Intentem ja utilitzar bones pràctiques? El codi es començar a complicar a semblar més a la vida real -> Codi NO JUGUET. El problema dels exemples "Hello world" o exemples simples inicials és que tot i anar bé per començar, no representen un nivell real de coneixement intermig/avançat. Són exemples "Juget" / Toy examples
 
