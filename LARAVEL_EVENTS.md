@@ -25,7 +25,7 @@ Events serve as a great way to decouple various aspects of your application, sin
 # Procediment
 
 1. Crear i Registrar els events i els listeners
-2. 
+2. Disparar/Dispatch/Trigger events
 
 
 # Comandes artisan
@@ -38,3 +38,4 @@ Events serve as a great way to decouple various aspects of your application, sin
 # RECURSOS
 
 - https://laravel.com/docs/8.x/events
+- https://laracasts.com/series/intermediate-laravel
