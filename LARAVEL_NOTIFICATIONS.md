@@ -9,6 +9,11 @@ Casteaching TDD
 - Interface seggregation: Separar les intefícies/contractes complexes (amb molts mètodes) en interfíces més simples. Sempre podem implementar una classe que implmenti de cop múltiples interfícies. Més focus, més reaprofitables. Cap client ha de ser forçat a implementar mètodes que no utilitza. Múltiples interfícies concretes són millor que interfícies de proposit general
 - Dependency Inversion: Decoupling modules (fent que els trossos de codi no siguin dependents entre ells). De fet sempre hi ha una dependencia però aquesta ha de ser basada en abstraccions (interficies | API) i no pas en implementacions concretes de forma que si canvio la implementació no deixi de funcionar el codi
 
+Com no programar en projectes grans i que calgui mantenir nets?
+
+- Cal vigilar molt al afegir noves funcionalitats
+- Els testos ens ajuden a veure si les noves funcionalitats afecten al codi antic
+- Però encara es pot anar més enllà, ja podem mirar de que cada cop que creem una nova funcionalitat compleixi SOLID. Podem mirar de posar-la en un tros de codi nou (mòdul és el concepte, en PHp i Laravel sovint una  o múltiples noves classes) i lligar el codi antic (mòdul/classe existent/controlador, etc) amb el codi nou utilitzant també SOLID -> minimitzar les dependències utitzant interfícies (API) i no pas implementacions concretes.
 
 # Notifications vs Emails
 
