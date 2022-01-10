@@ -6,6 +6,49 @@ Don't worry if you don't see these directories in your application as they will 
 
 Events serve as a great way to decouple various aspects of your application, since a single event can have multiple listeners that do not depend on each other. For example, you may wish to send a Slack notification to your user each time an order has shipped. Instead of coupling your order processing code to your Slack notification code, you can raise an App\Events\OrderShipped event which a listener can receive and use to dispatch a Slack notification.
 
+# Altres llenguatges
+
+Tots els llenguatges de frontend que utilitzem s'utilitzen principalment per disenyar User Interfaces (UI). Les UI funcionen principalment amb el mateix patró Observer amb events i Listeners amb els seu handlers
+
+
+## Javascript
+
+Vanilla:
+
+En la majoria de casos no creem Events, sinó que utilitzem els events ja existents associats a la interacció de l'usuari amb el Navegador/Browser.
+
+**EVENTS INCRUSTATS a HTML**
+
+```html
+<element event='some JavaScript'>
+``` 
+
+```html
+<button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+``` 
+
+**addEventListener**
+
+```html
+<button>Change color</button>
+```
+
+```javascript
+const btn = document.querySelector('button');
+
+function random(number) {
+  return Math.floor(Math.random() * (number+1));
+}
+
+btn.addEventListener('click', () => {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
+});
+```
+Recursos
+- https://www.w3schools.com/js/js_events.asp
+- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
+
 # Observer pattern
 
 ![image](https://user-images.githubusercontent.com/4015406/148737764-006aae07-87cb-4c64-9c93-a49bcdbc48cd.png)
