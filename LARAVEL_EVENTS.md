@@ -49,6 +49,35 @@ Recursos
 - https://www.w3schools.com/js/js_events.asp
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
 
+### VueJs
+
+```javascript
+<div id="example-2">
+  <!-- `greet` is the name of a method defined below -->
+  <button v-on:click="greet">Greet</button>
+</div>
+var example2 = new Vue({
+  el: '#example-2',
+  data: {
+    name: 'Vue.js'
+  },
+  // define methods under the `methods` object
+  methods: {
+    greet: function (event) {
+      // `this` inside methods points to the Vue instance
+      alert('Hello ' + this.name + '!')
+      // `event` is the native DOM event
+      if (event) {
+        alert(event.target.tagName)
+      }
+    }
+  }
+})
+```
+
+- https://vuejs.org/v2/guide/events.html
+- https://vueschool.io/lessons/vuejs-user-events?friend=vuejs
+
 ### NodeJs
 
 ```javascript
