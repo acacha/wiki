@@ -22,6 +22,7 @@ Especificacions:
 - Cal aconseguir via config - config('casteaching.admins') la llista de emails dels admins (https://laravel.com/docs/8.x/configuration#accessing-configuration-values) la llista de 
 - Cal crear l'objecte SendShipmentNotification i injectar a través del constructor les dependències
 - Notification:fake
+
 **Execució**
 
 Executar el metode handle() de SendShipmentNotification
@@ -38,6 +39,12 @@ https://laravel.com/docs/8.x/artisan
 Ens permeten executar codi des de la CLI (línia de comandes ) via php artisan laNostraComanda
 
 Recordeu que per a fer proves sempre tenim la comanda php artisan tinker.
+
+Crear la comanda:
+
+php artisan make:command SendVideoCreatedNotificationTest
+
+L'únic que ha de fer es crear el listener i executar-lo (igual que al test) creant un video de prova. Un cop creat el video i enviat el email, esborrar-lo.
 
 ## Que cal saber?
 
