@@ -11,8 +11,35 @@ Especificacions:
 - La notificació necessita/depèn i per tant cal injectar la dependència Video (objecte amb el video creat)
 - Crearem un listener amb el seu propi handler que enviara la notificació
 - La notificació de moment només serà de tipus email en format markdown
+- Nom de la classe: SendShipmentNotification
+- TDD: Test unitari?
+- De moment no la farem un listener -> Ho farem més tard per passos
 
-**Que cal saber?**
+## Passos del test
+
+**Preparació**
+- Cal crear primer un video nou de prova
+- Cal aconseguir via config - config('casteaching.admins') la llista de emails dels admins (https://laravel.com/docs/8.x/configuration#accessing-configuration-values) la llista de 
+- Cal crear l'objecte SendShipmentNotification i injectar a través del constructor les dependències
+- Notification:fake
+**Execució**
+
+Executar el metode handle() de SendShipmentNotification
+
+**Comprovació**
+- Comprovar que s'ha enviat la notificació als usuaris admins i que la notificació conté el video amb les dades adequades (title, url)
+
+## Comanda artisan CLI per provar l'enviament de la notificació
+
+Comandes artisan Laravel:
+
+https://laravel.com/docs/8.x/artisan
+
+Ens permeten executar codi des de la CLI (línia de comandes ) via php artisan laNostraComanda
+
+Recordeu que per a fer proves sempre tenim la comanda php artisan tinker.
+
+## Que cal saber?
 
 Notificacion Facade: https://laravel.com/docs/8.x/notifications#using-the-notification-facade
 
@@ -27,11 +54,12 @@ On:
 
 Utilitzarem https://laravel.com/docs/8.x/notifications#on-demand-notifications
 
+```php
 Notification::route('mail', 'taylor@example.com')
             ->route('nexmo', '5555555555')
             ->route('slack', 'https://hooks.slack.com/services/...')
             ->notify(new InvoicePaid($invoice));
-
+```
 
 # Canals de tercers
 
