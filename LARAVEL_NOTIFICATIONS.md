@@ -4,6 +4,9 @@ Video: 127 TODO URL here
 
 De la sèrie:
 
+![image](https://user-images.githubusercontent.com/4015406/148790766-f9dc9d7b-5d1e-4031-97b9-217bea42fd86.png)
+
+
 https://tubeme.acacha.org/tdd
 
 # Currículum
