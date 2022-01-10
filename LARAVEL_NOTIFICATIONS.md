@@ -15,6 +15,31 @@ Com no programar en projectes grans i que calgui mantenir nets?
 - Els testos ens ajuden a veure si les noves funcionalitats afecten al codi antic
 - Però encara es pot anar més enllà, ja podem mirar de que cada cop que creem una nova funcionalitat compleixi SOLID. Podem mirar de posar-la en un tros de codi nou (mòdul és el concepte, en PHp i Laravel sovint una  o múltiples noves classes) i lligar el codi antic (mòdul/classe existent/controlador, etc) amb el codi nou utilitzant també SOLID -> minimitzar les dependències utitzant interfícies (API) i no pas implementacions concretes.
 
+# Video 1
+
+- Teòria bàsica sobre notificacions. Diferències entre Notificacions i emails. Notificació -> Abstracció/Api i email és una implementació concreta de la API de notificacions/abstracció. Lligar-ho amb solid
+- Primer pas: crear un mòdul nou/classe PHP on afegir el codi nou de moment completament isolat/deslligat/decoupled (no acoblat) al codi antic
+
+FUNCIONALITAT: Enviar email a una llista admins (llista de correus electrònics) notificant s'ha creat un nou vídeo
+
+Com serà la API? Que cal definir?
+
+**Nom de la classe i mètodes** -> Cal implementar alguna interfície
+
+Nom de la classe: SendVideoCreatedNotification
+Mètode amb la lògica: podria ser send? però escolli un nom més genèric ja veurem més endavant pq -> handle
+
+Paràmetres entrada (dependències): que necessita la classe per funcionar 
+- Video creat (objecte video) (injectat pel constructor)
+- Llista de emails -> Aquí podem utilitzar valors hardcoded (accés via config() helper) no cal sigui dependencia
+
+Paràmetres de sortida:
+- Que retorna handle? en aquest cas no cal retornar res
+
+Escribim el Test:
+
+
+
 # Notifications vs Emails
 
 Les notificacions són un concepte més global. Heu de veure els emails com un tipus de notificació. Els emails són un dels sistemes principals de notificar als usuaris i van ser el primer sistema de notificació, però actualment també podem utilitzar SMS, notificacions de broadcast en temps real i tot tipus de apis de tercers: Whatsapp, telegram, Webpush (notificacions mobils), VOIP, etc.
