@@ -71,6 +71,30 @@ EventBus:
 
 Exemple: https://www.youtube.com/watch?v=yYfuRKTiZfY
 
+Em utilitzat els esdeveniments a mida i el concepte de EventBus (que és el mateix que proporciona Laravel un sistema per disparar events i escoltar-los a on vulguem del nostre codi via Event Facade)
+
+<script>
+import bus from "../bus";
+
+export default {
+    name: "Status",
+    data () {
+        return {
+            show: false,
+            message: ''
+        }
+    },
+    created() {
+        bus.$on('status',(message) => {
+            this.message = message
+            this.show = true
+        });
+    }
+}
+</script>
+
+Recursos:
+- https://github.com/acacha/casteaching/blob/main/resources/js/components/Status.vue
 - https://v3.vuejs.org/guide/migration/events-api.html#event-bus
 - https://blog.logrocket.com/using-event-bus-in-vue-js-to-pass-data-between-components/
 
