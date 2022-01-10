@@ -51,6 +51,35 @@ Recursos
 
 ### VueJs
 
+Esdeveniments propis:
+
+Un component pot disparar un esveniment
+
+```javascript
+this.$emit('close')
+```
+ 
+I el component pare el pot escoltar amb v-on:
+
+```javascript
+<component on:close="doSomething">
+```
+
+Entre components que no tinguin relació pare/fill s'utilitza un EventBus o Vuex
+
+EventBus:
+
+Exemple: https://www.youtube.com/watch?v=yYfuRKTiZfY
+
+- https://v3.vuejs.org/guide/migration/events-api.html#event-bus
+- https://blog.logrocket.com/using-event-bus-in-vue-js-to-pass-data-between-components/
+
+
+Docs:
+- https://vuejs.org/v2/guide/components-custom-events.html
+
+Gestió de esveniments de UI
+
 ```javascript
 <div id="example-2">
   <!-- `greet` is the name of a method defined below -->
