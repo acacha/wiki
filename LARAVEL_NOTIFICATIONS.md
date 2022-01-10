@@ -3,7 +3,13 @@
 Casteaching TDD
 - **Nova funcionalitat**: **enviar emails formatats amb Markdown** cada cop que **es crea un nou vídeo**. La notificació per email s'envia a una **llista d'administradors configurable** (fitxer de configuració casteaching)
 
-SOLID: Són les sigles d'una sèrie de tècniques/patrons/formes de treballar recomanables per mantenir el codi net (Clean Code)
+Intentem ja utilitzar bones pràctiques? El codi es començar a complicar a semblar més a la vida real -> Codi NO JUGUET. El problema dels exemples "Hello world" o exemples simples inicials és que tot i anar bé per començar, no representen un nivell real de coneixement intermig/avançat. Són exemples "Juget" / Toy examples
+
+Necessitarem de patrons/paradigmes/exemples de formes de treballar per mantenir el codi net (Clean Code)
+
+Llibre Amazon "Clean Code"  de Robert C. Martin "Uncle Bob": https://www.amazon.es/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=asc_df_0132350882/?tag=googshopes-21&linkCode=df0&hvadid=54582498915&hvpos=&hvnetw=g&hvrand=38037292843238465&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9049225&hvtargid=pla-82950747900&psc=1
+
+**SOLID**: Són les sigles d'una sèrie de tècniques/patrons/formes de treballar recomanables per mantenir el codi net (Clean Code)
 - La S és Single Responsability Principle -> Focus
 - La 0 de Open to Extensión / Closed to modification
 - Liskov Substitution: Programació utilitzant interficies/contractes. Al canviar una classe per un altre no ha de donar problemes si compleixen el mateix contracte o interfície.
