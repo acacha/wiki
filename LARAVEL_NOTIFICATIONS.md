@@ -5,6 +5,76 @@
   - Abans però cal aprenre com funcionen els events per tal de mantenir el codi net
   - També necessitem aprendre a realitzar tasques que siguin potencialment llargues en el temps com utilitzar APIs de tercers o enviar emails/notificacions.
 
+# Comandes
+
+Branca:
+
+```bash
+git checkout -b VideoCreatedNotification
+...
+# Desenvolupem funcionalitat i tornem a la branca principal i afegim els canvis un cop ens agraden
+git checkout main
+git merge --theirs VideoCreatedNotification
+```
+
+[Creació de la notificació](https://laravel.com/docs/8.x/notifications#generating-notifications):
+
+```
+php artisan make:notification VideoCreated
+```
+
+Si tinguessim clar que no necessitem la abstració de les notificacions (només implementarem/enviarem emails) [podriem utilitzar](https://laravel.com/docs/8.x/mail#generating-mailables)
+
+```
+php artisan make:mail VideoCreated
+```
+
+Ara cal crear la notificació, en aquest cas el email en si, segons:
+
+ https://laravel.com/docs/8.x/notifications#mail-notifications
+ 
+Es poden utilitzar emails preformats:
+
+```
+public function toMail($notifiable)
+{
+    $url = url('/invoice/'.$this->invoice->id);
+
+    return (new MailMessage)
+                ->greeting('Hello!')
+                ->line('One of your invoices has been paid!')
+                ->action('View Invoice', $url)
+                ->line('Thank you for using our application!');
+}
+```
+
+O podeu implementar la vista a mida:
+
+```
+public function toMail($notifiable)
+{
+    return (new MailMessage)->view(
+        ['emails.name.html', 'emails.name.plain'],
+        ['invoice' => $this->invoice]
+    );
+}
+```
+
+Com enviar la notificació, en el nostre cas utilitzarem la [Facade Notification](https://laravel.com/docs/8.x/notifications#using-the-notification-facade) (disponible gràcies al ServiceProvider de notificacions):
+
+```
+Notification::send($users, new InvoicePaid($invoice));
+```
+
+Però oco no volem users (que ja sabeu que a Laravel tots tenen email) sinó que utilitzarem directament emails, [On Demand Notifications](https://laravel.com/docs/8.x/notifications#on-demand-notifications):
+
+```
+Notification::route('mail', 'taylor@example.com')
+            ->route('nexmo', '5555555555')
+            ->route('slack', 'https://hooks.slack.com/services/...')
+            ->notify(new InvoicePaid($invoice));
+```
+
 # Guió
 
 **Nova funcionalitat**: **enviar emails formatats amb Markdown** cada cop que **es crea un nou vídeo**. La notificació per email s'envia a una **llista d'administradors configurable** (fitxer de configuració casteaching)
