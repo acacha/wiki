@@ -35,6 +35,18 @@ Events serve as a great way to decouple various aspects of your application, sin
 - php artisan make:event
 - php artisan make:listener
 
+# Objectius, avantatges i inconvenients
+
+- Els esdeveniments són molt útils per mantenir el codi net i SOLID, especialment evitar controladors FAT (gordos) que realitzin moltes tasques
+- Sovint serveixen per organitzar el codi en tasques principals i tasques secundaries. Exemple: Registrar un usuari: la tasca principal es afegir l'usuari a la base de dades però també pot haver-hi tasques secundaries: enviar un email al usuari nou, enviar un email als administradors informant que hi ha un nou usuari, actualitzar estadístiques usuaris, etc.
+- INCONVENIENT: Tracking i relacions entre codi: al separar el codi en múltiples fitxers (Listeners) a vegades pot ser complicat saber quin controladro o quin codi a executat el event que estem gestionant. Eines com Laravel Telescope o Debugbar, els logs, etc ens poden però ajudar a gestionar
+- Recordeu que també és el sistema que s'utilitza en UI (User interfaces) per associar codi a esdeveniments de la UI (clicks, touchs, keyboard events, etc)
+- També molt relacionat amb diagrames d'estat, cicles de vida i hooks (els hooks no són més que listeners que s'executen quan succeix un esdeveniment)
+
+SOLID:
+- Single Responsability Principle: separem en diferents listeners les múltiples tasques associades a un api endpoint, a una crida a una URL, etc
+- Open To Extension Closed to modification: quan disparem un event estem permeten als programadors escoltar/enganxar-se(hook) a aquest event crearn listeners i registran-los al event. D'aquesta manera el nostre codi pot creixer (extension) sense modificar-lo. Cal que entengueu que el codi que NO es modificar és el controlador o codi que dispara el event, només modifiquem el EventServiceProvider (registre de Listeners). Sovint en molts codis es disparen event tot i que no s'escoltin només per donar la posibilitat a altres desenvolupadors de extendre el codi.
+
 # RECURSOS
 
 - https://laravel.com/docs/8.x/events
