@@ -1,3 +1,12 @@
+# Screencast
+
+- Video [127 Notificacions per email](https://youtu.be/8oAcBl63Pvg). Enviament d'una notificació a administradors informant que s'ha creat un vídeo nou. 
+- Video [128 Events Laravel i TDD amb Mocking. Afegir funcionalitats a codi existent](https://youtu.be/-B3_IUNLzXc). Afegir funcionalitat enviament email a codi existent amb codi net utilitzant events i Listeners. Com fer-ho amb TDD i com aillar els testos amb mocks i fakes.
+
+De la sèrie [Laravel TDD](https://tubeme.acacha.org/tdd) | https://tubeme.acacha.org/tdd:
+
+![image](https://user-images.githubusercontent.com/4015406/148790766-f9dc9d7b-5d1e-4031-97b9-217bea42fd86.png)
+
 Laravel's events provide a simple observer pattern implementation, allowing you to subscribe and listen for various events that occur within your application.
 
 Event classes are typically stored in the app/Events directory, while their listeners are stored in app/Listeners. 
