@@ -1,13 +1,14 @@
 # Screencast
 
-Video: [127 Notificacions per email](https://youtu.be/8oAcBl63Pvg). Enviament d'una notificació a administradors informant que s'ha creat un vídeo nou. TODO URL here
+- Video [127 Notificacions per email](https://youtu.be/8oAcBl63Pvg). Enviament d'una notificació a administradors informant que s'ha creat un vídeo nou. 
+- Video 128 TODO
 
-De la sèrie:
+De la sèrie [Laravel TDD](https://tubeme.acacha.org/tdd) | https://tubeme.acacha.org/tdd:
 
 ![image](https://user-images.githubusercontent.com/4015406/148790766-f9dc9d7b-5d1e-4031-97b9-217bea42fd86.png)
 
 
-https://tubeme.acacha.org/tdd
+
 
 # Currículum
 
