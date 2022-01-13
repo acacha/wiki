@@ -21,9 +21,10 @@ De la sèrie [Laravel TDD](https://tubeme.acacha.org/tdd) | https://tubeme.acach
 
 1. Crear branca on fer les proves de la nova funcionalitat
 2. Crear la notificació de tipus email i provar-la via Tinker
-3. Crear via TDD el test per al Listener/Classe PHP que envia la notificació. Fí del video 1
-4. Vídeo 2. Lligar el codi ja existent amb la nova funcionalitat utilizant el patró observació i els events de Laravel.
-5. Un cop provada la nova funcionalitat fer un merge a main
+3. Provar la notificació creant una comanda de consola Laravel. Fí del video 1
+4. Crear via TDD el test per al Listener/Classe PHP que envia la notificació
+5. Vídeo 2. Lligar el codi ja existent amb la nova funcionalitat utilizant el patró observació i els events de Laravel.
+6. Un cop provada la nova funcionalitat fer un merge a main
 
 # Comandes
 
