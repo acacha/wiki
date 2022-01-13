@@ -251,6 +251,10 @@ Hi ha un Fake/Mocking per a notificacions. A més normalment les notificacions n
 - https://laravel.com/docs/8.x/mocking#event-fake
 - https://laravel.com/docs/8.x/mocking#notification-fake
 
+# Vegeu també
+
+- https://github.com/acacha/wiki/blob/main/LARAVEL_EVENTS.md
+
 # Recursos
 
 - https://laravel.com/docs/8.x/notifications
