@@ -145,6 +145,7 @@ Exemple: https://www.youtube.com/watch?v=yYfuRKTiZfY
 
 Em utilitzat els esdeveniments a mida i el concepte de EventBus (que és el mateix que proporciona Laravel un sistema per disparar events i escoltar-los a on vulguem del nostre codi via Event Facade)
 
+```javascript
 <script>
 import bus from "../bus";
 
@@ -164,6 +165,7 @@ export default {
     }
 }
 </script>
+```
 
 Recursos:
 - https://github.com/acacha/casteaching/blob/main/resources/js/components/Status.vue
