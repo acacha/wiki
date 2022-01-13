@@ -1,6 +1,6 @@
 # Screencast
 
-Video: 127 Notificacions per email. Enviament d'una notificació a administradors informant que s'ha creat un vídeo nou. TODO URL here
+Video: [127 Notificacions per email](https://youtu.be/8oAcBl63Pvg). Enviament d'una notificació a administradors informant que s'ha creat un vídeo nou. TODO URL here
 
 De la sèrie:
 
