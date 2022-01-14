@@ -16,7 +16,13 @@ Laravel's events implementa **observer pattern** permeten un sistema de subscrip
 - **Event classes**: carpeta **app/Events** . Són clases dummy, sense lògica només contenen informació 
 - **Listeners**: carpeta **app/Listeners**. 
 
-PER A QUÈ?: "Events serve as a great way to decouple various aspects of your application", és a dir permet desacoplar dos mòduls o parts del vostre codi amb una api simple de comunicació via esdeveniment entre aquests mòduls. Els esdeveniments en si són la informació (paquet) que s'envia del mòdul que disparà l'esdeveniment al mòdul que la rep. El lligam entre aquest dos mòduls només es fa via aquest esdeveniment de forma que podem tenir el codi el més desacoplat posible.
+**PER A QUÈ?**: 
+
+```
+"Events serve as a great way to decouple various aspects of your application"
+```
+ 
+És a dir permet desacoplar dos mòduls o parts del vostre codi amb una api simple de comunicació via esdeveniment entre aquests mòduls. Els esdeveniments en si són la informació (paquet) que s'envia del mòdul que disparà l'esdeveniment al mòdul que la rep. El lligam entre aquest dos mòduls només es fa via aquest esdeveniment de forma que podem tenir el codi el més desacoplat posible.
 
 # TDD
 
