@@ -24,8 +24,24 @@ De la sèrie [Laravel TDD](https://tubeme.acacha.org/tdd) | https://tubeme.acach
 6. Lligar el codi ja existent amb la nova funcionalitat utilizant el patró observació i els events de Laravel.
 7. Un cop provada la nova funcionalitat fer un merge a main
 
-# Canvis en l'entorn
+# Canvis en l'entorn (vostre màquian local)
 
+Cal tenir redis instal·lat i en execució:
+
+
+```
+// Comprovació port tancat
+nmap -p 6379 localhost 
+//Instal·lació
+sudo apt-get install redis-server
+sudo apt-get install php-redis
+//comprovació port obert:
+nmap -p 6379 localhost 
+// Comproveu s'està executant:
+ps aux | grep redis-server
+redis-cli
+127.0.0.1:6379> exit
+```
 
 Que cal que comproveu si alguna cosa us falla:
 
