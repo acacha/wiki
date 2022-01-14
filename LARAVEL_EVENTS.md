@@ -26,7 +26,7 @@ Laravel's events implementa **observer pattern** permeten un sistema de subscrip
 
 # Exemple de codi no desacoplat
 
-Controlador creació de vídeos:
+Controlador creació de vídeos (branca **coupled_code_without_events**):
 
 ```php
     public function store(Request $request)
@@ -47,12 +47,7 @@ Controlador creació de vídeos:
         // Segon Problema -> La creació d'un vídeo (codi d'aquest controlador/mòdul) i l'enviament de la notificació són codis no separats en moduls
         Notification::route('mail', config('casteaching.admins'))->notify(new \App\Notifications\VideoCreated($video));
 
-
-
-
         return redirect()->route('manage.videos');
-
-
     }
 ``` 
 
