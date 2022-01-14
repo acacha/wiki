@@ -24,6 +24,12 @@ Laravel's events implementa **observer pattern** permeten un sistema de subscrip
  
 És a dir permet desacoplar dos mòduls o parts del vostre codi amb una api simple de comunicació via esdeveniment entre aquests mòduls. Els esdeveniments en si són la informació (paquet) que s'envia del mòdul que disparà l'esdeveniment al mòdul que la rep. El lligam entre aquest dos mòduls només es fa via aquest esdeveniment de forma que podem tenir el codi el més desacoplat posible.
 
+# Exemple de codi no desacoplat
+
+https://github.com/acacha/casteaching/blob/cae16642ed05f3b7c105428112d87f6083132e7c/app/Http/Controllers/VideosManageController.php#L25-L44
+
+## Exemple de codi desacoplat amb esdeveniments
+
 # TDD
 
 Si comencem a disparar events al nostre codi ens pot passar que els listeners associats a aquests events no siguinb codi nostre o fins i tot executin codi de tercers o crides a apis externes provocant que els nostres tests executin codi no desitjat que ho bé pot fer fallar els nostres testos o fins i tot pitjor pot executar codi en producció i modificard bases de dades propies o de tercers (apis externes).
