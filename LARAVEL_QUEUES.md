@@ -2,6 +2,10 @@
 
 - [129 Cuas Laravel]():
 
+# Codi resultant:
+
+https://github.com/acacha/casteaching/commit/ee8cc214dd5add14f0c30ce98e48a6baf69d0c86
+
 # Canvis en l'entorn (vostre màquian local)
 
 Cal tenir redis instal·lat i en execució:
