@@ -2,6 +2,77 @@
 
 - [129 Cuas Laravel]():
 
+# Canvis en l'entorn (vostre màquian local)
+
+Cal tenir redis instal·lat i en execució:
+
+```
+// Comprovació port tancat
+nmap -p 6379 localhost 
+//Instal·lació
+sudo apt-get install redis-server
+sudo apt-get install php-redis
+//comprovació port obert:
+nmap -p 6379 localhost 
+// Comproveu s'està executant:
+ps aux | grep redis-server
+redis-cli
+127.0.0.1:6379> exit
+```
+
+Que cal que comproveu si alguna cosa us falla:
+
+**Instalació, execució  i configuració de supervisor**
+
+Només en local! En explotació ho feu amb laravel Forge
+
+Instal·leu i/comproveu està instal.lat
+
+```bash
+sudo apt-get install supervisor
+dpkg -l | grep supervisor
+ps aux | grep supervisord
+```
+
+Fitxers de configuració, carpeta **/etc/supervisor/conf.d/**, fitxer **/etc/supervisor/conf.d/laravel-worker.conf**:
+
+```
+[program:laravel-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /home/sergi/Code/acacha/casteaching/artisan queue:work redis --sleep=3 --tries=3 --max-time=3600
+autostart=true
+autorestart=true
+stopasgroup=true
+killasgroup=true
+user=sergi
+numprocs=8
+redirect_stderr=true
+stdout_logfile=/home/sergi/Code/acacha/casteaching/storage/logs/worker.log
+stopwaitsecs=3600
+```
+
+Atenció: canvie el nom d'usuari al que us pertoqui (no poseu acacha) i comproveu que existeix el fitxer /home/sergi/Code/EL_VOSTRE_USUARI/casteaching/storage/logs/worker.log.
+
+El pujo també al codi de Github:
+
+https://github.com/acacha/casteaching/blob/main/supervisor/laravel-worker.conf
+
+Per comprovar que funciona ok heu de comprovar que hi ha 8 procesos en funcionament:
+
+```
+ps aux | grep queue:work 
+sergi      25398  0.0  0.2 113636 46140 ?        S    12:28   0:00 php /home/sergi/Code/acacha/casteaching/artisan queue:work redis --sleep=3 --tries=3 --max-time=3600
+sergi      25429  0.0  0.2 113636 46048 ?        S    12:28   0:00 php /home/sergi/Code/acacha/casteaching/artisan queue:work redis --sleep=3 --tries=3 --max-time=3600
+sergi      25438  0.0  0.2 113636 46252 ?        S    12:28   0:00 php /home/sergi/Code/acacha/casteaching/artisan queue:work redis --sleep=3 --tries=3 --max-time=3600
+sergi      25439  0.0  0.2 113636 46124 ?        S    12:28   0:00 php /home/sergi/Code/acacha/casteaching/artisan queue:work redis --sleep=3 --tries=3 --max-time=3600
+sergi      25440  0.0  0.2 113636 46216 ?        S    12:28   0:00 php /home/sergi/Code/acacha/casteaching/artisan queue:work redis --sleep=3 --tries=3 --max-time=3600
+sergi      25441  0.0  0.2 113636 45612 ?        S    12:28   0:00 php /home/sergi/Code/acacha/casteaching/artisan queue:work redis --sleep=3 --tries=3 --max-time=3600
+sergi      25442  0.0  0.2 113636 45920 ?        S    12:28   0:00 php /home/sergi/Code/acacha/casteaching/artisan queue:work redis --sleep=3 --tries=3 --max-time=3600
+sergi      25443  0.0  0.2 113636 46124 ?        S    12:28   0:00 php /home/sergi/Code/acacha/casteaching/artisan queue:work redis --sleep=3 --tries=3 --max-time=3600
+sergi      28118  0.0  0.0  17712  2500 pts/1    S+   12:43   0:00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox queue:work
+```
+
+
 # CUAS LARAVEL
 
 Permeten diferir l'execució de tasques potencialment intensives, és a dir que poden tardar massa temps per a ser executades en una petició web regular sense afectar a la 
