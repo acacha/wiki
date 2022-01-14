@@ -1,3 +1,7 @@
+# Previ
+
+https://github.com/acacha/wiki/blob/main/LARAVEL_NOTIFICATIONS.md
+
 # Screencast
 
 - Video [127 Notificacions per email](https://youtu.be/8oAcBl63Pvg). Enviament d'una notificació a administradors informant que s'ha creat un vídeo nou. 
