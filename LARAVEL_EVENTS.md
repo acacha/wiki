@@ -64,27 +64,12 @@ https://github.com/acacha/casteaching/blob/cae16642ed05f3b7c105428112d87f6083132
             'url' => $request->url,
         ]);
 
-
         session()->flash('status', 'Successfully created');
 
-
-        // DISPARAR UN EVENT
+        // DISPARAR UN EVENT | SOLID -> Open a Extension Closed to modification
         VideoCreated::dispatch($video);
-
-
-        // SOLID -> Open a Extension Closed to modification
-        //SMELL CODE
-//        codi que envia email
-//        codi que fa un Activity Log
-//        processar per reduir la seva mida
-//        asd
-//        asd
-//        asd
-//        asd
-
-
+        
         return redirect()->route('manage.videos');
-
 
     }
 ```
