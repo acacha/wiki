@@ -26,6 +26,36 @@ Laravel's events implementa **observer pattern** permeten un sistema de subscrip
 
 # Exemple de codi no desacoplat
 
+Controlador creació de vídeos:
+
+```php
+    public function store(Request $request)
+    {
+        $video = Video::create([
+            'title' => $request->title,
+            'description' => $request->description,
+            'url' => $request->url,
+        ]);
+
+
+        session()->flash('status', 'Successfully created');
+
+
+        // SEND NOTIFICATION TO ADMINS
+        // Primer problema -> Codi no expressiu, caldria crear un mètode que permetes llegir el codi ->senNotificationToAdmins() -> Separació en mòduls
+        // Fins i tot podriem cridar a una classe/objecte extern que s'encarregues ell d'enviar la notificació -> Tindriem dos mòduls però OCO ACOPALTS
+        // Segon Problema -> La creació d'un vídeo (codi d'aquest controlador/mòdul) i l'enviament de la notificació són codis no separats en moduls
+        Notification::route('mail', config('casteaching.admins'))->notify(new \App\Notifications\VideoCreated($video));
+
+
+
+
+        return redirect()->route('manage.videos');
+
+
+    }
+``` 
+
 https://github.com/acacha/casteaching/blob/cae16642ed05f3b7c105428112d87f6083132e7c/app/Http/Controllers/VideosManageController.php#L25-L44
 
 ## Exemple de codi desacoplat amb esdeveniments
