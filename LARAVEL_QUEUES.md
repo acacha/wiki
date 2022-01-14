@@ -1,3 +1,7 @@
+# Screencast
+
+- [129 Cuas Laravel]():
+
 # CUAS LARAVEL
 
 Permeten diferir l'execució de tasques potencialment intensives, és a dir que poden tardar massa temps per a ser executades en una petició web regular sense afectar a la 
