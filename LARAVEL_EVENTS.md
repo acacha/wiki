@@ -55,6 +55,43 @@ https://github.com/acacha/casteaching/blob/cae16642ed05f3b7c105428112d87f6083132
 
 ## Exemple de codi desacoplat amb esdeveniments
 
+```php
+    public function store(Request $request)
+    {
+        $video = Video::create([
+            'title' => $request->title,
+            'description' => $request->description,
+            'url' => $request->url,
+        ]);
+
+
+        session()->flash('status', 'Successfully created');
+
+
+        // DISPARAR UN EVENT
+        VideoCreated::dispatch($video);
+
+
+        // SOLID -> Open a Extension Closed to modification
+        //SMELL CODE
+//        codi que envia email
+//        codi que fa un Activity Log
+//        processar per reduir la seva mida
+//        asd
+//        asd
+//        asd
+//        asd
+
+
+        return redirect()->route('manage.videos');
+
+
+    }
+```
+
+Recursos:
+- https://github.com/acacha/casteaching/blob/e5189ebac12bc1e098031036dcd6153201997a5f/app/Http/Controllers/VideosManageController.php#L24-L49
+
 # TDD
 
 Si comencem a disparar events al nostre codi ens pot passar que els listeners associats a aquests events no siguinb codi nostre o fins i tot executin codi de tercers o crides a apis externes provocant que els nostres tests executin codi no desitjat que ho bé pot fer fallar els nostres testos o fins i tot pitjor pot executar codi en producció i modificard bases de dades propies o de tercers (apis externes).
