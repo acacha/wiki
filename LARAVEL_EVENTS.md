@@ -24,7 +24,7 @@ Laravel's events implementa **observer pattern** permeten un sistema de subscrip
  
 És a dir permet desacoplar dos mòduls o parts del vostre codi amb una api simple de comunicació via esdeveniment entre aquests mòduls. Els esdeveniments en si són la informació (paquet) que s'envia del mòdul que disparà l'esdeveniment al mòdul que la rep. El lligam entre aquest dos mòduls només es fa via aquest esdeveniment de forma que podem tenir el codi el més desacoplat posible.
 
-# Exemple de codi no desacoplat
+# Exemple de codi no desacoplat. Enviament d'una notificació cada cop que es crear un video a aplicació casteaching
 
 Controlador creació de vídeos (branca **coupled_code_without_events**):
 
