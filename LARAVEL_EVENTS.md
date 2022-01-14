@@ -74,6 +74,49 @@ https://github.com/acacha/casteaching/blob/cae16642ed05f3b7c105428112d87f6083132
     }
 ```
 
+I gràcies al [sistema d'esdeveniments de Laravel](https://laravel.com/docs/8.x/events), amb un simpke fitxer de configuració [EventServiceProvider](https://github.com/acacha/casteaching/blob/56879a0e1eb0092421ad23897a0813b03dcfb88a/app/Providers/EventServiceProvider.php#L9-L25)
+
+```
+class EventServiceProvider extends ServiceProvider
+{
+    /**
+     * The event listener mappings for the application.
+     *
+     * @var array
+     */
+    protected $listen = [
+        Registered::class => [
+            SendEmailVerificationNotification::class,
+        ],
+        VideoCreated::class => [
+            SendVideoCreatedNotification::class,
+        ]
+    ];
+```
+
+Lliguem el codi del controlador amb el codi [SendVideoCreatedNotification](https://github.com/acacha/casteaching/blob/e5189ebac12bc1e098031036dcd6153201997a5f/app/Listeners/SendVideoCreatedNotification.php#L10-L22) que és un listener (objecte amb un mètode handle) que gestiona/executa l'enviament de la notificació:
+
+```php
+class SendVideoCreatedNotification
+{
+    /**
+     * Handle the event.
+     *
+     * @param  VideoCreated  $event
+     * @return void
+     */
+    public function handle(VideoCreated $event)
+    {
+        Notification::route('mail', config('casteaching.admins'))->notify(new \App\Notifications\VideoCreated($event->video));
+    }
+}
+```
+
+L'avantatge d'això és:
+- Controlador Thin i no pas FAT. El controlador de creació de vídeos es responsabilitza/es centra en la creació del vídeo i ara mateix és un codi tancat (close to modification) però que gràcies a disparar un event permet extendre la funcionalitat de la nostra aplicació (extension). És la O (Open to Extension Closed To Modification) de sOLID.
+- Amb les tècniques de Mocking/Fakes de [Laravel Testing](https://laravel.com/docs/8.x/mocking#event-fake) podem isolar els tests de forma que només provin la responsabilitat principal tant en el test del controlador de creació de vídeos com en el test de l'enviament de la notificació a admins.
+- Tenim el codi modular, separat en múltiples mòduls o fitxers més simples. Evitem spaghetti code
+
 Recursos:
 - https://github.com/acacha/casteaching/blob/e5189ebac12bc1e098031036dcd6153201997a5f/app/Http/Controllers/VideosManageController.php#L24-L49
 
