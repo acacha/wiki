@@ -76,7 +76,7 @@ https://github.com/acacha/casteaching/blob/cae16642ed05f3b7c105428112d87f6083132
 
 I gràcies al [sistema d'esdeveniments de Laravel](https://laravel.com/docs/8.x/events), amb un simpke fitxer de configuració [EventServiceProvider](https://github.com/acacha/casteaching/blob/56879a0e1eb0092421ad23897a0813b03dcfb88a/app/Providers/EventServiceProvider.php#L9-L25)
 
-```
+```php
 class EventServiceProvider extends ServiceProvider
 {
     /**
