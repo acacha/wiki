@@ -3,7 +3,7 @@
 - [129 Cuas Laravel]():
 - Video [127 Notificacions per email](https://youtu.be/8oAcBl63Pvg). Enviament d'una notificació a administradors informant que s'ha creat un vídeo nou. 
 - Video [128 Events Laravel i TDD amb Mocking. Afegir funcionalitats a codi existent](https://youtu.be/AUWTpfH-M44). Afegir funcionalitat enviament email a codi existent amb codi net utilitzant events i Listeners. Com fer-ho amb TDD i com aillar els testos amb mocks i fakes.
--
+
 # Codi resultant:
 
 https://github.com/acacha/casteaching/commit/ee8cc214dd5add14f0c30ce98e48a6baf69d0c86
