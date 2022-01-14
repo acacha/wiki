@@ -1,6 +1,6 @@
 # Screencast
 
-- [129 Cuas Laravel]():
+- [129 Cuas Laravel](https://youtu.be/bnzM_Yuj6Qg): https://youtu.be/bnzM_Yuj6Qg
 - Video [127 Notificacions per email](https://youtu.be/8oAcBl63Pvg). Enviament d'una notificació a administradors informant que s'ha creat un vídeo nou. 
 - Video [128 Events Laravel i TDD amb Mocking. Afegir funcionalitats a codi existent](https://youtu.be/AUWTpfH-M44). Afegir funcionalitat enviament email a codi existent amb codi net utilitzant events i Listeners. Com fer-ho amb TDD i com aillar els testos amb mocks i fakes.
 
