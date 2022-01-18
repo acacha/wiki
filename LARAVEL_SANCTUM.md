@@ -1,6 +1,7 @@
 # Screencast
 
 - [130. Laravel Sanctum. Autenticació en aplicacions de tercers utilitzant Laravel com a Backend](https://youtu.be/2QVfuqCVmMc)
+- [131. Laravel Sanctum. Proporcionant tokens als usuaris amb TDD](https://youtu.be/TODO_URL)
 
 De la sèrie TDD:
 
