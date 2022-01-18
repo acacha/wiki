@@ -1,6 +1,24 @@
 # Screencast
 
-TODO URL HERE
+- 130. Laravel Sanctum. Autenticació en aplicacions de tercers utilitzant Laravel com a Backend
+
+De la sèrie TDD:
+
+https://tubeme.acacha.org/tdd
+
+![image](https://user-images.githubusercontent.com/4015406/149905204-d90ca68e-b1f4-4041-bc97-bca321c00a1e.png)
+
+# Currículum
+
+- UF1 Desenvolupament d'aplicacions mòbils del MP8 del mateix nom de segon de DAM (Desenvolupament aplicacions Multiplataforma)
+
+Gràcies a Laravel Sanctum tindrem un sistema que ens permeti utilitzar Laravel com a backend d'autenticació i seguretat (ja sigui utilitzant cookies o Tokens) en aplicacions de tercers. Amb aplicació de tercer ens referim a aplicacions que s'encarreguin del frontend i que no tenen que ser ni aplicacions Laravel ni aplicacions web. Cal tenir en compte que Laravel Sanctum és un únic sistema d'autenticació tant per a aplicacions web Laravel com per a aplicacions web o no web NO Laravel: Aplicació web SPA Javascript (Vanilla, o amb frameworks com Vue, React, Angular, etc.), aplicacions mòbils natíves, híbrides o de qualsevol típus, aplicacions d'escriptori.
+
+# Presentació
+
+ [Docs Laravel](https://laravel.com/docs/8.x/sanctum#introduction)
+
+Gràcies a Laravel Sanctum tindrem un sistema que ens permeti utilitzar Laravel com a backend d'autenticació i seguretat (ja sigui utilitzant cookies o Tokens) en aplicacions de tercers. Amb aplicació de tercer ens referim a aplicacions que s'encarreguin del frontend i que no tenen que ser ni aplicacions Laravel ni aplicacions web. Cal tenir en compte que Laravel Sanctum és un únic sistema d'autenticació tant per a aplicacions web Laravel com per a aplicacions web o no web NO Laravel: Aplicació web SPA Javascript (Vanilla, o amb frameworks com Vue, React, Angular, etc.), aplicacions mòbils natíves, híbrides o de qualsevol típus, aplicacions d'escriptori.
 
 # Guió
 
@@ -16,13 +34,16 @@ Sense Token
 
 Amb Token
 
+Aplicacions SPA:
+- Laravel Jetstream proporciona una UI per a la gestió dels tokens.
+
 En tots aquests casos el sudomini/domini no pot ser el mateix que el backend pq de fet no s'utilitza web. Cal sistema token, tamé Laravel Sanctum
 - Aplicacions mòbils
 - Aplicacions escriptori
 
 # Casteaching backend
 
-- proves fetes a sanctumSPA
+- Proves fetes a sanctumSPA
 - Activar middleware EnsureFrontendRequestsAreStateful a Kernel api i comprovar casteachink package funciona
 - TODO: video x però posar link a casteaching_package com arreglar problema de token hardcoded
 
