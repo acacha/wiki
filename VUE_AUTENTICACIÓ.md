@@ -9,6 +9,9 @@ https://tubeme.acacha.org/ionic_realworld
 
 ![image](https://user-images.githubusercontent.com/4015406/150107523-cfc98434-2e2a-431e-a672-c2046dce4e54.png)
 
+# Codi
+
+- [Final Vídeo 106](https://github.com/acacha/casteachingIonic/commit/1228fe00364480b690662ee8124588e870ea0883): 
 
 # Vue router Navigation Guards
 
