@@ -79,6 +79,13 @@ A simple key-value Storage module for Ionic apps. This utility uses the best sto
 Recursos:
 - https://ionicframework.com/docs/v5/vue/storage
 
+
+# Device name. Native libraries (Capacitor)
+
+Utiltizarem capacitor:
+
+https://capacitorjs.com/docs/apis/device
+
 # Recursos
 
 - https://router.vuejs.org/guide/advanced/navigation-guards.html
