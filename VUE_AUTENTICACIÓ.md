@@ -4,6 +4,35 @@
 
 # Vue router Navigation Guards
 
+S'utilitzen els Guards per protegir l'accés a rutes, exemple de fitxer de rutes vue:
+
+```javascript
+
+const routes = [
+    { path: '/login', component: Login, name: 'login' },
+    { path: '/user', component: User, name: 'user', meta: { private: true } },
+    { path: '/dashboard', component: Dashboard, name: 'dashboard' },
+];
+
+router.beforeEach((to, from, next) => {
+
+        var authenticated = false;
+        if ((typeof Storage.get('auth_token') != 'undefined'))
+            authenticated = true;
+
+        if (to.meta.private && !authenticated) {
+            next({
+                name: 'login',
+                params: {
+                    wantedRoute: to.fullPath,
+                },
+            })
+            return
+        }
+        next()
+    });
+```
+
 # State Management
 
 Els components poden tindre dos tipus d'estats (data dels components):
