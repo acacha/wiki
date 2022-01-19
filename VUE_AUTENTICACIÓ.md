@@ -31,7 +31,11 @@ Opcions i multiplataforma:
 
 Cal tenir en compte que Ionic és un sistema multiplataforma i per tatn és convenient tenir una api comuna per a totes les plataformes de forma que no s'hagui d'esciure codi adaptat a cada plataforma.
 
-La llibreria utilitzada és ionic-storage.
+La llibreria utilitzada és [ionic-storage](https://github.com/ionic-team/ionic-storage)
+
+<pre>
+A simple key-value Storage module for Ionic apps. This utility uses the best storage engine available on the platform without having to interact with it directly (some configuration required, see docs below).
+</pre>
 
 Recursos:
 - https://ionicframework.com/docs/v5/vue/storage
