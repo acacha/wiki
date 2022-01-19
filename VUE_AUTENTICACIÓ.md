@@ -2,6 +2,13 @@
 
 - [106 Autenticació, vue router navigation Guards, token Storage i gestió de l'estat (store)](TODO URL)
 
+De la sèrie:
+
+https://tubeme.acacha.org/ionic_realworld
+
+![image](https://user-images.githubusercontent.com/4015406/150107523-cfc98434-2e2a-431e-a672-c2046dce4e54.png)
+
+
 # Vue router Navigation Guards
 
 S'utilitzen els Guards per protegir l'accés a rutes, exemple de fitxer de rutes vue:
