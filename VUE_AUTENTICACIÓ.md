@@ -1,6 +1,6 @@
 # Screencasts
 
-- [106 Autenticació, vue router navigation Guards, token Storage i gestió de l'estat (store)](TODO URL)
+- [106 Autenticació, vue router navigation Guards, user Storage i gestió de l'estat (store)](TODO URL)
 
 De la sèrie:
 
