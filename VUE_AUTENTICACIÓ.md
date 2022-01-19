@@ -1,3 +1,13 @@
+# Continguts previs
+
+De la sèrie:
+
+https://tubeme.acacha.org/tdd
+
+Vídeos:
+- [130 Laravel Sanctum Autenticació en aplicacions de tercers utilitzant Laravel com a Backend](https://youtu.be/2QVfuqCVmMc)
+- [131 https://youtu.be/j5xDjuzmjAo](https://youtu.be/j5xDjuzmjAo)
+
 # Screencasts
 
 - [106 Autenticació, vue router navigation Guards, user Storage i gestió de l'estat (store)](https://youtu.be/PIdDGCpilK0)
