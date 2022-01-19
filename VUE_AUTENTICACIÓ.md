@@ -17,7 +17,7 @@ const routes = [
 router.beforeEach((to, from, next) => {
 
         var authenticated = false;
-        if ((typeof Storage.get('auth_token') != 'undefined'))
+        if ((typeof Storage.get('user') != 'undefined'))
             authenticated = true;
 
         if (to.meta.private && !authenticated) {
@@ -32,6 +32,8 @@ router.beforeEach((to, from, next) => {
         next()
     });
 ```
+
+On Storage representa un estat compartit entre tots els components (que requerirà de persistència i per tant d'alguna base de dades) on guardar si l'usuari està o no logat.
 
 # State Management
 
