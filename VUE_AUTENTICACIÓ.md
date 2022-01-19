@@ -11,7 +11,7 @@ Vídeos:
 # Screencasts
 
 - [106 Autenticació, vue router navigation Guards, user Storage i gestió de l'estat (store)](https://youtu.be/PIdDGCpilK0)
-- [107 Autenticació 2. Implementació de la pàgina de Login i Logout amb la API de backend](TODO URL)
+- [107 Autenticació 2. Implementació de la pàgina de Login i Logout amb la API de backend](https://youtu.be/elQEpbzrnsY)
 
 De la sèrie:
 
