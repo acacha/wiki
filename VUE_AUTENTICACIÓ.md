@@ -86,6 +86,24 @@ Utiltizarem capacitor:
 
 https://capacitorjs.com/docs/apis/device
 
+# AUTENTICATION API BACKEND. LARAVEL SANCTUM
+
+Vegeu també https://github.com/acacha/wiki/blob/main/LARAVEL_SANCTUM.md
+
+La URL explotació és (POST):
+
+https://casteaching.alumnedam.me/api/sanctum/token
+
+Amb les seguents dades:
+
+```
+ $request->validate([
+            'email' => 'required',
+            'password' => 'required',
+            'device_name' => 'required',
+        ]);
+```
+
 # Recursos
 
 - https://router.vuejs.org/guide/advanced/navigation-guards.html
