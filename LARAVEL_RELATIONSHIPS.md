@@ -18,6 +18,8 @@ Dades d'una serie:
 - description
 - image: un thuimbnail o imatge de la serie
 - timestamps de Laravel
+- teacher_name
+- teacher_photo_url
 
 La nostra funcionalitat principal es mostrar a la Landing page (https://casteaching.test/) però també al dashboard una llista de les series disponibles.
 
