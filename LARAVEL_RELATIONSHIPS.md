@@ -37,7 +37,9 @@ Però de totes aquestes funcionalitat la principal és la tercera. Algú pot dir
 - La landing page actual és una pàgina estàtica, és de les primeres coses hem de canviar
 - A https://tailwindui.com/ tenim multiples exemples de Landing pages i seccions
 - Proposo que cada Serie tingui una card i podem utilitzar https://tailwindui.com/components/marketing/sections/blog-sections#component-720cf60b960fecb99c45f462f24db2d9
-- 
+
+![image](https://user-images.githubusercontent.com/4015406/150312237-5fa8c650-d881-4b53-8e58-fefd9a9fccd8.png)
+ 
 # Recursos
 
 - https://laravel.com/docs/8.x/eloquent-relationships
