@@ -28,6 +28,7 @@ Recordeu us recomano sempre començar per la funcionalitat principal i no procas
 - CRUD de series
 - Modificar CRUD de vídeos per associar series a videos
 - **Mostrar les series a la landing page**
+- Afegir un sidebar a la visualització de vídeos que permeti veure tots els vídeos de la sèrie i navegar
 - etc
 
 Però de totes aquestes funcionalitat la principal és la tercera. Algú pot dir però? com podem mostrar una llista de series si no fem abans el CRUD que les permeti editar? Doncs creant uns seeds que de moment ens generin les series que desitgem a la base de dades i més endavant ja farem el crud
@@ -37,6 +38,7 @@ Però de totes aquestes funcionalitat la principal és la tercera. Algú pot dir
 - La landing page actual és una pàgina estàtica, és de les primeres coses hem de canviar
 - A https://tailwindui.com/ tenim multiples exemples de Landing pages i seccions
 - Proposo que cada Serie tingui una card i podem utilitzar https://tailwindui.com/components/marketing/sections/blog-sections#component-720cf60b960fecb99c45f462f24db2d9
+- Al fer click a la card es mostrarà el primer vídeo de la sèrie
 
 ![image](https://user-images.githubusercontent.com/4015406/150312237-5fa8c650-d881-4b53-8e58-fefd9a9fccd8.png)
  
