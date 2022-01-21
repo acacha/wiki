@@ -38,6 +38,13 @@ Amb PWA es mira de afegir les característiques que li faltes a les aplicacions 
 - **Installable**: permet als usuaris mantenir les aplicacions més utils a les seves Homes o Desktops sense la necessitat de app stores.
 - **Linkable**: es poden compartir via URLS i no requereixen d'instaladors.
 
+## Icones
+
+- https://cthedot.de/icongen/
+- https://javascript.plainenglish.io/app-icons-in-a-pwa-8fb775207ad7
+- https://www.pwabuilder.com/imageGenerator
+- https://tools.crawlink.com/tools/pwa-icon-generator/
+- 
 ## Progressive
 
 Cal disenyar les nostres aplicacions web amb **programació defensiva** de forma que les característiques de la nostra aplicació que siguin incompatibles amb plataformes
@@ -120,6 +127,10 @@ Recursos
 - https://web.dev/service-worker/?utm_source=lighthouse&utm_medium=devtools
 - https://www.youtube.com/watch?v=dXuvT4oollQ&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=4
 
+## Offline
+
+- https://www.youtube.com/watch?v=dXuvT4oollQ&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=4
+
 ## Fitxers de manifest. Fent la nostra aplicació web instal·lable a la Home/Desktop Screen
 
 Amb aquesta acció millorarem la integració de la nostra aplicació al SO que utilitza l'usuari i també millorarem el re-engage.
@@ -175,7 +186,11 @@ Recursos
 - https://web.dev/service-worker/?utm_source=lighthouse&utm_medium=devtools
 - https://www.youtube.com/watch?v=dXuvT4oollQ&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=4
 - https://www.youtube.com/watch?v=LWRdBywm4Zo&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=5
-- 
+
+## Instalable. A2HS (Add to home Screen)
+
+- https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen
+
 # What web can do today
 
 https://whatwebcando.today/
