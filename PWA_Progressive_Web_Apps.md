@@ -4,6 +4,23 @@
 
 - **PWA**: Sigles de Progressive Web Apps
 
+I per què les PWA?
+
+Segons les [estadístiques](https://youtu.be/DfFlBWCQjzA):
+
+![image](https://user-images.githubusercontent.com/4015406/150498883-2183bfab-60b7-4f30-a39f-9cf18137d552.png)
+
+Pot semblar que implementar aplicacions web vs aplicacions natives es una perdua de temps no? El problema és:
+
+![image](https://user-images.githubusercontent.com/4015406/150499171-50300de1-1aea-47dc-83a2-f6d264a27be8.png)
+
+és a dir només les grans apps treuen rendiment d'aquestes estadístiques.
+
+Amb PWA es mira de afegir les característiques que li faltes a les aplicacions web respecte les apps natives però amb tots els avantatges de la web:
+
+![image](https://user-images.githubusercontent.com/4015406/150499422-6f4ceb94-d330-4663-baff-0421931a480f.png)
+
+
 # Característiques:
 
 ![image](https://user-images.githubusercontent.com/4015406/150494269-e0fd8fc4-7574-4730-932f-c10341687f25.png)
@@ -42,6 +59,13 @@ dels polyfills es que fan creixer la mida de la nostra aplicació.
 
 Recursos
 - https://caniuse.com/
+
+# Casteaching
+
+## Fitxers de manifest
+
+Recursos
+- 
 
 # What web can do today
 
