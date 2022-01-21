@@ -82,6 +82,11 @@ Bounce rate
 
 Seguirem les indicacions de lighthouse
 
+## Seguretat HTTPS
+
+- **Local development**: valet secure
+- **Production**: Laravel Forge instal·la automàticament utilitzant Let's Encrypt.
+
 ## Register a service worker
 
 - Error: **Does not register a service worker that controls page and start_url**
