@@ -80,11 +80,56 @@ Bounce rate
 
 # Casteaching
 
-## Fitxers de manifest
+Seguirem les indicacions de lighthouse
+
+## Register a service worker
+
+- Error: **Does not register a service worker that controls page and start_url**
+
+Passos a seguir:
+
+Al fitxer resources **resources/js/app.js**
+```
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then( reg => {
+            console.log('SW Registered!', reg);
+        }).catch(error => {
+            console.log('Registration failed:',error);
+        })
+    })
+}
+```
+
+Creeu el fitxer **public/sw.js**:
+
+```
+// TODO
+```
+
+Ara es queixarà que cal crear el fitxer manifest. Vegeu el seguent apartat.
 
 Recursos
-- 
+- https://web.dev/service-worker/?utm_source=lighthouse&utm_medium=devtools
+- https://www.youtube.com/watch?v=dXuvT4oollQ&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=4
 
+## Fitxers de manifest. Fent la nostra aplicació web instal·lable a la Home/Desktop Screen
+
+Amb aquesta acció millorarem la integració de la nostra aplicació al SO que utilitza l'usuari i també millorarem el re-engage.
+
+![image](https://user-images.githubusercontent.com/4015406/150511213-66136554-a2e6-49ea-861d-cd9e49bf2635.png)
+
+Afegiu la línia (a la secció head de HTML) de cada layout (**resources/views/layouts**) fitxers app|casteaching|guest.blade.php
+
+```html
+<link rel="manifest" href="/manifest.json">
+```
+
+Recursos
+- https://web.dev/service-worker/?utm_source=lighthouse&utm_medium=devtools
+- https://www.youtube.com/watch?v=dXuvT4oollQ&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=4
+- https://www.youtube.com/watch?v=LWRdBywm4Zo&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=5
+- 
 # What web can do today
 
 https://whatwebcando.today/
