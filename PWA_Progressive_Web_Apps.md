@@ -80,7 +80,9 @@ Bounce rate
 
 # Casteaching
 
-Seguirem les indicacions de lighthouse
+Seguirem les indicacions de lighthouse i la PWA checklist:
+
+https://web.dev/pwa-checklist/
 
 ## Seguretat HTTPS
 
@@ -128,6 +130,40 @@ Afegiu la línia (a la secció head de HTML) de cada layout (**resources/views/l
 
 ```html
 <link rel="manifest" href="/manifest.json">
+```
+
+També aprofiteu i afegim les meta que pertoquin i altres capçaleres:
+
+```html
+        <meta name="theme-color" content="#FF0000">
+
+{{--        Apple touch icon https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html--}}
+        <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="touch-icon-ipad-retina.png">
+```
+
+A **public/manifest.json** poseu:
+
+```
+{
+    "name": "Casteaching",
+    "shortname": "Casteaching",
+    "icons": [
+        {
+            "src": "icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#FF0000",
+    "theme_color": "#FF0000"
+}
 ```
 
 Recursos
