@@ -2,13 +2,22 @@
 
 - http://acacha.org/mediawiki
 
+# Autor
+
+- Sergi Tur Badenas: https://acacha.github.io
+- Instagram: https://instagram.com/acacha_dev
+- Github: https://github.com/acacha
+
+![image](https://user-images.githubusercontent.com/4015406/140644527-e186bf90-e556-4970-98ed-3f00c5f1af11.png)
+
 # Github:
 
 https://github.com/acacha
 
 # Canal Youtube
 
-https://www.youtube.com/channel/UColShZx2cvqR28k_wOVPRUg
+- https://youtube.acacha.org
+- https://www.youtube.com/channel/UColShZx2cvqR28k_wOVPRUg
 
 # Xarxes Socials, perfil informàtica i programació
 
