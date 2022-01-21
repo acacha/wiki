@@ -166,6 +166,11 @@ A **public/manifest.json** poseu:
 }
 ```
 
+Al final ens interesa que el report de lighthouse doni:
+
+![image](https://user-images.githubusercontent.com/4015406/150515577-b1882bf3-d084-4be3-b458-2bfa8ad93886.png)
+
+
 Recursos
 - https://web.dev/service-worker/?utm_source=lighthouse&utm_medium=devtools
 - https://www.youtube.com/watch?v=dXuvT4oollQ&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=4
