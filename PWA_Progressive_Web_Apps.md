@@ -60,6 +60,19 @@ dels polyfills es que fan creixer la mida de la nostra aplicació.
 Recursos
 - https://caniuse.com/
 
+## Rendiment / Velocitat
+
+[Bounce rate/ Taxa de rebot](https://ca.wikipedia.org/wiki/Taxa_de_Rebot): és un terme de màrqueting d'Internet utilitzat per l'anàlisi de trànsit web. Representa el percentatge de visitants que entren al web i llavors marxen ("reboten") en lloc de continuar veient altres pàgines dins el mateix. La Taxa de Rebot es calcula segons el temps que una persona està dins la pàgina.
+
+![image](https://user-images.githubusercontent.com/4015406/150500056-023948ae-7795-4249-9f4f-8c63233fc82c.png)
+
+Recursos:
+- https://www.youtube.com/watch?v=DfFlBWCQjzA&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=2
+
+### Google Analytics
+
+Bounce rate
+
 # Casteaching
 
 ## Fitxers de manifest
