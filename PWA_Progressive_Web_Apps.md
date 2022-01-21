@@ -66,6 +66,11 @@ Recursos
 
 ![image](https://user-images.githubusercontent.com/4015406/150500056-023948ae-7795-4249-9f4f-8c63233fc82c.png)
 
+Una eina útil que incorpora Chrome Developer Tools és Ligthouse:
+
+![image](https://user-images.githubusercontent.com/4015406/150505654-9d9cfbe3-fac3-4c5d-a38d-e71411bb86e9.png)
+
+
 Recursos:
 - https://www.youtube.com/watch?v=DfFlBWCQjzA&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=2
 
