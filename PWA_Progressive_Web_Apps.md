@@ -10,16 +10,16 @@
 
 10 característiques que ha de complir un PWA:
 
-- **Progressive**: funciona per cada usuari independentment del navegador i la plataforma escollida - Work for every user, regardless of browser choice because they’re built with progressive enhancement as a core tenant.
-Responsive - Fit any form factor, desktop, mobile, tablet, or whatever is next.
-Connectivity independent - Enhanced with service workers to work offline or on low quality networks.
-App-like - Use the app shell model to provide app-style navigations and interactions.
-Fresh - Always up-to-date thanks to the service worker update process.
-Safe - Served via TLS to prevent snooping and ensure content hasn’t been tampered with.
-Discoverable - Are identifiable as “applications” thanks to W3C manifests and service worker registration scope allowing search engines to find them.
-Re-engageable - Make re-engagement easy through features like push notifications.
-Installable - Allow users to “keep” apps they find most useful on their home screen without the hassle of an app store.
-Linkable - Easily share via URL and not require complex installation.
+- **Progressive**: funciona per cada usuari independentment del navegador i la plataforma escollida 
+- **Responsive**: S'adequa a cada tipus de dispositiu (desktop, mobile, tablet...) o form factor.
+- **Connectivity independent**: s'adapta a la qualitat de la xarxa (UX, spinners, loading states) i fins i tot funciona (o no falla) en mode offline.
+- **App-like**: utilitza el shell model per tal de proveir de navegació a l'estil de les aplicacions
+- **Fresh**: sempre actualitzada (up to date)
+- **Safe**: Utilitza TLS (https)
+- **Discoverable**: són identificables com aplicacions gràcies als fitxers de manifest i són localitzables pels search engines (google) per millorar el seu SEO. Es poden compartir via un link i es pot accedir a continguts interiors de la app amb links directes.
+- **Re-engageable**: facilita que els usuaris tornin o es recordin d'utilitzar l'aplicació via notificacions (**push notifications**).
+- **Installable**: permet als usuaris mantenir les aplicacions més utils a les seves Homes o Desktops sense la necessitat de app stores.
+- **Linkable**: es poden compartir via URLS i no requereixen d'instaladors.
 
 ## Progressive
 
