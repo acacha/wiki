@@ -41,8 +41,18 @@ https://caniuse.com/?search=persistent
 
 # IndexedDB
 
+IndexedDB és una API low level per a client-side storage. Té suport per a múltiples estructures de dades incloent fitxers de qualsevol tipus. 
+
+**NOTA**: és una api complicada amb una corba aprenentatge alta al ser de "low level". Es poden utilitzar múltiples llibreries per fer-ho més fàcil. Amb Ionic utilitzem [Storage api](https://github.com/ionic-team/ionic-storage).
+
 Recursos:
 - https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+
+## idb
+
+https://www.npmjs.com/package/idb
+
+
 
 # Recursos
 
