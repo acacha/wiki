@@ -50,10 +50,13 @@ Recursos:
 
 ## idb
 
-https://www.npmjs.com/package/idb
+Vídeo explicatiu:
 
+https://www.youtube.com/watch?v=VNFDoawcmNc&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=36
 
-
+Recursos:
+- https://www.npmjs.com/package/idb
+- https://www.youtube.com/watch?v=VNFDoawcmNc&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=36
 # Recursos
 
 - https://web.dev/storage-for-the-web/
