@@ -210,15 +210,15 @@ self.addEventListener("fetch", event => {
 });
 ```
 
-TODO fer proves! Es pot combinar amb laravel-export
+TODO fer proves! Es pot combinar amb laravel-export (no va) o potser https://github.com/reelcms/static
 
 Vegeu:
 
 https://github.com/silviolleite/laravel-pwa
 
-# Laravel Static (laravel-export package)
+# Laravel Static (laravel-export | reelcms package)
 
-https://github.com/spatie/laravel-export
+https://github.com/spatie/laravel-export | https://github.com/reelcms/static
 
 # What web can do today
 
