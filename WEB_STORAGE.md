@@ -5,6 +5,8 @@
 NO UTILITZAR?
 - Local Storage: Limitat a String, limitat en mida (Ionic storage plugin utilitza primer IndexedDB)
 - Web SQL: El suport ha estat eliminat a múltiples navegadors. Migrar a IndexedDB
+- Session Storage -> ús molt limitat
+- Cookies: s'utilitzen per a sessions i altres formes de tracking (publicitat)
 
 Que utilitzar depenent de? 
 
