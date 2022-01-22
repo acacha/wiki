@@ -191,6 +191,31 @@ Recursos
 
 - https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen
 
+## Offline support
+
+Una tècnica possible és que el service worker mostri una URL especial (/offline per exemple) que prèviament ha estat cacheada.
+
+```javascript
+// Serve from Cache
+self.addEventListener("fetch", event => {
+    event.respondWith(
+        caches.match(event.request)
+            .then(response => {
+                return response || fetch(event.request);
+            })
+            .catch(() => {
+                return caches.match('offline');
+            })
+    )
+});
+```
+
+TODO fer proves!
+
+Vegeu:
+
+https://github.com/silviolleite/laravel-pwa
+
 # What web can do today
 
 https://whatwebcando.today/
