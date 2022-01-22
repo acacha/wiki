@@ -39,6 +39,11 @@ https://caniuse.com/?search=persistent
 
 ![image](https://user-images.githubusercontent.com/4015406/150648622-83ba6f5c-58d6-4079-8663-265ac6ee8d0e.png)
 
+# IndexedDB
+
+Recursos:
+- https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+
 # Recursos
 
 - https://web.dev/storage-for-the-web/
