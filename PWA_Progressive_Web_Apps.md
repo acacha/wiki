@@ -210,11 +210,15 @@ self.addEventListener("fetch", event => {
 });
 ```
 
-TODO fer proves!
+TODO fer proves! Es pot combinar amb laravel-export
 
 Vegeu:
 
 https://github.com/silviolleite/laravel-pwa
+
+# Laravel Static (laravel-export package)
+
+https://github.com/spatie/laravel-export
 
 # What web can do today
 
