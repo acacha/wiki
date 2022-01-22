@@ -6,7 +6,8 @@ NO UTILITZAR?
 - Local Storage: Limitat a String, limitat en mida (Ionic storage plugin utilitza primer IndexedDB)
 - Web SQL: El suport ha estat eliminat a múltiples navegadors. Migrar a IndexedDB
 - Session Storage -> ús molt limitat
-- Cookies: s'utilitzen per a sessions i altres formes de tracking (publicitat)
+- Cookies: s'utilitzen per a sessions i altres formes de tracking (publicitat). S'envien com a capçaleres en cada petició HTTP, per tant si emmagatzement grand quantitats de dades afecten al rendiment.
+- **SEGURETAT**: cap ni un dels sistemes al tractar-se de sistemes **client side** es poden utilitzar per guardar dades sensibles. nota: oco però que se suposa que al ordinador d'una persona ja hi ha moltes dades sensibles propies d'aquella usuari/persona i en cas de ser hackejat els problemes que pot tenir segurament van més enllà. Per exemple no guardar dades de altres usuaris o dades sensibles en general es una bona pràctica (cal fer-ho al backend). Guardar però tokens temporals és una pràctica habitual.
 
 Que utilitzar depenent de? 
 
@@ -19,6 +20,14 @@ Per a tota la resta:
 
 Recursos
 - https://web.dev/storage-for-the-web/
+
+# How much can I store?
+
+Lo més habitual? Molt, des de centenars de megabytes a fins i tot gygabites però depén de l'espai disponible del disc dur del client.
+
+- **Chrome**: Fins 80% of total disk space. Un sol origin 60% . SotrageManager API permet consultar com està l'espai
+- **Internet Explorer 10** and later can store up to 250MB and will prompt the user when more than 10MB has been used.
+- Firefox allows the browser to use up to **50% of free disk space**
 
 # Recursos
 
