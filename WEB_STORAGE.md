@@ -29,6 +29,16 @@ Lo més habitual? Molt, des de centenars de megabytes a fins i tot gygabites per
 - **Internet Explorer 10** and later can store up to 250MB and will prompt the user when more than 10MB has been used.
 - Firefox allows the browser to use up to **50% of free disk space**
 
+# Eviction (desallotjament de l'espai)
+
+Tots els sistemes Storage són "Best Effort". Vold dir que el navegador farà tot el possible per mantenir les dades però si es veu apurar d'espai és lliure d'alliberar espai sense interrompe l'usuari. Per tant no podem comptar en el fet que les dades estiguin smepre disponibles.
+
+HI ha però un permís que es pot solicitar a l'usuari per tal que les dades persisteixin sempre i només s'esborrin si l'usuari ho demana explícitament.
+
+https://caniuse.com/?search=persistent
+
+![image](https://user-images.githubusercontent.com/4015406/150648622-83ba6f5c-58d6-4079-8663-265ac6ee8d0e.png)
+
 # Recursos
 
 - https://web.dev/storage-for-the-web/
