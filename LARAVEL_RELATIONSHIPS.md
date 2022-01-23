@@ -4,6 +4,7 @@ Vídeos:
 
 - [132 Laravel Database Relationships. Relació 1 a n series i videos](https://youtu.be/VTIqo4fGkMs)
 - [133 Més sobre relacions](https://youtu.be/7LLFIUNyCVk)
+- [134 ] (TODO)
 
 De la sèrie:
 
@@ -129,6 +130,7 @@ DEFAULT_USER_PASSWORD=PASSWORD_HERE
  - Afegir la llista de videos d'una serie a la api. Per defecte les relacions són "Lazy Loaded" | Coma activar Eager loading -> https://laravel.com/docs/8.x/eloquent-relationships#eager-loading
  - Performance: com pot afectar el eager loading als bucles. Com utilitzar Laravel Debugbar per controlar la quantita de consultes a executar
  - Millora: permetre (ara la UI no ho permet) que un vídeo no tingui cap serie associada 
+ - Solució a problema [AlpineJs i VueJs xoquen](https://github.com/acacha/casteaching/issues/13)
  
 # Recursos
 
