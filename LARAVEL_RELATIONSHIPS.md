@@ -117,6 +117,12 @@ DEFAULT_USER_PASSWORD=PASSWORD_HERE
  Laravel API resources
  - https://laravel.com/docs/8.x/eloquent-resources
  
+ # Video 134
+ 
+ - Branca apiSeries fent un merge a main amb la solució bàsica per implementar API series
+ - Afegir la llista de videos d'una serie a la api. Per defecte les relacions són "Lazy Loaded" | Coma activar Eager loading -> https://laravel.com/docs/8.x/eloquent-relationships#eager-loading
+ - Performance: com pot afectar el eager loading als bucles. Com utilitzar Laravel Debugbar per controlar la quantita de consultes a executar
+ 
 # Recursos
 
 - https://laravel.com/docs/8.x/eloquent-relationships
