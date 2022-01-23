@@ -65,7 +65,7 @@ Tests:
  
  # Vídeo 133
  
- *Recopilació*
+ **Recopilació**
  - Error en la migració drop al copiar i pegar posava user_id en comptes de serie_id
  - Script de deployment: https://gist.github.com/acacha/9bd560e39de2fcb6f3f9d9592f1fd58d
  - Veure els últims commits: https://github.com/acacha/casteaching/commits/main
