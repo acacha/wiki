@@ -210,7 +210,7 @@ self.addEventListener("fetch", event => {
 });
 ```
 
-TODO fer proves! Es pot combinar amb laravel-export (no va) o potser https://github.com/reelcms/static
+TODO fer proves! Es pot combinar amb laravel-export (no va) o potser https://github.com/reelcms/static o https://jigsaw.tighten.co/
 
 Vegeu:
 
@@ -218,7 +218,7 @@ https://github.com/silviolleite/laravel-pwa
 
 # Laravel Static (laravel-export | reelcms package)
 
-https://github.com/spatie/laravel-export | https://github.com/reelcms/static
+https://github.com/spatie/laravel-export | https://github.com/reelcms/static | https://jigsaw.tighten.co/
 
 # What web can do today
 
