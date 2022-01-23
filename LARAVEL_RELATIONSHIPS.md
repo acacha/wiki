@@ -62,6 +62,33 @@ Tests:
 - regular_users_cannot_see_unpublished_series
 - superadmin_users_can_see_all_series
  
+ # Víde0 133
+ 
+ *Recopilació*
+ - Error en la migració drop al copiar i pegar posava user_id en comptes de serie_id
+ - Script de deployment: https://gist.github.com/acacha/9bd560e39de2fcb6f3f9d9592f1fd58d
+ - Veure els últims commits: https://github.com/acacha/casteaching/commits/main
+ - Error en la font -> Inter.css | https://github.com/acacha/casteaching/commit/f449f7cf554afd81fec129b3bc3caaf77be3a08b | npm run dev
+ - Repassar fitxer .env a explotació dins de Laravel Forge
+ ![image](https://user-images.githubusercontent.com/4015406/150671207-646fa7d5-a367-43fe-9d17-29fbbb74c318.png)
+
+ Més sobre relacions:
+ 
+ Relació inversa:
+ - Obtenir la serie d'un vídeo | [Belongs to o one to many invers](https://laravel.com/docs/8.x/eloquent-relationships#one-to-many-inverse)
+ - Adaptació de Laravel a qualsevol esquema de base de dades (els noms dels camps foreign keys es poden configurar, tot es configurable -> No recomano en aplicacions que creem des de zero )
+ - Test TDD per a Video
+ - [Com comptar el número de vídeos d'una serie](https://laravel.com/docs/8.x/eloquent-relationships#counting-related-models)
+ - Opcional: temps total de la serie: sumar el temps de cada vídeo i obtenir un total
+ - Actualitzar el CRUD de videos per poder afegir/editar la serie a https://casteaching.test/manage/videos . Component select. Primer TDD afegir testos
+ - UI del select: https://tailwindui.com/components/application-ui/forms/select-menus
+ - Exercidi: el mateix amb user_id | select amb avatars: https://tailwindui.com/components/application-ui/forms/select-menus#component-71d9116be789a254c260369f03472985
+ Exercici api series amb TDD
+ - Incloure o no incloure la llista de vídeos d'una serie dins de cada serie?
+ - Actualitzar casteaching_package -> Altra serie
+ - Actualitzar casteachingIonic per mostrar la llista de seires
+ 
+ 
 # Recursos
 
 - https://laravel.com/docs/8.x/eloquent-relationships
