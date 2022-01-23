@@ -65,9 +65,10 @@ Tests:
  
  # Vídeo 133
  
- **Exercicis*
+ **Exercicis**
  - Crear la api per series (/api/series i api/series/{serie_id} amb TDD igual que hem fet amb els videos)
  - Crear els testos unitaris (modificar i/o crear VideoTest i UserTest) per a les relacions $video->user i $user->videos
+ - Validació de camps obligatoris al crear un vídeo amb TDD similar a com hem fet amb SanctumTokenController
  - Implementar un desplegable d'usuaris simple com el series per a poder indicar l'usuari d'un video. Si no s'indica cap usuari aleshores utilitzar l'usuari logat
  
  **Recopilació**
@@ -127,6 +128,7 @@ DEFAULT_USER_PASSWORD=PASSWORD_HERE
  - Branca apiSeries fent un merge a main amb la solució bàsica per implementar API series
  - Afegir la llista de videos d'una serie a la api. Per defecte les relacions són "Lazy Loaded" | Coma activar Eager loading -> https://laravel.com/docs/8.x/eloquent-relationships#eager-loading
  - Performance: com pot afectar el eager loading als bucles. Com utilitzar Laravel Debugbar per controlar la quantita de consultes a executar
+ - Millora: permetre (ara la UI no ho permet) que un vídeo no tingui cap serie associada 
  
 # Recursos
 
