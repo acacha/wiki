@@ -65,6 +65,11 @@ Tests:
  
  # Vídeo 133
  
+ **Exercicis*
+ - Crear la api per series (/api/series i api/series/{serie_id} amb TDD igual que hem fet amb els videos)
+ - Crear els testos unitaris (modificar i/o crear VideoTest i UserTest) per a les relacions $video->user i $user->videos
+ - Implementar un desplegable d'usuaris simple com el series per a poder indicar l'usuari d'un video. Si no s'indica cap usuari aleshores utilitzar l'usuari logat
+ 
  **Recopilació**
  - Error en la migració drop al copiar i pegar posava user_id en comptes de serie_id
  - Script de deployment: https://gist.github.com/acacha/9bd560e39de2fcb6f3f9d9592f1fd58d
