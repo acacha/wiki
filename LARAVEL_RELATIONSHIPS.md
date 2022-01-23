@@ -62,7 +62,7 @@ Tests:
 - regular_users_cannot_see_unpublished_series
 - superadmin_users_can_see_all_series
  
- # Víde0 133
+ # Vídeo 133
  
  *Recopilació*
  - Error en la migració drop al copiar i pegar posava user_id en comptes de serie_id
@@ -88,6 +88,8 @@ Tests:
  - Actualitzar casteaching_package -> Altra serie
  - Actualitzar casteachingIonic per mostrar la llista de seires
  
+ Laravel API resources
+ - https://laravel.com/docs/8.x/eloquent-resources
  
 # Recursos
 
