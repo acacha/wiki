@@ -143,6 +143,30 @@ Laravel Rendiment:
 - Explotació: cache vistes i rutes -> Nou script de deployment
 - Task scheduler
 - Broadcasting | real time al tercer trimestre
+ 
+# Funcionalitat nova 
+ 
+Llista de vídeos d'una sèrie:
+- serie_id i camp order és una opció. Mantenir el camp order te la seva feina -> Hi ha paquets fets a mida
+- Un altre són els camps previous i next -> Llista encadenada
+- El primer d'una serie és el que té previous === null 
+- El últim d'una serie és el que té next === null
+- La resta tenen els dos valors 
+- previous i next seran doncs desplegables que dependran de la serie escollida i videos que no tinguin indicats previous i/o next depenent -> No és la millor opció o alemnys no seria la primera que implementaria
+- Implica un lligam entre models, si un canvia l'altre ha de canviar
+- Funcionalitat que té "xixa", especialment fer una interfície que permeti canviar l'ordre
+ 
+URL (show)
+ 
+https://casteaching.test/series/inertia-and-spa-techniques/episodes/3
+ 
+- Utilitzar slug (inertia-and-spa-techniques) | en comptes id. Funcions per passar string a slug -> SEO
+- Els episodis podrien ser igual amb slug 
+- Redirecció de les antigues URL -> https://casteaching.test/videos/3  a https://casteaching.test/series/{slug-serie}/episodes/{slug-video}
+ 
+Importador de vídeos
+- TODO -> Com?
+ 
 # Recursos
 
 - https://laravel.com/docs/8.x/eloquent-relationships
