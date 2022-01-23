@@ -3,7 +3,7 @@
 Vídeos:
 
 - [132 Laravel Database Relationships. Relació 1 a n series i videos](https://youtu.be/VTIqo4fGkMs)
-- [133 Més sobre relacions](TODO)
+- [133 Més sobre relacions](https://youtu.be/7LLFIUNyCVk)
 
 De la sèrie:
 
