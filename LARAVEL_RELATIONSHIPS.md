@@ -70,9 +70,34 @@ Tests:
  - Script de deployment: https://gist.github.com/acacha/9bd560e39de2fcb6f3f9d9592f1fd58d
  - Veure els últims commits: https://github.com/acacha/casteaching/commits/main
  - Error en la font -> Inter.css | https://github.com/acacha/casteaching/commit/f449f7cf554afd81fec129b3bc3caaf77be3a08b | npm run dev
- - Repassar fitxer .env a explotació dins de Laravel Forge
+ 
  ![image](https://user-images.githubusercontent.com/4015406/150671207-646fa7d5-a367-43fe-9d17-29fbbb74c318.png)
 
+- Repassar fitxer .env a explotació dins de Laravel Forge
+
+```
+APP_ENV=production
+APP_DEBUG=false
+APP_URL=https://casteaching.alumnedam.me
+MIX_API_URL=${APP_URL}/api
+
+QUEUE_CONNECTION=redis
+
+ 
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailgun.org
+MAIL_PORT=587
+MAIL_USERNAME=postmaster@sandboxa7a9245a29b74be79dfe945f3665747d.mailgun.org
+MAIL_PASSWORD=TODOPASSWORDHERE
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=noreply@casteaching.acacha.org
+MAIL_FROM_NAME="${APP_NAME}"
+ 
+DEFAULT_USER_EMAIL=sergiturbadenas@gmail.com
+DEFAULT_USER_NAME="Sergi Tur Badenas"
+DEFAULT_USER_PASSWORD=PASSWORD_HERE
+``` 
+ 
  Més sobre relacions:
  
  Relació inversa:
