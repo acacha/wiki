@@ -132,6 +132,17 @@ DEFAULT_USER_PASSWORD=PASSWORD_HERE
  - Millora: permetre (ara la UI no ho permet) que un vídeo no tingui cap serie associada 
  - Solució a problema [AlpineJs i VueJs xoquen](https://github.com/acacha/casteaching/issues/13)
  
+TODO
+Components UI:
+- Components Vue
+- Laravel blade components -> SELECT
+ 
+Laravel Rendiment: 
+- Cache -> https://laravel.com/docs/8.x/cache | Patro per actualitzar caches nomñes quan hi ha videos o series noves
+- Cuas: ja vistas
+- Explotació: cache vistes i rutes -> Nou script de deployment
+- Task scheduler
+- Broadcasting | real time al tercer trimestre
 # Recursos
 
 - https://laravel.com/docs/8.x/eloquent-relationships
