@@ -2,7 +2,8 @@
 
 **Share api: https://whatwebcando.today/sharing.html**
 - Botó per compartir video o serie -> Només Chrome Android
-
+- Idea share API -> Per agafar vídeos deyoutube. al fer un share i posar-ho a casteaching que agafi la URL, etl titol i tot per crear una nova entrada a casteaching
+  - Parser/share de vídeos de Youtube ja existents?
 
 # PWA
 
