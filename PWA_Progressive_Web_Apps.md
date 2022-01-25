@@ -8,6 +8,8 @@ Consulteu: https://tubeme.acacha.org/pwa
 
 Vídeos:
 - [101. Introducció a les Progressive Web Apps(PWA)](https://youtu.be/2QIV9vtqPx0)
+- [102. Seguretat. Activació de l'escriptació TLS i protocol HTTPS(TODO URL)
+
 # Currículum
 
 - UF2 Processos i UF3 Serveis del MP9 Processos i serveis de DAM. Els Service Workers són un tipus de Workers, és a dir processos/jobs que s'executen de forma asíncrona i a més també són Serveis/Dimonis, és a dir processos que s'executen sense UI i de forma permanent.
