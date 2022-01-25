@@ -6,6 +6,12 @@ Consulteu: https://tubeme.acacha.org/pwa
 
 ![image](https://user-images.githubusercontent.com/4015406/150947963-0f5b76c6-f24a-4a53-a200-8c0c2d415ab5.png)
 
+# Currículum
+
+- UF2 Processos i UF3 Serveis del MP9 Processos i serveis de DAM. Els Service Workers són un tipus de Workers, és a dir processos/jobs que s'executen de forma asíncrona i a més també són Serveis/Dimonis, és a dir processos que s'executen sense UI i de forma permanent.
+- UF1 Desenvolupament aplicacions mòbils del MP8 del mateix nom de DAM
+- Tota la part Responsive també té sentit al MP7 UF1 Interfícies.
+
 # Introducció
 
 - **PWA**: Sigles de Progressive Web Apps
