@@ -83,6 +83,16 @@ dels polyfills es que fan creixer la mida de la nostra aplicació.
 Recursos
 - https://caniuse.com/
 
+## HTTPS (TLS)
+
+Activació en aplicacions de backend (llenguatges script com PHP):
+- (Laravel Forge): es pot tant instal·lar el propi certificat com utilitzar Let's Encrypt per activar SSL amb un sol click
+- Laravel Valet
+
+Desenvolupament en local
+- Localhost: no cal per a funcionar amb Service Workers
+- Millor però no utilitzar localhost per problemes de cache i utilitzar fake domains com *.test
+
 ## Rendiment / Velocitat
 
 [Bounce rate/ Taxa de rebot](https://ca.wikipedia.org/wiki/Taxa_de_Rebot): és un terme de màrqueting d'Internet utilitzat per l'anàlisi de trànsit web. Representa el percentatge de visitants que entren al web i llavors marxen ("reboten") en lloc de continuar veient altres pàgines dins el mateix. La Taxa de Rebot es calcula segons el temps que una persona està dins la pàgina.
