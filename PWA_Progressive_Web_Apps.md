@@ -96,6 +96,7 @@ Desenvolupament en local
 Altres temes relacionats amb la configuració de servidors web HTTP ja siguin locals (development) o en explotació (Nging i Apache)
 - Evitar treballar amb localhost amb service workers: Al fer un cache es fa per a un scope, és a dir per a una URL. Si la URL és localhost:3000 o localhost:8080 o similar però cada cop executem una aplicació diferent a la mateixa URL podem tenir problemes amb les caches i el funcionament dels service workers.
 - SPA (Vue amb vue-router i similars) i FC (Laravel) -> Requereix d'una configuració de rewrite o redirecció de totes les peticions cap a un fitxer principal sigui index.html (Vue-router i SPA) o index.php a Laravel
+- Vue-cli solution
 
 ## Rendiment / Velocitat
 
@@ -110,6 +111,7 @@ Una eina útil que incorpora Chrome Developer Tools és Ligthouse:
 
 Recursos:
 - https://www.youtube.com/watch?v=DfFlBWCQjzA&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=2
+
 
 ### Google Analytics
 
