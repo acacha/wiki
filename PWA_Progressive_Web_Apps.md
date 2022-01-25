@@ -242,6 +242,7 @@ https://whatwebcando.today/
 
 
 # Recursos
+- https://www.youtube.com/playlist?list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh
 - https://web.dev/progressive-web-apps/
 - https://www.youtube.com/watch?v=SnWVlWPbOwA
 - https://developers.google.com/web/ilt/pwa
