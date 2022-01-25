@@ -85,6 +85,8 @@ Recursos
 
 ## HTTPS (TLS)
 
+Vídeo: https://tubeme.acacha.org/https | https://youtu.be/jyu49Y6aswc
+
 Activació en aplicacions de backend (llenguatges script com PHP):
 - (Laravel Forge): es pot tant instal·lar el propi certificat com utilitzar Let's Encrypt per activar SSL amb un sol click
 - Laravel Valet
