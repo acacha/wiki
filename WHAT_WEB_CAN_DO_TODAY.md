@@ -4,6 +4,13 @@
 - Botó per compartir video o serie -> Només Chrome Android
 - Idea share API -> Per agafar vídeos deyoutube. al fer un share i posar-ho a casteaching que agafi la URL, etl titol i tot per crear una nova entrada a casteaching
   - Parser/share de vídeos de Youtube ja existents?
+- Foreground api: aturar la reproducció de videos un cop s'ha canviat de pestanya
+
+# Foreground Detection
+
+Recursos:
+- http://daniemon.com/tech/webapps/page-visibility/
+- https://medium.com/nerd-for-tech/page-visibility-api-630c230f9efd
 
 # PWA
 
@@ -12,6 +19,7 @@ Moltes de les funcionalitats de what web can do today les veiem a PWA:
 - Service Workers
 - Offline support
 - Push notifications
+- Background Sync 
 
 # METATAGS 
 
