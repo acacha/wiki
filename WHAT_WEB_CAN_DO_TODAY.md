@@ -1,5 +1,9 @@
 # Casteaching
 
+**Contacts API**
+- Enviar invitació a un usuari, escollir email dels contactes
+- Crear usuaris a partir dels contactes, permet seleccionar múltiples però no tots de cop
+
 **Share api: https://whatwebcando.today/sharing.html**
 - Botó per compartir video o serie -> Només Chrome Android
 - Idea share API -> Per agafar vídeos deyoutube. al fer un share i posar-ho a casteaching que agafi la URL, etl titol i tot per crear una nova entrada a casteaching
