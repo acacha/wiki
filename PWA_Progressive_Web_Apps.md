@@ -93,6 +93,10 @@ Desenvolupament en local
 - Localhost: no cal per a funcionar amb Service Workers
 - Millor però no utilitzar localhost per problemes de cache i utilitzar fake domains com *.test
 
+Altres temes relacionats amb la configuració de servidors web HTTP ja siguin locals (development) o en explotació (Nging i Apache)
+- Evitar treballar amb localhost amb service workers: Al fer un cache es fa per a un scope, és a dir per a una URL. Si la URL és localhost:3000 o localhost:8080 o similar però cada cop executem una aplicació diferent a la mateixa URL podem tenir problemes amb les caches i el funcionament dels service workers.
+- SPA (Vue amb vue-router i similars) i FC (Laravel) -> Requereix d'una configuració de rewrite o redirecció de totes les peticions cap a un fitxer principal sigui index.html (Vue-router i SPA) o index.php a Laravel
+
 ## Rendiment / Velocitat
 
 [Bounce rate/ Taxa de rebot](https://ca.wikipedia.org/wiki/Taxa_de_Rebot): és un terme de màrqueting d'Internet utilitzat per l'anàlisi de trànsit web. Representa el percentatge de visitants que entren al web i llavors marxen ("reboten") en lloc de continuar veient altres pàgines dins el mateix. La Taxa de Rebot es calcula segons el temps que una persona està dins la pàgina.
