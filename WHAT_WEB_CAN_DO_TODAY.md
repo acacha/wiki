@@ -7,6 +7,17 @@
 
 # PWA
 
+# SEO TAGS
+
+```html
+<meta name="title" content="Un lloc de la hostia">
+<meta name="description" content="dsa as das dasdasd asd as d">
+<meta name="keywords" content="prova1">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+```
+
 # Canonical URL
 
 Són clau per al SEO i per tant per pàgines publiques.
