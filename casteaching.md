@@ -275,6 +275,14 @@ Veieu els vídeos de com construir una aplicació Youtube/Screencasting per most
 
 https://github.com/acacha/casteaching
 
+# TODO / Brainstorming
+
+Github:
+- Social login | [Laravel Socialite](https://laravel.com/docs/8.x/socialite) -> acceptar només Github per a fer login
+- Desactivar Registre -> Només acceptar usuaris github? Si es poden soportar les dos coses millor. User profile poder vincular compte de Github
+
+Connexió amb Github sponsors. Proves API
+
 # Recursos
 - https://course.testdrivenlaravel.com/
 - [TDD](TDD.md)
