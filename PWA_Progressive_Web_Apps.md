@@ -103,7 +103,7 @@ Altres temes relacionats amb la configuració de servidors web HTTP ja siguin lo
 # Service workers
 
 Screencasts:
-- [103. PWA. Service Workers](todo URL)
+- [103. PWA. Service Workers](https://youtu.be/fl6X7Nwv3EA)
 
 **Guió**:
 
