@@ -100,6 +100,66 @@ Altres temes relacionats amb la configuració de servidors web HTTP ja siguin lo
 - SPA (Vue amb vue-router i similars) i FC (Laravel) -> Requereix d'una configuració de rewrite o redirecció de totes les peticions cap a un fitxer principal sigui index.html (Vue-router i SPA) o index.php a Laravel
 - Vue-cli solution
 
+# Service workers
+
+Screencasts:
+- [103. PWA. Service Workers](todo URL)
+
+**Guió**:
+
+Propietats:
+- Requereixen HTTPS, excepte en localhost
+- De totes formes localhost es poc recomanable, pot donar problemes de cache -> Al reutilitzar adreces com localhost:3000 o localhost:8080 per múltiples apps. Solució: utilitzar Incognito mode o utilitzar dominis locals de test (elmeudomini.test o elmeudomini.local) similar al que fem amb Laravel valet o modificant fitxer /etc/hosts
+- Són [web workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers). 
+- Els workers no són res més que procesos independents del procés principal Javascript (el habitual que utilitzem per manipular el DOM i fer la UI i UX de la nostra app)
+- Els workers s'utilitzen per executar processos costosos en temps com manipular fitxers, reproduir/processar audio/multimedia, etc. Similar als Jobs de Laravel i als Threads de Java o qualsevol altre técnica de programació concurrent amb qualsevol llenguatge.
+- Com a web workers no tenen accés al DOM (objecte document) o dit d'un altre manera no es poden utilitzar directament per a manipular la UI (User Interface)
+- Funcionen amb events. Un altre cop utilitzem els events com a sistema per comunicar dos procesos independents: (Web Worker/Service Worker) -> Main Javascript Proces (DOM). És a dir si un worker vol manipular ho ha de fer enviant un esdeveniment al procés principal i aquest ha d'escoltar i gestionar (handler) l'esdeveniment
+- Són la base de PWA ja que permeten suport offline=Cache+Proxy , Push Notifications i Background sync
+
+Farem el codelab: https://developers.google.com/codelabs
+
+**Cicle de vida**
+
+![image](https://user-images.githubusercontent.com/4015406/151132341-84d61f77-fedc-44fa-b22f-f8c464aea0fb.png)
+![image](https://user-images.githubusercontent.com/4015406/151133007-73100a82-a060-433f-a7c6-5f636b9c6bb4.png)
+
+
+Recursos:
+-https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle
+
+**Registrar un SW**
+
+```
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+```
+
+Codi explicat:
+- Primer es comprova si el navegador (navigator) suporta serviceWorker. Vegeu (CanIUse Service Workers)[https://caniuse.com/?search=service%20worker]
+- Només registrem service worker un cop s'ha carregat tot el document (event load) i esetiguin disponibles tots els assers
+- Es registra el service worker com un fitxer extra: **sw.js** que s'ha de trobar a l'arrel del projecte
+- El registre torna una promesa. Registre correcte -> then | Registre incorrecte-> Catch
+- L'scope és molt important: és el domini i prefix de URLs que el service worker tindrà sota control. Recordeu que s'executen de forma continua i en segon terme com a serveis i per tant poden provocar problemes al tenir un SW executant-se per un domini tipus localhost:3000 d'una anterior aplicació i reaprofitar el domini per a un altre aplicació.
+
+**Offline example**
+
+Vegeu https://developers.google.com/codelabs/pwa-training/pwa03--going-offline#3
+
+Recursos:
+- https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
+- https://developers.google.com/web/fundamentals/primers/service-workers
+- https://developers.google.com/codelabs/pwa-training/pwa03--going-offline#0
+
 ## Rendiment / Velocitat
 
 [Bounce rate/ Taxa de rebot](https://ca.wikipedia.org/wiki/Taxa_de_Rebot): és un terme de màrqueting d'Internet utilitzat per l'anàlisi de trànsit web. Representa el percentatge de visitants que entren al web i llavors marxen ("reboten") en lloc de continuar veient altres pàgines dins el mateix. La Taxa de Rebot es calcula segons el temps que una persona està dins la pàgina.
