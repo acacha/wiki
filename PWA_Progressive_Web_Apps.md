@@ -124,9 +124,12 @@ Farem el codelab: https://developers.google.com/codelabs
 ![image](https://user-images.githubusercontent.com/4015406/151132341-84d61f77-fedc-44fa-b22f-f8c464aea0fb.png)
 ![image](https://user-images.githubusercontent.com/4015406/151133007-73100a82-a060-433f-a7c6-5f636b9c6bb4.png)
 
-
 Recursos:
 -https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle
+
+**Com treballar amb SW: Eines: Chrome DevTools i Lighthouse**
+
+El cicle de treball serà el típic de prova error i anar iterant però per això necessitem eines que permetin depurar els Service Workers (Chrome dev tools les incorpora per defecte) i també utilitzarem els reports de Lighthouse com a eina per veure la llista de tasques (checklist) per a fer una app PWA.
 
 **Registrar un SW**
 
@@ -151,9 +154,9 @@ Codi explicat:
 - El registre torna una promesa. Registre correcte -> then | Registre incorrecte-> Catch
 - L'scope és molt important: és el domini i prefix de URLs que el service worker tindrà sota control. Recordeu que s'executen de forma continua i en segon terme com a serveis i per tant poden provocar problemes al tenir un SW executant-se per un domini tipus localhost:3000 d'una anterior aplicació i reaprofitar el domini per a un altre aplicació.
 
-**Offline example**
+**Offline example by hand**
 
-Vegeu https://developers.google.com/codelabs/pwa-training/pwa03--going-offline#3
+Vegeu https://developers.google.com/codelabs/pwa-training/pwa03--going-offline#3 i | https://www.youtube.com/watch?v=dXuvT4oollQ&list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh&index=4&t=4s
 
 Recursos:
 - https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
