@@ -8,7 +8,7 @@ Consulteu: https://tubeme.acacha.org/pwa
 
 Vídeos:
 - [101. Introducció a les Progressive Web Apps(PWA)](https://youtu.be/2QIV9vtqPx0)
-- [102. Seguretat. Activació de l'escriptació TLS i protocol HTTPS(TODO URL)
+- [102. Seguretat. Activació de l'escriptació TLS i protocol HTTPS](https://youtu.be/jyu49Y6aswcL)
 
 # Currículum
 
