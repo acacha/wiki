@@ -115,6 +115,7 @@ Propietats:
 - Els workers s'utilitzen per executar processos costosos en temps com manipular fitxers, reproduir/processar audio/multimedia, etc. Similar als Jobs de Laravel i als Threads de Java o qualsevol altre técnica de programació concurrent amb qualsevol llenguatge.
 - Com a web workers no tenen accés al DOM (objecte document) o dit d'un altre manera no es poden utilitzar directament per a manipular la UI (User Interface)
 - Funcionen amb events. Un altre cop utilitzem els events com a sistema per comunicar dos procesos independents: (Web Worker/Service Worker) -> Main Javascript Proces (DOM). És a dir si un worker vol manipular ho ha de fer enviant un esdeveniment al procés principal i aquest ha d'escoltar i gestionar (handler) l'esdeveniment
+- Que ès un servei?: Són software en execució (un procés) normalment de forma continuada i sense Interfície amb l'usuari, excepte la comunicació via Events (o el que és el mateix comunicació via un protocol). En Linux també anomenem Daemons.  Exemples : tots els servidors (serveixen serveis ;) com Apache/Nginx, DNS, DHCP, etc.
 - Són la base de PWA ja que permeten suport offline=Cache+Proxy , Push Notifications i Background sync
 
 Farem el codelab: https://developers.google.com/codelabs
