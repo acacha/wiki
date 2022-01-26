@@ -118,7 +118,7 @@ Propietats:
 - Que ès un servei?: Són software en execució (un procés) normalment de forma continuada i sense Interfície amb l'usuari, excepte la comunicació via Events (o el que és el mateix comunicació via un protocol). En Linux també anomenem Daemons.  Exemples : tots els servidors (serveixen serveis ;) com Apache/Nginx, DNS, DHCP, etc.
 - Són la base de PWA ja que permeten suport offline=Cache+Proxy , Push Notifications i Background sync
 
-Farem el codelab: https://developers.google.com/codelabs
+Farem el codelab: https://developers.google.com/codelabs/pwa-training/pwa03--going-offline#0
 
 **Cicle de vida**
 
