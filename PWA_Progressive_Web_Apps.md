@@ -126,7 +126,7 @@ Farem el codelab: https://developers.google.com/codelabs
 ![image](https://user-images.githubusercontent.com/4015406/151133007-73100a82-a060-433f-a7c6-5f636b9c6bb4.png)
 
 Recursos:
--https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle
+- https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle
 
 **Com treballar amb SW: Eines: Chrome DevTools i Lighthouse**
 
