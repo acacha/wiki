@@ -8,6 +8,7 @@
 
 Codi exemple:
 
+https://github.com/acacha/casteaching/blob/github/routes/web.php#L62-L105
 
 # TODO
 
