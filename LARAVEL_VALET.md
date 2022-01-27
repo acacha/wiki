@@ -16,6 +16,18 @@ https://youtube.acacha.org -> https://www.youtube.com/watch?v=w8j07_DBl_I
 
 [![Alt text](https://img.youtube.com/vi/ZjVe8W0ozm8/0.jpg)](https://youtu.be/ZjVe8W0ozm8)
 
+# Instal·lació certificats CA
+
+Aneu a la configuració de Chrome seguint els passos de:
+
+https://docs.vmware.com/en/VMware-Adapter-for-SAP-Landscape-Management/2.1.0/Installation-and-Administration-Guide-for-VLA-Administrators/GUID-D60F08AD-6E54-4959-A272-458D08B8B038.html
+
+El certificat que heu d'afegir però són els de la carpeta:
+
+ /PATH_VOSTRA_HOME/.valet/CA // Per exemple /home/sergi/.valet/CA
+ 
+ Escolliu el certificat .pem
+
 # Instal·lació a Linux
 
 https://github.com/cpriego/valet-linux | https://cpriego.github.io/valet-linux/
