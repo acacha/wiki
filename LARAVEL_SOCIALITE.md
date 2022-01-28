@@ -1,10 +1,18 @@
 # Guió
 
-- Branca Github
+Exemple d'afegir testos a un codi ja existent. És a dir, no fem TDD (Test Driven Development), ja que primer fem el codi i després el test.
+
+També es segueix aquest flux quan es vol Refactortizar codi existent de forma segura o simplement per que volem afegir tests a la nostra aplicació.
+
+Exemple amb Casteaching:
+- Branca Github: https://github.com/acacha/casteaching/tree/github
 - Instal·lació composer require
 - Configuració services.php
 - Obtenció de GITHUB_CLIENT_ID | GITHUB_CLIENT_SECRET
 - URL: https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app
+
+Refactorització
+Branca de refactorització:
 
 Codi exemple:
 
