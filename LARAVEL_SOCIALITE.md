@@ -1,3 +1,12 @@
+# Screencasts
+
+- [134 2022 01 28 Laravel Socialite | Github Login | Exemple de creació testos a posteriori i mocks](https://youtu.be/OUtoSt-vmCo): Laravel Socialite - Login amb Github i exemple de com crear testos a posteriori de la escriptura de codi. Mocking Facades
+
+De la sèrie TDD Amb Laravel: https://tubeme.acacha.org/tdd
+
+![Blue Geeky Laptop Apology Card](https://user-images.githubusercontent.com/4015406/151547787-c4d8324a-3a22-4548-8b56-7932381950b0.png)
+
+
 # Guió
 
 Exemple d'afegir testos a un codi ja existent. És a dir, no fem TDD (Test Driven Development), ja que primer fem el codi i després el test.
