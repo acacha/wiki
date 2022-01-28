@@ -14,7 +14,7 @@ https://github.com/acacha/casteaching/blob/github/routes/web.php#L62-L105
 
 Refactorització
 - Tenim un codi ja existent i volem poder canviar-lo amb seguretat
-- Creem un controlador: GithubAuthController i el seu test GithubAuthController
+- Creem un controlador: GithubAuthController i el seu test GithubAuthControllerTest
 - Wishful programming (definem la API que voldriem) i codi més expresiu
 
 Testos a realitzar
