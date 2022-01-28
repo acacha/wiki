@@ -1,4 +1,4 @@
-# Guio
+# Guió
 
 - Branca Github
 - Instal·lació composer require
@@ -9,6 +9,24 @@
 Codi exemple:
 
 https://github.com/acacha/casteaching/blob/github/routes/web.php#L62-L105
+
+# Testos a posteriori
+
+Refactorització
+- Tenim un codi ja existent i volem poder canviar-lo amb seguretat
+- Creem un controlador: GithubAuthController i el seu test GithubAuthController
+- Wishful programming (definem la API que voldriem) i codi més expresiu
+
+Testos a realitzar
+
+- redirects_to_github
+- can_process_a_callback
+
+# Estrategies
+
+- Només Login amb Github -> Inconvenient: molt limitat a només desenvolupadors i fins i tot pot haver algunes persones no vulguin utilitzar
+- Correu electrònic: sempre és la base de marketing, important aconseguir contactes/emails
+- Les dos coses suposen afegir camps a la taula users i fer una gestió de totes les posibilitats
 
 # TODO
 
