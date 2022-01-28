@@ -1,6 +1,6 @@
 # Screencasts
 
-- [135 Importador de vídeos de Youtube](): Exemple de com utilitzar la API de Youtube per importar els vídeos de Youtube
+- [135 Importador de vídeos de Youtube](https://youtu.be/i3FEoG3i6gI): Exemple de com utilitzar la API de Youtube per importar els vídeos de Youtube
 
 De la sèrie TDD Amb Laravel: https://tubeme.acacha.org/tdd
 
