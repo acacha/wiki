@@ -21,6 +21,10 @@ Mètodes PUT i GET
 
 FileStreamers -> OHH NOOO! es tant baix nivell, quin pal!
 
+## Laravel automatic file streaming
+
+https://laravel.com/docs/8.x/filesystem#automatic-streaming
+
 ## Manipulació fitxers CS
 
 Laravel Excel: https://laravel-excel.com/
