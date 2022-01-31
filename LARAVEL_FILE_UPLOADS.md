@@ -42,6 +42,8 @@ Instal·lació:
 
 # File Uploads
 
+https://laravel.com/docs/8.x/filesystem#file-uploads
+
 ## Testing
 
 Tenim una classe **UploadedFile** que permet crear fitxers de mentira per testejar File Uploads i permet indicar les característiques del fitxer:
