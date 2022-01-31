@@ -18,7 +18,6 @@ Helpers per ajudar amb els paths
 
 Tenim una classe **UploadedFile** que permet crear fitxers de mentira per testejar File Uploads i permet indicar les característiques del fitxer:
 
-
 ``` 
 UploadedFile::fake()->image('photo1.jpg')
 ```
@@ -33,6 +32,16 @@ Quan es fan testos relacionats amb fitxers NO voldrem mai acabar modificant el s
 Per això s'utilitza un Fake, veieu Storage fake:
 
 - https://laravel.com/docs/8.x/mocking#storage-fake
+
+# Image manipulation
+
+
+```
+composer require intervention/image
+```
+
+Recursos:
+- https://image.intervention.io/v2
 
 # Recursos
 - https://laravel.com/docs/8.x/filesystem
