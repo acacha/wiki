@@ -12,6 +12,30 @@ Helpers per ajudar amb els paths
 
 - https://laravel.com/docs/8.x/helpers#paths-method-list
 
+# Manipular File contents
+
+## En cru
+
+Mètodes PUT i GET
+- Storage::disk('local')->put('example.txt', 'Contents');
+
+FileStreamers -> OHH NOOO! es tant baix nivell, quin pal!
+
+## Manipulació fitxers CS
+
+Laravel Excel: https://laravel-excel.com/
+
+Exemple Importació Usuaris:
+- https://docs.laravel-excel.com/3.1/imports/
+
+TODO
+Casteaching: 
+- Vídeo comanda que permeti importar usuaris d'un fitxer CSV
+- Exercici: ídem per a vídeos, fer interfície Upload and process file
+
+Instal·lació:
+- https://docs.laravel-excel.com/3.1/getting-started/installation.html
+
 # File Uploads
 
 ## Testing
