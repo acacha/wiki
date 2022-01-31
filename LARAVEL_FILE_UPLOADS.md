@@ -63,6 +63,9 @@ Per això s'utilitza un Fake, veieu Storage fake:
 
 https://dev.to/aschmelyun/getting-started-with-amazon-s3-storage-in-laravel-5b6d
 
+Alternatives a Amazon S3:
+- https://laravel.com/docs/8.x/filesystem#amazon-s3-compatible-filesystems
+
 # Image manipulation
 
 ```
