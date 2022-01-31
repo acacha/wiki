@@ -33,8 +33,13 @@ Per això s'utilitza un Fake, veieu Storage fake:
 
 - https://laravel.com/docs/8.x/mocking#storage-fake
 
-# Image manipulation
+# Prova amb Amazon S3
 
+- Fer un pas a pas com obtenir token amb alumnedam@iesebre.com
+
+https://dev.to/aschmelyun/getting-started-with-amazon-s3-storage-in-laravel-5b6d
+
+# Image manipulation
 
 ```
 composer require intervention/image
