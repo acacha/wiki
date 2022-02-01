@@ -1,4 +1,4 @@
-# DESACTIVAT CORS A CHROME
+# DESACTIVAR CORS A CHROME
 
 Primer cal tancar tots els chromes que tingueu oberts. Després podeu executar:
 
