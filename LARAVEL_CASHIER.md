@@ -28,10 +28,16 @@ Instal·lació paquet composer:
 composer require laravel/cashier-paddle
 ```
 
-
 Docs:
 - [Sandbox Docs](https://developer.paddle.com/getting-started/ZG9jOjIxODY4NjYx-sandbox)
 - https://laravel.com/docs/8.x/cashier-paddle#introduction
+
+# KANUU PACKAGE
+
+
+
+Laravel package:
+- https://docs.kanuu.io/laravel/redirect-to-kanuu.html#using-the-redirecttokanuu-controller
 
 # Dashboard
 
