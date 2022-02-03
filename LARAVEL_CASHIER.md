@@ -14,6 +14,21 @@ NO es poden utilitzar targetes reals a la Sanbox i per això hi ha una llista de
 Targetes de proves:
 - https://developer.paddle.com/getting-started/ZG9jOjIxODY4NjYx-sandbox#test-cards
 
+Configuració:
+
+Al fitxer **.env** file:
+
+```
+PADDLE_SANDBOX=true
+``` 
+
+Instal·lació paquet composer:
+
+``` 
+composer require laravel/cashier-paddle
+```
+
+
 Docs:
 - [Sandbox Docs](https://developer.paddle.com/getting-started/ZG9jOjIxODY4NjYx-sandbox)
 - https://laravel.com/docs/8.x/cashier-paddle#introduction
