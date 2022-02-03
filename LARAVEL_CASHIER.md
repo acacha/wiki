@@ -33,6 +33,11 @@ Docs:
 - [Sandbox Docs](https://developer.paddle.com/getting-started/ZG9jOjIxODY4NjYx-sandbox)
 - https://laravel.com/docs/8.x/cashier-paddle#introduction
 
+# Dashboard
+
+![image](https://user-images.githubusercontent.com/4015406/152367316-0176c109-31e0-44cb-9218-9df71dc72a93.png)
+
+
 # 3DS
 
 3D Secure (3DS) is a protocol that adds extra security to online credit card and debit card payments. It ensures that a form of online identification is added to the authorization of a financial transaction with a credit card. This extra security is based on a 3 domain model of which the name 3D Secure is derived.
