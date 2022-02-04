@@ -6,6 +6,10 @@ WordPress va ser llançat el 27 de maig de 2003 pels seus fundadors, el desenvol
 
 Per funcionar, WordPress s’ha d’instal·lar en un servidor web, ja sigui part d’un servei d’allotjament d’Internet com WordPress.com o un servidor que executa el paquet de programari WordPress.org per tal de servir com a amfitrió de xarxa.[9] Es pot utilitzar un ordinador local per a proves i aprenentatge d'un sol usuari.
 
+## PLANS DE PREUS
+
+https://wordpress.com/pricing/?utm_source=google&utm_campaign=google_wpcom_search_brand_desktop_es_en&utm_medium=paid_search&keyword=wordpress%20business%20pricing&creative=455737930932&campaignid=647898141&adgroupid=101789433010&matchtype=e&device=c&network=g&targetid=aud-664865800501:kwd-436555803094&gclsrc=aw.ds&gclid=Cj0KCQiAuvOPBhDXARIsAKzLQ8HeyPNWkwPSV8qAYejJWHuf_Mkj3f1x3Zpau3TYVgu888gGWp-bSoEaAiAKEALw_wcB
+
 # RECURSOS
 - https://wordpress.com/
 - https://ca.wikipedia.org/wiki/WordPress
