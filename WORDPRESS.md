@@ -1,4 +1,16 @@
-# INTRODUCCIó
+# SCREENCAST
+
+- [Instal·lació de wordpress utilitzant Laravel Forge. Primers passos.](TODO)
+
+# Currículum
+
+UF 2: implantació de gestors de continguts. 33 hores del MP9 Implantació d’aplicacions web
+- RA2: Implanta gestors de continguts seleccionant-los i establint la configuració dels paràmetres. 
+
+Recursos:
+- http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0035/15cc64c8-86b9-4576-a924-665ce20c9021/DOGC_T_administracio_sistemes_informatics_xarxa.pdf
+- 
+# INTRODUCCIÓ
 
 WordPress (WP, WordPress.org) és un sistema de gestió de contingut (CMS per les inicials en anglès) lliure i de codi obert escrit en PHP[1] i emparellat amb una base de dades MySQL o MariaDB. Les funcions inclouen una arquitectura de connectors ('extensions' o plugins en terminologia Wordpress) i un sistema de plantilles web (anomenades 'temes'). WordPress es va crear originalment com un sistema de publicació de blocs, però ha evolucionat per donar suport a altres tipus de contingut web, incloses llistes de correu i fòrums més tradicionals, galeries de mitjans, llocs web de subscripció, sistemes de gestió d’aprenentatge (LMS, per les inicials en anglès) i botigues en línia. WordPress és utilitzat pel 41,4% dels deu milions de llocs web principals a maig de 2021,[2] i és una de les solucions de sistemes de gestió de contingut més populars que s’utilitzen.[3] WordPress també s’ha utilitzat per a altres àmbits d’aplicacions, com ara la senyalització digital (PDS, per les inicials en anglès).[4]
 
