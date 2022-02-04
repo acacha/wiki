@@ -2,6 +2,10 @@
 
 - [Instal·lació de wordpress utilitzant Laravel Forge. Primers passos.](TODO)
 
+# Coneixements previs
+
+- Laravel Forge: https://tubeme.acacha.org/laravel_forge
+
 # Currículum
 
 UF 2: implantació de gestors de continguts. 33 hores del MP9 Implantació d’aplicacions web
