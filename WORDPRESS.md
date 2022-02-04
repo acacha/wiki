@@ -15,7 +15,10 @@ https://wordpress.com/pricing/?utm_source=google&utm_campaign=google_wpcom_searc
 
 # LARAVEL FORGE
 
-Laravel FOrge pot instal·lar wordpress:
+![image](https://user-images.githubusercontent.com/4015406/152494084-babc6ce9-d948-4675-9191-478bb866d147.png)
+
+
+Laravel Forge pot instal·lar wordpress:
 - https://forge.laravel.com/docs/1.0/sites/the-basics.html#wordpress
 
 # RECURSOS
