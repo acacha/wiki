@@ -1,6 +1,6 @@
 # SCREENCAST
 
-- [Instal·lació de wordpress utilitzant Laravel Forge. Primers passos.](TODO)
+- [Instal·lació de wordpress utilitzant Laravel Forge. Primers passos.](https://youtu.be/0P2Ty1ycj30)
 
 # Coneixements previs
 
