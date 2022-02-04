@@ -8,6 +8,9 @@ Per funcionar, WordPress s’ha d’instal·lar en un servidor web, ja sigui par
 
 ## PLANS DE PREUS
 
+![image](https://user-images.githubusercontent.com/4015406/152493285-f02972f4-cdd8-4da8-891c-55e6588c90be.png)
+
+
 https://wordpress.com/pricing/?utm_source=google&utm_campaign=google_wpcom_search_brand_desktop_es_en&utm_medium=paid_search&keyword=wordpress%20business%20pricing&creative=455737930932&campaignid=647898141&adgroupid=101789433010&matchtype=e&device=c&network=g&targetid=aud-664865800501:kwd-436555803094&gclsrc=aw.ds&gclid=Cj0KCQiAuvOPBhDXARIsAKzLQ8HeyPNWkwPSV8qAYejJWHuf_Mkj3f1x3Zpau3TYVgu888gGWp-bSoEaAiAKEALw_wcB
 
 # RECURSOS
