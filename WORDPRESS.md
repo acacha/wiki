@@ -2,6 +2,11 @@
 
 - [Instal·lació de wordpress utilitzant Laravel Forge. Primers passos.](https://youtu.be/0P2Ty1ycj30)
 
+Link directe: https://tubeme.acacha.org/wordpress
+
+De la sèrie:
+- https://tubeme.acacha.org/2asix_mp9
+
 # Coneixements previs
 
 - Laravel Forge: https://tubeme.acacha.org/laravel_forge
