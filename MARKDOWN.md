@@ -11,6 +11,10 @@ Altres:
 - Grav CMS 
 - Statamic CMS
 
+# RUBY
+
+- [kramdown](https://kramdown.gettalong.org/)
+
 # FORMATS
 
 Actualment:
