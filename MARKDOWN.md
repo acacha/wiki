@@ -1,3 +1,16 @@
+# STATIC SITE GENERATORS amb suport MARKDOWN
+
+- [Jigsaw](https://jigsaw.tighten.co/): només suporta format tradicional. També suporta Laravel Blade com a sistema de plantilles.
+- [erusev/parsedown-extra](https://github.com/erusev/parsedown-extra). Suporta markdown extra
+
+Altres:
+- October CMS
+- Winter CMS
+- Bolt CMS 
+- Kirby CMS
+- Grav CMS 
+- Statamic CMS
+
 # FORMATS
 
 Actualment:
