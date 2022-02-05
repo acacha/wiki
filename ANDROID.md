@@ -1,3 +1,12 @@
+---
+title: Android
+description: Android
+extends: _layouts.documentation
+section: content
+---
+
+# ANDROID 
+
 Tags del codi: https://github.com/acacha/Comptador/tags
 
 # Screencasts DAM
