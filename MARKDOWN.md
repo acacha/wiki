@@ -26,5 +26,9 @@ Actualment:
 Altres
 - [Smarty Pants](http://daringfireball.net/projects/smartypants/)
 
+## COMPARATIVA
+
+Consulteu el [GIST](https://gist.github.com/vimtaai/99f8c89e7d3d02a362117284684baa0f)
+
 # RECURSOS
 - [php-markdown/extra](https://michelf.ca/projects/php-markdown/extra/)
