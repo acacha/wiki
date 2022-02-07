@@ -15,6 +15,7 @@ section: content
 
 Múltiples opcions:
 - Paddle Sandbox. Configurar els productes de subscripció i de pagament en un sol cop
+- Configuració de Paddle i Laravel Cashier i Kanuu
 - Usuaris ja logats: Boto de gestionar la seva subscripció i pagaments -> Billing -> Utilitzar servei extern Kanuu
 - Usuaris no logats: primer reenviar al login i després poder gestionar la subscripció
 - Landing Page: Taula de preus utilitzant Tailwind UI: [Taules de preus Tailwind UI](https://tailwindui.com/components/marketing/sections/pricing)
