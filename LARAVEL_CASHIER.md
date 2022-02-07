@@ -27,7 +27,7 @@ Recursos:
 
 Com funciona?
 
-Doncs tenim per a provar una Sandbox i aprendre com va. No podem aplicar per una compte real sinó tenim una empresa real ja que cal passar un procés d'alta no automatitzat
+Doncs tenim per a provar una [Sandbox](https://sandbox-vendors.paddle.com/signup) i aprendre com va. No podem aplicar per una compte real sinó tenim una empresa real ja que cal passar un procés d'alta no automatitzat
 en el qual Paddle analitza riscos i mira si ets o no una empresa o autònom real.
 
 NO es poden utilitzar targetes reals a la Sanbox i per això hi ha una llista de targetes de test:
@@ -56,6 +56,11 @@ composer require laravel/cashier-paddle
 Docs:
 - [Sandbox Docs](https://developer.paddle.com/getting-started/ZG9jOjIxODY4NjYx-sandbox)
 - https://laravel.com/docs/8.x/cashier-paddle#introduction
+- https://sandbox-vendors.paddle.com/signup
+
+## Paddle Sanbox
+
+https://sandbox-vendors.paddle.com/signup
 
 ## KANUU PACKAGE
 
