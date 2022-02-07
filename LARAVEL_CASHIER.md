@@ -1,3 +1,27 @@
+---
+title: Laravel Cashier
+description: Pagaments amb Laravel Cashier. Stripe i Paddle
+extends: _layouts.documentation
+section: content
+---
+
+# LARAVEL CASHIER
+
+# Screencast
+
+- [Titol screencast](TODO)
+
+# CASTEACHING
+
+Múltiples opcions:
+- Paddle Sandbox. Configurar els productes de subscripció i de pagament en un sol cop
+- Usuaris ja logats: Boto de gestionar la seva subscripció i pagaments -> Billing -> Utilitzar servei extern Kanuu
+- Usuaris no logats: primer reenviar al login i després poder gestionar la subscripció
+- Landing Page: Taula de preus utilitzant Tailwind UI: [Taules de preus Tailwind UI](https://tailwindui.com/components/marketing/sections/pricing)
+
+Recursos:
+- [Taules de preus Tailwind UI](https://tailwindui.com/components/marketing/sections/pricing)
+
 # PADDLE
 
 Com funciona?
@@ -32,9 +56,7 @@ Docs:
 - [Sandbox Docs](https://developer.paddle.com/getting-started/ZG9jOjIxODY4NjYx-sandbox)
 - https://laravel.com/docs/8.x/cashier-paddle#introduction
 
-# KANUU PACKAGE
-
-
+## KANUU PACKAGE
 
 Laravel package:
 - https://docs.kanuu.io/laravel/redirect-to-kanuu.html#using-the-redirecttokanuu-controller
@@ -48,5 +70,7 @@ Laravel package:
 
 3D Secure (3DS) is a protocol that adds extra security to online credit card and debit card payments. It ensures that a form of online identification is added to the authorization of a financial transaction with a credit card. This extra security is based on a 3 domain model of which the name 3D Secure is derived.
 
+
 # RECURSOS
 -  https://laravel.com/docs/8.x/cashier-paddle#introduction
+- https://tailwindui.com/components/marketing/sections/pricing
