@@ -81,6 +81,21 @@ composer require intervention/image
 Recursos:
 - https://image.intervention.io/v2
 
+# TDD. Adam wathan curs
+
+Primer un happy path
+HAPPY PATH
+- Faking Uploads and File Systems: Fakes de Laravel per provar fitxers sense tocar storage real. Incorpora assercions per comprovar existeixen fitxers
+- Comparing content -> Com a més que existeixi es pot comparar contingut.
+ERRORS I VALIDACIONS 
+- Validació: es determina una mida mínima (ample) per a les imatges i un aspect ratio
+Optimització:
+- Processament de les imatges. Llibreria intervention. Utilització de Jobs per optimitzar la imatge. Spatie media library: https://spatie.be/docs/laravel-medialibrary/v9/introduction
+
+Recursos:
+- https://course.testdrivenlaravel.com/lessons/module-27/faking-uploads-and-file-systems#139
+
 # Recursos
 - https://laravel.com/docs/8.x/filesystem
 - https://github.com/thephpleague/flysystem
+- https://course.testdrivenlaravel.com/lessons/module-27/faking-uploads-and-file-systems#139
