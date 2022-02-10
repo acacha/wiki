@@ -7,7 +7,11 @@
 - Afegir secció per modificar(update/PUT) la imatge d'una serie.
 - Inputs de fitxers a HTML: [input type file](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file)
 - Gestió de fitxers amb Laravel. Concepte de driver. Avantatges e invonvenients de cada driver
-- Formulari edició imatge de la serie. Comparació amb https://casteaching.test/user/profile
+
+Formulari edició/update imatge de la serie. Comparació amb https://casteaching.test/user/profile
+- Evitar codi wet també amb HTML. Com? utilitzant components UI reutilitzables. Similar al que ja fem amb Ionic però en comptes de components ja existents proporcionats per un framework utilitzar els nostres propis o els que es proporciona Laravel (en aquest cas la plantilla Laravel JetStream)
+- Dos tipus de components: Laravel Blade Components (prefix x: <x-component-name>) o compoents LiveWire (veurem més endavant).
+- Exercici: refactorització de les plantilles blade de vides/users/series per tar d'utilitzar components i reduir codi WET i fer codi DRY HTML
 
 # Gestió de fitxers
 
