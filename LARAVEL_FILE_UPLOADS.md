@@ -1,6 +1,7 @@
 # Screencast
 
-- [136 File Uploads Laravel. Modificar les imatges associades a una sèrie](TODO)
+- [136 Refactorització vistes amb Laravel Blade i Jetstream Components. Preparació File uploads i CRUD de series](https://youtu.be/ZTPgnELm3Lg)
+- [137 TDD File Uploads](TODO)
 
 De la sèrie [TDD Laravel d'acacha_dev](https://tubeme.acacha.org/tdd)
 
