@@ -5,6 +5,8 @@
  | git checkout main | git merge acacha/crud_series](https://stackoverflow.com/questions/21651185/git-merge-a-remote-branch-locally)
 - Comproveu els tests i que teniu una nova secció Series a l'aplicació
 - Afegir secció per modificar(update/PUT) la imatge d'una serie.
+- Inputs de fitxers a HTML: [input type file](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file)
+- Gestió de fitxers amb Laravel. Concepte de driver. Avantatges e invonvenients de cada driver
 
 # Gestió de fitxers
 
