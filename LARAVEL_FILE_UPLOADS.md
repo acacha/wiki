@@ -1,3 +1,11 @@
+# Guió
+
+- Us proporciono el CRUD de series ja que es tracta d'un copia/pega del CRUD de videos que no aporta res que no haguim vist fins ara. Branca [crud_series](https://github.com/acacha/casteaching/tree/crud_series). La branca ja està incorporada a main.
+- Exemple de com fer un merge amb branques remotes: [git remote add acacha git@github.com:acacha/casteaching.git | git fetch acacha crud_series
+ | git checkout main | git merge acacha/crud_series](https://stackoverflow.com/questions/21651185/git-merge-a-remote-branch-locally)
+- Comproveu els tests i que teniu una nova secció Series a l'aplicació
+- Afegir secció per modificar(update/PUT) la imatge d'una serie.
+
 # Gestió de fitxers
 
 Filesystem abstraction/API: una forma comuna de treballar amb fitxers amb independència del driver (sistema a utilitzar: local(Linux/Windows/Mac), al núvol, etc). 
