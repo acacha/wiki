@@ -17,8 +17,9 @@ TDD (Test Driven Development):
 - Comprovar que tenim una nova secció a edit:  
 - TDD del procesament del formulari:
 - Nou controlador i nou test utilitzant TDD i tècniques testing Laravel file uploads
-
- # Gestió de fitxers
+- ON he après estas tècniques?: https://course.testdrivenlaravel.com | https://course.testdrivenlaravel.com/lessons/module-27/faking-uploads-and-file-systems#139 - Codi Adam wathan TDD: https://github.com/nothingworksinc/ticketbeast/commit/7cded06a0b2d2bcf5c8f32567a2b22ece1105fe2
+ 
+# Gestió de fitxers
 
 Filesystem abstraction/API: una forma comuna de treballar amb fitxers amb independència del driver (sistema a utilitzar: local(Linux/Windows/Mac), al núvol, etc). 
 
