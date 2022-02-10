@@ -13,7 +13,12 @@ Formulari edició/update imatge de la serie. Comparació amb https://casteaching
 - Dos tipus de components: Laravel Blade Components (prefix x: <x-component-name>) o compoents LiveWire (veurem més endavant).
 - Exercici: refactorització de les plantilles blade de vides/users/series per tar d'utilitzar components i reduir codi WET i fer codi DRY HTML
 
-# Gestió de fitxers
+TDD (Test Driven Development):
+- Comprovar que tenim una nova secció a edit:  
+- TDD del procesament del formulari:
+- Nou controlador i nou test utilitzant TDD i tècniques testing Laravel file uploads
+
+ # Gestió de fitxers
 
 Filesystem abstraction/API: una forma comuna de treballar amb fitxers amb independència del driver (sistema a utilitzar: local(Linux/Windows/Mac), al núvol, etc). 
 
