@@ -7,6 +7,7 @@
 - Afegir secció per modificar(update/PUT) la imatge d'una serie.
 - Inputs de fitxers a HTML: [input type file](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file)
 - Gestió de fitxers amb Laravel. Concepte de driver. Avantatges e invonvenients de cada driver
+- Formulari edició imatge de la serie. Comparació amb https://casteaching.test/user/profile
 
 # Gestió de fitxers
 
