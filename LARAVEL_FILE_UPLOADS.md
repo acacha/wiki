@@ -36,6 +36,7 @@ TDD (Test Driven Development):
 Relació d'aspecte:
 - Miniaturas de Youtube un 16:9 [Link](https://www.google.com/search?q=miniatura+youtube+tama%C3%B1o&oq=miniatura+youtube&aqs=chrome.1.69i57j0i512l9.8345j0j7&sourceid=chrome&ie=UTF-8)
 - Los tipos de archivos aceptados son JPG, GIF o PNG, que no superen los 2 MB.
+- Disseny original: https://tailwindui.com/components/marketing/sections/blog-sections#component-720cf60b960fecb99c45f462f24db2d9
  
 # Gestió de fitxers
 
