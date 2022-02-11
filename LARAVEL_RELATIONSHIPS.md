@@ -4,7 +4,7 @@ Vídeos:
 
 - [132 Laravel Database Relationships. Relació 1 a n series i videos](https://youtu.be/VTIqo4fGkMs)
 - [133 Més sobre relacions](https://youtu.be/7LLFIUNyCVk)
-- [134 ] (TODO)
+- [134 Laravel Socialite | Github Login](https://youtu.be/OUtoSt-vmCo)
 
 De la sèrie:
 
