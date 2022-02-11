@@ -27,6 +27,10 @@ TDD (Test Driven Development):
 - TDD del procesament del formulari:
 - Nou controlador i nou test utilitzant TDD i tècniques testing Laravel file uploads
 - ON he après estas tècniques?: https://course.testdrivenlaravel.com | https://course.testdrivenlaravel.com/lessons/module-27/faking-uploads-and-file-systems#139 - Codi Adam wathan TDD: https://github.com/nothingworksinc/ticketbeast/commit/7cded06a0b2d2bcf5c8f32567a2b22ece1105fe2
+
+ Vídeo 138:
+ - Comprovar no només que el fitxer existeix sinó a més que és el mateix [Codi](https://github.com/nothingworksinc/ticketbeast/commit/b95e75dd6bbd627db6c4432cc4fdfda9150b33f0)
+ - 
  
 # Gestió de fitxers
 
