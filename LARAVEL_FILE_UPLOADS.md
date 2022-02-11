@@ -1,7 +1,7 @@
 # Screencast
 
 - [136 Refactorització vistes amb Laravel Blade i Jetstream Components. Preparació File uploads i CRUD de series](https://youtu.be/ZTPgnELm3Lg)
-- [137 TDD File Uploads](https://youtu.be/4N0DSzVoJew)
+- [137 TDD File Uploads](https://youtu.be/f_Yjaj-gekw)
 
 De la sèrie [TDD Laravel d'acacha_dev](https://tubeme.acacha.org/tdd)
 
