@@ -29,8 +29,12 @@ TDD (Test Driven Development):
 - ON he après estas tècniques?: https://course.testdrivenlaravel.com | https://course.testdrivenlaravel.com/lessons/module-27/faking-uploads-and-file-systems#139 - Codi Adam wathan TDD: https://github.com/nothingworksinc/ticketbeast/commit/7cded06a0b2d2bcf5c8f32567a2b22ece1105fe2
 
  Vídeo 138:
+ - Canvis a seeders per utilitzar correctament les imatges i canvis al youtube import.
  - Comprovar no només que el fitxer existeix sinó a més que és el mateix [Codi](https://github.com/nothingworksinc/ticketbeast/commit/b95e75dd6bbd627db6c4432cc4fdfda9150b33f0)
- - 
+ - [Validació](https://github.com/nothingworksinc/ticketbeast/commit/e18ba35efdc75241ed3622828cc772d45adb3785):
+ 
+Relació d'aspecte:
+- Miniaturas de Youtube un 16:9 [Link](https://www.google.com/search?q=miniatura+youtube+tama%C3%B1o&oq=miniatura+youtube&aqs=chrome.1.69i57j0i512l9.8345j0j7&sourceid=chrome&ie=UTF-8)
  
 # Gestió de fitxers
 
