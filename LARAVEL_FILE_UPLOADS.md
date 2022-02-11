@@ -2,7 +2,7 @@
 
 - [136 Refactorització vistes amb Laravel Blade i Jetstream Components. Preparació File uploads i CRUD de series](https://youtu.be/ZTPgnELm3Lg)
 - [137 TDD File Uploads](https://youtu.be/f_Yjaj-gekw)
-- [138 Refactorització codi existent i Validació d'imatges](TODO)
+- [138 Refactorització codi existent i Validació d'imatges](https://youtu.be/P-VbDKUrQ0M)
 
 De la sèrie [TDD Laravel d'acacha_dev](https://tubeme.acacha.org/tdd)
 
