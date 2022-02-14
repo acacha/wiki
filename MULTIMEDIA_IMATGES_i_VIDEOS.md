@@ -16,7 +16,13 @@ Qüestions a tenir en compte:
 - Github: Identicons: https://github.blog/2013-08-14-identicons/
 - https://barro.github.io/2018/02/avatars-identicons-and-hash-visualization/
 - https://github.com/download13/blockies
-- 
+
+# Guió 
+
+Mostrar una imatge per defecte quan no hi ha imatge associada a la serie
+
+![Blue Elegant Minimalist Gadget Review YouTube Thumbnail](https://user-images.githubusercontent.com/4015406/153844292-743d51e5-3534-49fe-9c38-4f328512b3b7.png)
+
 # Optimització imatges
 
 # Recursos
