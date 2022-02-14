@@ -19,9 +19,15 @@ Qüestions a tenir en compte:
 
 # Guió 
 
-Mostrar una imatge per defecte quan no hi ha imatge associada a la serie
+Mostrar una imatge per defecte quan no hi ha imatge associada a la serie com:
 
 ![Blue Elegant Minimalist Gadget Review YouTube Thumbnail](https://user-images.githubusercontent.com/4015406/153844292-743d51e5-3534-49fe-9c38-4f328512b3b7.png)
+
+En comptes de:
+
+![image](https://user-images.githubusercontent.com/4015406/153844532-680f1138-5107-455b-b68f-1340ee84db09.png)
+
+I el mateix amb el teacher
 
 # Optimització imatges
 
