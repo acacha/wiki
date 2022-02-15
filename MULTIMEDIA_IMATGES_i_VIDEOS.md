@@ -77,10 +77,10 @@ Tècniques i codi utilitzat:
 [Gist](https://gist.github.com/acacha/bfde561838766cf2a23d888e5b0840d2.js)
 
 ```php
-$imageContents = Storage::disk('public')->get($this->concert->poster_image_path);
+$imageContents = Storage::disk('public')->get($this->serie->image);
 $image = Image::make($imageContents);
 $image->resize(600)->encode();
-Storage::disk('public')->put($this->concert->poster_image_path, (string) $image);
+Storage::disk('public')->put($this->serie->image, (string) $image);
 ```
 
 Recursos:
