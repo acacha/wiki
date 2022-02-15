@@ -12,3 +12,6 @@ Screencast:
 
 - [139_2022-02-14_ActualitzacióALaravel9](https://youtu.be/pxMpXhK8HM4)
 
+De la sèrie [TDD Laravel d'acacha_dev](https://tubeme.acacha.org/tdd)
+
+![image](https://user-images.githubusercontent.com/4015406/153370856-4aed0c84-a69a-4650-af02-89822a4ab371.png)
