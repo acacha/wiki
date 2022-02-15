@@ -9,7 +9,7 @@ section: content
 
 # Screencast
 
-- [Titol screencast](TODO)
+- [Laravel Cashier amb Paddle i Kanuu](https://youtu.be/htQSnV-TMIE)
 
 # CASTEACHING
 
