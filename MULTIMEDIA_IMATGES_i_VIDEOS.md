@@ -44,7 +44,10 @@ Exemple:
 
 ![image](https://user-images.githubusercontent.com/4015406/154021315-9ea941f8-51ea-4120-90b7-c583f6e91e26.png)
 
-
+Tècniques i codi utilitzat:
+- Nou sistema d'[accessors amb Laravel 9](https://laravel.com/docs/9.x/eloquent-mutators#defining-an-accessor) per tal de proveir un camp calculat que depèn del camp image. Si image no és null s'utilitza el camp image directament i sinó un valor per defecte.
+- TDD de Series(SeriesTest) per comprovar el funcionament de l'accessor
+- Ús en plantilles blade de ?? | https://www.php.net/manual/en/migration70.new-features.php | Null Coalescing operator | Alternativa a isset()
 
 # Optimització imatges
 
