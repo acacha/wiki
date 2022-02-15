@@ -73,7 +73,7 @@ Tècniques i codi utilitzat:
 
 ## Intervention Image
 
-https://gist.github.com/acacha/bfde561838766cf2a23d888e5b0840d2
+<script src="https://gist.github.com/acacha/bfde561838766cf2a23d888e5b0840d2.js"></script>
 
 - https://intervention.io/
 
