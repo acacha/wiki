@@ -11,6 +11,24 @@ section: content
 
 - [Laravel Cashier amb Paddle i Kanuu](https://youtu.be/htQSnV-TMIE)
 
+## Resum de canvis
+
+Branca [laravel_cashier_paddle](https://github.com/acacha/casteaching/tree/laravel_cashier_paddle)
+
+**Canvis**:
+
+Fitxer composer.json paquets: 
+
+- [kanuu-io/kanuu-laravel](https://packagist.org/packages/kanuu-io/kanuu-laravel) i [laravel/cashier-paddle](laravel/cashier-paddle)
+
+Ruta de Kanuu a **routes/web.php**
+
+```php
+Kanuu::redirectRoute()
+    ->middleware('auth')
+    ->name('kanuu.redirect');
+```    
+
 # CASTEACHING
 
 Múltiples opcions:
