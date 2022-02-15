@@ -30,7 +30,21 @@ Qüestions a tenir en compte:
 - https://barro.github.io/2018/02/avatars-identicons-and-hash-visualization/
 - https://github.com/download13/blockies
 
-# Guió 
+# Guió (Optimització imatges)
+
+- Primer pas: Testing Events. Disparar un esdeveniment cada cop s'actualitza/afegeix una imatges. [Laravel mocks. Event fake](https://laravel.com/docs/9.x/mocking#event-fake)
+- Nom Event: SeriesImageUpdated.php . Injecció de dependències: $serie
+- TDD: FAking events i asserting:  [Laravel mocks. Event fake](https://laravel.com/docs/9.x/mocking#event-fake)
+- Segon pas: Testing Event Listener
+- Configuració del event Listener: Creació del EventListener: ScheduleSeriesImageProcessing.php i configuració a EventserviceProvider
+- Nom del test: it_queues_a_job_to_process_a_poster_image_if_a_poster_image_is_present
+- Comprovació que si es dispara un event es processa un Job -> Queue::fake() | Queue::assertPushed()
+- Tercer Pas: Realment es testeja un Job: ProcessSeriesImage.php
+- Carpeta Unit/Listeners per fer testos unitaris (utilitzant però el TestCase de Laravel no el de PHPUnit) per provar el ProcessSeriesImage (ProcessSeriesImageTest.php)
+- TDD: Escriptura del Test
+- Codi final de processament de la imatge
+
+# Guió Passos previs (behind the scenes)
 
 Primer us mostro els canvis realitzats a la branca [millores_ui_fileuploads](https://github.com/acacha/casteaching/tree/millores_ui_fileuploads) branca que juntarem (merge) amb main.
 
@@ -57,9 +71,18 @@ Tècniques i codi utilitzat:
 
 # Optimització imatges
 
+## Intervention Image
+
+https://gist.github.com/acacha/bfde561838766cf2a23d888e5b0840d2
+
+- https://intervention.io/
+
 # Recursos
 - [Curs TDD Adam Wathan i optimització Imatges amb  ](https://course.testdrivenlaravel.com/lessons/module-28/testing-events#143)
 
 # blur hashing images
 
 https://blur-hash.com/#/
+
+# Recursos
+- [Curs TDD Adam Wathan i optimització Imatges amb  ](https://course.testdrivenlaravel.com/lessons/module-28/testing-events#143)
