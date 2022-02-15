@@ -1,7 +1,7 @@
 # Screencasts
 
-- [140 Refactorització de codi per mostrar correctament imatge i la UI quan falta informació de les sèries](TODO URL)
-- [141 Optimització d'imatges utilitzant Events i Jobs de Laravel amb TDD](TODO URL)
+- [140 Refactorització de codi per mostrar correctament imatge i la UI quan falta informació de les sèries](https://youtu.be/EEfyeTwgft8)
+- [141 Optimització d'imatges utilitzant Events i Jobs de Laravel amb TDD](https://youtu.be/RIMNhBefwq8)
 
 De la sèrie [TDD Laravel d'acacha_dev](https://tubeme.acacha.org/tdd)
 
