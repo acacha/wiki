@@ -1,3 +1,10 @@
+# Screencasts
+
+# Continguts Previs
+
+- [Laravel File Uploads](https://github.com/acacha/wiki/blob/main/LARAVEL_FILE_UPLOADS.md)
+- [Upgrade a Laravel 9](https://github.com/acacha/wiki/blob/main/LARAVEL_9.md)
+
 # Imatges, file uploads i Laravel. Presentació
 
 Com passar d'una UI:
@@ -19,6 +26,8 @@ Qüestions a tenir en compte:
 
 # Guió 
 
+Primer us mostro els canvis realitzats a la branca [millores_ui_fileuploads](https://github.com/acacha/casteaching/tree/millores_ui_fileuploads) branca que juntarem (merge) amb main.
+
 Mostrar una imatge per defecte quan no hi ha imatge associada a la serie com:
 
 ![Blue Elegant Minimalist Gadget Review YouTube Thumbnail](https://user-images.githubusercontent.com/4015406/153844292-743d51e5-3534-49fe-9c38-4f328512b3b7.png)
@@ -27,7 +36,15 @@ En comptes de:
 
 ![image](https://user-images.githubusercontent.com/4015406/153844532-680f1138-5107-455b-b68f-1340ee84db09.png)
 
-I el mateix amb el teacher
+I el mateix amb el teacher. Utilitzem un avatar per defecte per als usuaris anònims:
+
+https://avatars.dicebear.com/api/identicon/:seed.svg
+
+Exemple:
+
+![image](https://user-images.githubusercontent.com/4015406/154021315-9ea941f8-51ea-4120-90b7-c583f6e91e26.png)
+
+
 
 # Optimització imatges
 
