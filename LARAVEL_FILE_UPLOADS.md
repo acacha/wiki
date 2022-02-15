@@ -8,6 +8,9 @@ De la sèrie [TDD Laravel d'acacha_dev](https://tubeme.acacha.org/tdd)
 
 ![image](https://user-images.githubusercontent.com/4015406/153370856-4aed0c84-a69a-4650-af02-89822a4ab371.png)
 
+Pròxim contingut:
+- [Processament d'imatges. Multimedia imatges i vídeo](https://github.com/acacha/wiki/blob/main/MULTIMEDIA_IMATGES_i_VIDEOS.md)
+
 # Guió
 
 - Us proporciono el CRUD de series ja que es tracta d'un copia/pega del CRUD de videos que no aporta res que no haguim vist fins ara. Branca [crud_series](https://github.com/acacha/casteaching/tree/crud_series). La branca ja està incorporada a main.
