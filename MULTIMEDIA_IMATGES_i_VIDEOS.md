@@ -6,7 +6,7 @@ Com passar d'una UI:
 
 A:
 
-![image](https://user-images.githubusercontent.com/4015406/153841396-e5fe7b51-de47-4d5b-b300-4ebe78b3b28e.png)
+![image](https://user-images.githubusercontent.com/4015406/154020586-045ebd31-56d2-4ee6-b010-5369677e9c13.png)
 
 Qüestions a tenir en compte:
 - Quan les imatges poden ser nullables (per tant la imatge és opcional). Quina imatge mostrar quan no hi ha imatge?
