@@ -15,7 +15,21 @@ https://tubeme.acacha.org/tdd | https://www.youtube.com/playlist?list=PLyasg1A0h
 ## 142 -> Mostrar navegació per series
 
 Screencast:
-- 
+- (TODO URL)
+
+Exercicis:
+- Arreglar els errors als testos introduits pels canvis
+- A la Landing Page mostrar per a cada sèrie el número de vídeos de la sèrie
+
+Mostra correctament el nom de la sèrie (veure textos TODO), el nom del professor i la foto. Recordeu mostrar Anònim si no hi ha teacher associat i Avatar per defecte.
+
+![image](https://user-images.githubusercontent.com/4015406/154239715-e4c20e57-5316-4ae0-870c-533dfeef8274.png)
+
+El mateix per a la vista mòbil:
+
+![image](https://user-images.githubusercontent.com/4015406/154239993-774aaad8-caa8-4a5f-8889-02c32e302d5b.png)
+
+Problema a solucionar: Que passa quan el text és massa llarg? Busqueu com utilitzar CSS per posar un ampla màxim al test i mostrar tres punts (ellipsis) si el text és mes llarg (overflow) que el contenidor/div on poseu el text.
 
 Branca Github:
 - [series_videos](https://github.com/acacha/casteaching/tree/series_videos)
