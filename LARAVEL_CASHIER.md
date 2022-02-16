@@ -37,7 +37,9 @@ Múltiples opcions:
 - Usuaris ja logats: Boto de gestionar la seva subscripció i pagaments -> Billing -> Utilitzar servei extern Kanuu
 - Usuaris no logats: primer reenviar al login i després poder gestionar la subscripció
 - Landing Page: Taula de preus utilitzant Tailwind UI: [Taules de preus Tailwind UI](https://tailwindui.com/components/marketing/sections/pricing)
-
+- Provider KanuuProvider.php afegit a **config/app.php**
+- Registrar al provider els listeners Kanuu::on('subscription_created', function ($payload, $identifier) {// Create a new subscription in your application...});
+- Utilitzar el Boilerplate/publish de Kanuu que crea una taula de subscripció per associar subscripcions a usuaris: 
 Recursos:
 - [Taules de preus Tailwind UI](https://tailwindui.com/components/marketing/sections/pricing)
 
