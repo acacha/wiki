@@ -15,7 +15,7 @@ https://tubeme.acacha.org/tdd | https://www.youtube.com/playlist?list=PLyasg1A0h
 ## 142 -> Mostrar navegació per series
 
 Screencast:
-- (TODO URL)
+- [142 Navegació utilitzant series.](https://youtu.be/LBS5a3WlAtc)
 
 Template utilitzada de Tailwind UI
 - https://tailwindui.com/components/application-ui/page-examples/home-screens
