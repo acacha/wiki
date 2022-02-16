@@ -161,6 +161,10 @@ Que cal crear a paddle:
 - Subscripció anual
 - Subscripció mensual
 
+## MIDDLEWARE
+
+Crear un middleware per a video show que comprovi l'accés al vídeo amb tot l'indicat prèviament
+
 # RECURSOS
 -  https://laravel.com/docs/8.x/cashier-paddle#introduction
 - https://tailwindui.com/components/marketing/sections/pricing
