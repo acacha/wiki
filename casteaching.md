@@ -16,6 +16,7 @@ https://tubeme.acacha.org/tdd | https://www.youtube.com/playlist?list=PLyasg1A0h
 
 Screencast:
 - [142 Navegació utilitzant series.](https://youtu.be/LBS5a3WlAtc)
+- [143 Sol·lució 142](https://youtu.be/3YhkJbqmSvU)
 
 Template utilitzada de Tailwind UI
 - https://tailwindui.com/components/application-ui/page-examples/home-screens
