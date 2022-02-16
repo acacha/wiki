@@ -17,6 +17,9 @@ https://tubeme.acacha.org/tdd | https://www.youtube.com/playlist?list=PLyasg1A0h
 Screencast:
 - (TODO URL)
 
+Template utilitzada de Tailwind UI
+- https://tailwindui.com/components/application-ui/page-examples/home-screens
+
 Exercicis:
 - Arreglar els errors als testos introduits pels canvis
 - A la Landing Page mostrar per a cada sèrie el número de vídeos de la sèrie
