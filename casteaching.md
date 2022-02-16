@@ -12,6 +12,24 @@ https://tubeme.acacha.org/tdd | https://www.youtube.com/playlist?list=PLyasg1A0h
 
 # Notes vídeos
 
+## 142 -> Mostrar navegació per series
+
+Screencast:
+- 
+
+Branca Github:
+- [series_videos](https://github.com/acacha/casteaching/tree/series_videos)
+
+Llista de canvis:
+- Consulteu commits:https://github.com/acacha/casteaching/commits/series_videos
+- Les series ara tenen un accessor (attrtibute Laravel fet amb el nou format de Laravel 9) que torna la URL. La URL és "#" (és un link a cap lloc) si la serie no té cap vídeo assignat i si té videos assignats és la URL del primer vídeo de la sèrie
+- S'ha canviat la vista de la Landing Page que mostra les sèries per tal que el link porti al primer vídeo de la sèrie
+- S'ha canviat la vista d'un video per tal de mostrar la resta de vídeos de la sèrie. Sidebar amb Model responsive Off canvas (vista mòbile) que permet la navegació per la sèrie.
+- TODO: que passa amb vídeos que no pertanyen a cap sèrie.
+
+**IMPORTANT**
+- [Hack a composer.json](https://github.com/acacha/casteaching/issues/16) (Issue 16) per fer compatible el paquet Kanuu de Laravel Cashier amb Paddle amb Laravel 9
+
 ## 101 Primer vídeo. Introducció
 
 Link: https://youtu.be/ednlsVl-NHA
