@@ -94,6 +94,33 @@ Laravel package:
 
 3D Secure (3DS) is a protocol that adds extra security to online credit card and debit card payments. It ensures that a form of online identification is added to the authorization of a financial transaction with a credit card. This extra security is based on a 3 domain model of which the name 3D Secure is derived.
 
+# Protecció/Accés a recursos segons l'estat de subscripció de l'usuari
+
+Opcions:
+
+## Paddle's webhooks
+
+Documentació:
+
+- Les URL dels webhooks han de ser públiques! per a testejar en local cal utilitzar ngrok
+- Cal tenir al fitxer .env la paddle public key posada correctament.
+- Cal posar a les routes web (fitxer **routes/web.php**): Kanuu::webhookRoute('webhooks/paddle')
+- A Developers Tools/ Events
+- Desactivar CSRF per a webhooks a **VerifyCsrfToken middleware**.
+
+```php
+protected $except = [
+    'webhooks/*',
+];
+```
+
+Docs:
+- [Paddle's webhooks](https://docs.kanuu.io/getting-started/integrating-kanuu.html#using-paddle-s-webhooks)
+- https://docs.kanuu.io/laravel/webhook-helpers.html#_2-register-the-webhook-route
+
+## Kanuu Subscription API
+
+[Kanuu Subscription API](https://docs.kanuu.io/getting-started/integrating-kanuu.html#subscription-api)
 
 # RECURSOS
 -  https://laravel.com/docs/8.x/cashier-paddle#introduction
