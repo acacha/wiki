@@ -124,6 +124,43 @@ Docs:
 
 [Kanuu Subscription API](https://docs.kanuu.io/getting-started/integrating-kanuu.html#subscription-api)
 
+## Política de subscripcions
+
+Qüestions a tenir en compte:
+- El usuari (i potser més endavant els teams de l'usuari) determinen l'estat de la subscripió (taula subscriptions)
+Nivells:
+- Pot ser per vídeos o per series
+
+Vídeos:
+- Vídeos públics: en cas que un vídeo sigui public però la sèrie privada el vídeo serà public. Mana el vídeo com a nivell de concreció més alt
+- Vídeos privats: per poder accedir cal
+  - Tenir un pla de subscripció mensual actiu o
+  - Tenir una one time purchase associada a aquell vídeo
+  - O tenir una one time purchase associada a la sèrie
+- Serìes publiques
+  - Tots els vídeos seràn publics per defecte excepte que s'indiqui lo contrari. Sempre mana vídeo
+- Series privades
+  -  Tots els vídeos seràn privats per defecte (requereixens de subscripció) excepte que es marqui el vídeo específicament com a pùblic
+Camp calculat associat a un video
+- subscriptionNeeded -> Torna un false per defecte (videos publics) i  depenen si cal comprovar o no subscripció
+- Cal implementar tota la lògica aquí segons lo comentat prèviament:
+- Primer check -> Video privat -> return necesitaSubscripció
+- Segons check -> Video null (no especificat si és privat o no) però serie privada -> return Necessita subscripció
+- últim check: usuaris està subscrit pla mensual o pla anual -> 
+- Valor final -> valor per defecte -> no necessita subscripció
+Cal marcar els vídeos com a publics o privats
+- Nou camp data booleà
+- one_time_purchase_id: nullable -> Si no és null indica la one time purchase que dona accés al vídeo
+Cal marcar les seies com a publics o privats
+- Nou camp data booleà
+- one_time_purchase_id: nullable -> Si no és null indica la one time purchase que dona accés a la seie
+ 
+Que cal crear a paddle:
+- Un one time purchase per cada vídeo privat
+- Un one time purchase per cada sèrie privada
+- Subscripció anual
+- Subscripció mensual
+
 # RECURSOS
 -  https://laravel.com/docs/8.x/cashier-paddle#introduction
 - https://tailwindui.com/components/marketing/sections/pricing
