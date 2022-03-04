@@ -87,6 +87,18 @@ Recursos
 
 Vídeo: https://tubeme.acacha.org/https | https://youtu.be/jyu49Y6aswc
 
+Temes tractats al vídeo:
+- 0:00 Introducció
+- 0:38 Laravel Valet
+- 2:20 Instal·lació del certificat d'autoritat (CA) de Valet a Chrome per evitar errors HTTPS
+- 3:15 Com Laravel Valet configura el servidor Nginx
+- 5:06 Activar HTTPS amb laravel Forge a explotació
+- 6:50 Dominis de test sense port i amb HTTPS a Vue
+- 10:08 Comanda mkcert per generar certificats SSL
+- 15:30 Configuració HTTPS amb Ionic
+- 17:30 Configuració de render.com, exemple configuració HTTPS Javascript en explotació
+- 18:39 Configuració aplicacions SPA, serve -s per evitar errors 404 amb refresh del navagador (F5)
+
 Activació en aplicacions de backend (llenguatges script com PHP):
 - (Laravel Forge): es pot tant instal·lar el propi certificat com utilitzar Let's Encrypt per activar SSL amb un sol click
 - Laravel Valet
