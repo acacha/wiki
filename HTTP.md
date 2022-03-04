@@ -3,3 +3,7 @@
 # Coneixements previs
 
 - [URL](https://github.com/acacha/wiki/blob/main/URL.md): Què és una URL?
+
+# HTTPS
+
+https://www.youtube.com/watch?v=jyu49Y6aswc
