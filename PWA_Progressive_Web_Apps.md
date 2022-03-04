@@ -98,6 +98,7 @@ Temes tractats al vídeo:
 - 15:30 Configuració HTTPS amb Ionic
 - 17:30 Configuració de render.com, exemple configuració HTTPS Javascript en explotació
 - 18:39 Configuració aplicacions SPA, serve -s per evitar errors 404 amb refresh del navagador (F5)
+- 19:56 Laravel i Front Controller. Com funciona? Laravel Valet i php artisan serve configuren servidor HTTP per fer les redireccions.
 
 Activació en aplicacions de backend (llenguatges script com PHP):
 - (Laravel Forge): es pot tant instal·lar el propi certificat com utilitzar Let's Encrypt per activar SSL amb un sol click
