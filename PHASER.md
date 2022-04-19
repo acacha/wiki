@@ -1,3 +1,9 @@
+# Texture Packer
+
+```bash
+sudo dpkg -i TexturePacker-6.0.1.deb
+```
+
 # Plantilla phaser 3
 
 https://github.com/photonstorm/phaser3-project-template
