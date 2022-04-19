@@ -2,7 +2,11 @@
 
 https://jaumeramos.github.io/asteroids/#/step-34
 
-# Getting started
+# Passos a seguir
+
+## Getting started
+
+Feu el primer joc Hello World i llegiu tots els requeriments. Com experts en Javascript, npm/nodeJS, editors web a aquestes alçades ja no us vindrà res de nou.
 
 https://phaser.io/tutorials/getting-started-phaser3
 
