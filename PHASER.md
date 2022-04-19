@@ -2,6 +2,7 @@ Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2
 
 # Exemples assets
 
+- https://bayat.itch.io/platform-game-assets | http://richard.to/programming/too-many-cooks-part-1.html
 - https://opengameart.org/ | https://opengameart.org/collections | Podeu ordenar per favorits
 - [Kenney](https://kenney.nl/) | https://opengameart.org/content/kenney-16x16 | https://opengameart.org/content/platformer-art-pixel-redux | https://mozdevs.github.io/html5-games-workshop/en/guides/platformer/start-here/ | https://gamedevacademy.org/how-to-make-a-mario-style-platformer-with-phaser-3/
 - Super Mario: https://github.com/acacha/mario | https://github.com/acacha/mario/tree/master/assets/tilemaps/tiles | https://www.webtips.dev/webtips/phaser/remake-mario-in-phaserjs-part1
