@@ -12,6 +12,7 @@ Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2
 
 # Jocs alumnes altres anys
 
+- https://github.com/Germangalia/Phaser-Platform-Game | https://Germangalia.github.io/Phaser-Platform-Game
 - https://maksymkhar.github.io/PhaserPlatformGame/ | https://github.com/maksymkhar/PhaserPlatformGame
 - https://marcmartimas17.github.io/PhaserGame/ | https://github.com/marcmartimas17/PhaserGame
 - https://j-aidle.github.io/ | https://github.com/j-aidle/j-aidle.github.io 
