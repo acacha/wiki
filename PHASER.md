@@ -1,6 +1,7 @@
 # Texture Packer
 
 ```bash
+wget https://www.codeandweb.com/download/texturepacker/6.0.1/TexturePacker-6.0.1.deb
 sudo dpkg -i TexturePacker-6.0.1.deb
 ```
 
