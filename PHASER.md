@@ -6,10 +6,11 @@ Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2
 - [Kenney](https://kenney.nl/) | https://opengameart.org/content/kenney-16x16 | https://opengameart.org/content/platformer-art-pixel-redux | https://mozdevs.github.io/html5-games-workshop/en/guides/platformer/start-here/ | https://gamedevacademy.org/how-to-make-a-mario-style-platformer-with-phaser-3/
 - Super Mario: https://github.com/acacha/mario | https://github.com/acacha/mario/tree/master/assets/tilemaps/tiles | https://www.webtips.dev/webtips/phaser/remake-mario-in-phaserjs-part1
 - Música: https://opengameart.org/content/happy-adventure-loop | The background music track, Happy Adventure, has been created by Rick Hoppmann.
-
+- Summer:  https://github.com/marcmartimas17/PhaserGame/blob/master/assets/summer_tileset.png | https://github.com/marcmartimas17/PhaserGame | https://free-game-assets.itch.io/rpg-summer-tileset | 
 
 # Jocs alumnes altres anys
 
+- https://marcmartimas17.github.io/PhaserGame/ | https://github.com/marcmartimas17/PhaserGame
 - https://josepaltadill.github.io/iceGame/ | https://github.com/josepaltadill/iceGame/
 - https://byelyas.github.io/JocPhaser_Elies/ | https://github.com/ByElyas/JocPhaser_Elies
 - https://davidm151.github.io/JocPhaser/ | https://github.com/davidm151/JocPhaser
