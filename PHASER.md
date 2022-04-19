@@ -31,6 +31,10 @@ https://www.codeandweb.com/texturepacker/tutorials/how-to-create-sprite-sheets-f
 Demo project:
 - https://github.com/CodeAndWeb/TexturePacker-Phaser3
 
+# Documentació antiga
+
+http://acacha.org/mediawiki/Phaser#.Yl6_YoRBxhE
+
 # Recursos
 
 https://github.com/acacha/wiki/new/main
