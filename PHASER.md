@@ -7,11 +7,12 @@ Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2
 - Super Mario: https://github.com/acacha/mario | https://github.com/acacha/mario/tree/master/assets/tilemaps/tiles | https://www.webtips.dev/webtips/phaser/remake-mario-in-phaserjs-part1
 - Música: https://opengameart.org/content/happy-adventure-loop | The background music track, Happy Adventure, has been created by Rick Hoppmann.
 - Summer:  https://github.com/marcmartimas17/PhaserGame/blob/master/assets/summer_tileset.png | https://github.com/marcmartimas17/PhaserGame | https://free-game-assets.itch.io/rpg-summer-tileset | 
+- Platform pack tilesheet | https://github.com/j-aidle/j-aidle.github.io/blob/master/assets/tilesets/platformPack_tilesheet.png | https://stackabuse.com/phaser-3-and-tiled-building-a-platformer/ | https://github.com/StackAbuse/creating-a-platformer-with-phaser-3
 
 # Jocs alumnes altres anys
 
 - https://marcmartimas17.github.io/PhaserGame/ | https://github.com/marcmartimas17/PhaserGame
-- https://j-aidle.github.io/ | 
+- https://j-aidle.github.io/ | https://github.com/j-aidle/j-aidle.github.io 
 - https://josepaltadill.github.io/iceGame/ | https://github.com/josepaltadill/iceGame/
 - https://byelyas.github.io/JocPhaser_Elies/ | https://github.com/ByElyas/JocPhaser_Elies
 - https://davidm151.github.io/JocPhaser/ | https://github.com/davidm151/JocPhaser
