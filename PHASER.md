@@ -2,7 +2,7 @@ Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2
 
 # Jocs alumnes altres anys
 
-- https://josepaltadill.github.io/iceGame/ | https://github.com/josepaltadill.github.io/iceGame/
+- https://josepaltadill.github.io/iceGame/ | https://github.com/josepaltadill/iceGame/
 - https://byelyas.github.io/JocPhaser_Elies/ | https://github.com/ByElyas/JocPhaser_Elies
 - https://davidm151.github.io/JocPhaser/ | https://github.com/davidm151/JocPhaser
 
