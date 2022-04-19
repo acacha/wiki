@@ -2,6 +2,10 @@
 
 https://jaumeramos.github.io/asteroids/#/step-34
 
+# Getting started
+
+https://phaser.io/tutorials/getting-started-phaser3
+
 # Texture Packer
 
 ```bash
