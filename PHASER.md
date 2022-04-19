@@ -2,7 +2,7 @@ Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2
 
 # Exemples assets
 
-- https://opengameart.org/
+- https://opengameart.org/ | https://opengameart.org/collections | Podeu ordenar per favorits
 - [Kenney](https://kenney.nl/) | https://opengameart.org/content/kenney-16x16 | https://opengameart.org/content/platformer-art-pixel-redux | https://mozdevs.github.io/html5-games-workshop/en/guides/platformer/start-here/
 - Música: https://opengameart.org/content/happy-adventure-loop | The background music track, Happy Adventure, has been created by Rick Hoppmann.
 
