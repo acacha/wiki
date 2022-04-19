@@ -25,7 +25,7 @@ https://phaser.io/tutorials/getting-started-phaser3
 
 ## Make your first game
 
-IMPORTANT: Us donen un zip amb el codi de cada part -> No sigueu tristos, valtros utilitzeu Git ;-)
+IMPORTANT: Us donen un zip amb el codi de cada part -> No sigueu tristos, valtros utilitzeu Git ;-), creeu un repo, feu commits com a mínim a cada part i porteu la gestió de versions com pertoca en el món actual de programació.
 
 Recursos:
 - https://phaser.io/tutorials/making-your-first-phaser-3-game
