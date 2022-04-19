@@ -15,7 +15,7 @@ El guió que us proposo:
 1) Seguir el tutorial Getting started (següent apartat)
 2) Creeu el vostre primer joc seguint l'apartat el vostre primer joc (Make your fist game)
 3) Feu l'exemple de spritesheets de més abaix
-4) Publiqueu el codi a render i entregueu editant aquest fitxer via PR (vegeu apartats per entregar més abaix)[https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2021_22#phaser]
+4) Publiqueu el codi a render i entregueu editant aquest fitxer via PR [vegeu apartats per entregar més abaix](https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2021_22#phaser)
 
 ## Getting started
 
