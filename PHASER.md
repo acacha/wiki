@@ -20,9 +20,16 @@ npm start
 
 # SpriteSheets
 
+Coneixements previs:
+- Vegeu apartat anterior plantilla phaser 3
+- Vegeu i instal·let Texture Packer
+
 Seguiu el Tutorial:
 
 https://www.codeandweb.com/texturepacker/tutorials/how-to-create-sprite-sheets-for-phaser3?utm_source=ad&utm_medium=banner&utm_campaign=phaser-2018-10-16
+
+Demo project:
+- https://github.com/CodeAndWeb/TexturePacker-Phaser3
 
 # Recursos
 
