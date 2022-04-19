@@ -1,5 +1,12 @@
 Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2021_22#phaser
 
+# Exemples assets
+
+- https://opengameart.org/
+- [Kenney](https://kenney.nl/) | https://opengameart.org/content/kenney-16x16 | https://opengameart.org/content/platformer-art-pixel-redux | https://mozdevs.github.io/html5-games-workshop/en/guides/platformer/start-here/
+- Música: https://opengameart.org/content/happy-adventure-loop | The background music track, Happy Adventure, has been created by Rick Hoppmann.
+
+
 # Jocs alumnes altres anys
 
 - https://josepaltadill.github.io/iceGame/ | https://github.com/josepaltadill/iceGame/
