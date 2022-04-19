@@ -11,7 +11,7 @@ Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2
 - https://github.com/maksymkhar/PhaserPlatformGame/blob/master/assets/map/tilesheet.png
 
 # Jocs alumnes altres anys
-
+- https://github.com/deltcod/Phaser-Platform-Game | https://deltcod.github.io/Phaser-Platform-Game
 - https://github.com/Germangalia/Phaser-Platform-Game | https://Germangalia.github.io/Phaser-Platform-Game
 - https://maksymkhar.github.io/PhaserPlatformGame/ | https://github.com/maksymkhar/PhaserPlatformGame
 - https://marcmartimas17.github.io/PhaserGame/ | https://github.com/marcmartimas17/PhaserGame
