@@ -6,6 +6,12 @@ https://jaumeramos.github.io/asteroids/#/step-34
 
 # Passos a seguir
 
+Bàsicament teniu un món de tutorials disponibles a:
+
+https://phaser.io/learn
+
+El guió que us proposo:
+
 1) Seguir el tutorial Getting started (següent apartat)
 2) Creeu el vostre primer joc seguint l'apartat el vostre primer joc
 3) Feu l'exemple de spritesheets
