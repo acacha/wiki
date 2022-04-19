@@ -2,7 +2,7 @@ Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2
 
 # Presentació
 
-https://jaumeramos.github.io/asteroids/#/step-34
+https://jaumeramos.github.io/asteroids
 
 # Passos a seguir
 
