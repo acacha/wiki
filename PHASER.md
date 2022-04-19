@@ -3,6 +3,7 @@ Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2
 # Jocs alumnes altres anys
 
 - https://byelyas.github.io/JocPhaser_Elies/ | https://github.com/ByElyas/JocPhaser_Elies
+- https://davidm151.github.io/JocPhaser/ | https://github.com/davidm151/JocPhaser
 
 # JOC PHASER A ENTREGAR (expecificacions per al final)
 
