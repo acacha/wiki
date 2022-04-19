@@ -23,6 +23,11 @@ Feu el primer joc Hello World i llegiu tots els requeriments. Com experts en Jav
 
 https://phaser.io/tutorials/getting-started-phaser3
 
+## Make your fisrt game
+
+Recursos:
+- https://phaser.io/tutorials/making-your-first-phaser-3-game
+
 # Texture Packer
 
 ```bash
