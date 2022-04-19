@@ -7,7 +7,16 @@ Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2
 - https://davidm151.github.io/JocPhaser/ | https://github.com/davidm151/JocPhaser
 - https://aycorreia.github.io/phaserjoc/ | https://github.com/aycorreia/phaserjoc
 
-# JOC PHASER A ENTREGAR (expecificacions per al final)
+- http://acacha.org/mediawiki/2DAM_2016-17/Phaser.js
+- Sergio Tur Badenas: http://comfortable-flock.surge.sh/
+- http://tboy-manel.surge.sh/
+- http://davidmgilo-platformer.surge.sh/
+- http://rogermelich_platformgame.surge.sh/
+- http://mr-rabbot-game.surge.sh/
+- http://big-hearing.surge.sh/
+- http://circus_game_es6.surge.sh/
+
+# JOC PHASER A ENTREGAR (especificacions per al final)
 
 Característiques del joc:
 
