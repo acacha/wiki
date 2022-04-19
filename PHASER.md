@@ -1,5 +1,7 @@
 Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2021_22#phaser
 
+http://richard.to/programming/too-many-cooks-part-1.html
+
 # Exemples assets
 
 - https://bayat.itch.io/platform-game-assets | http://richard.to/programming/too-many-cooks-part-1.html
