@@ -8,9 +8,11 @@ Documentació per a https://github.com/Desenv-Aplicacions-Multiplataforma/2DAM_2
 - Música: https://opengameart.org/content/happy-adventure-loop | The background music track, Happy Adventure, has been created by Rick Hoppmann.
 - Summer:  https://github.com/marcmartimas17/PhaserGame/blob/master/assets/summer_tileset.png | https://github.com/marcmartimas17/PhaserGame | https://free-game-assets.itch.io/rpg-summer-tileset | 
 - Platform pack tilesheet | https://github.com/j-aidle/j-aidle.github.io/blob/master/assets/tilesets/platformPack_tilesheet.png | https://stackabuse.com/phaser-3-and-tiled-building-a-platformer/ | https://github.com/StackAbuse/creating-a-platformer-with-phaser-3
+- https://github.com/maksymkhar/PhaserPlatformGame/blob/master/assets/map/tilesheet.png
 
 # Jocs alumnes altres anys
 
+- https://maksymkhar.github.io/PhaserPlatformGame/ | https://github.com/maksymkhar/PhaserPlatformGame
 - https://marcmartimas17.github.io/PhaserGame/ | https://github.com/marcmartimas17/PhaserGame
 - https://j-aidle.github.io/ | https://github.com/j-aidle/j-aidle.github.io 
 - https://josepaltadill.github.io/iceGame/ | https://github.com/josepaltadill/iceGame/
