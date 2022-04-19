@@ -4,6 +4,11 @@ https://jaumeramos.github.io/asteroids/#/step-34
 
 # Passos a seguir
 
+1) Seguir el tutorial Getting started (següent apartat)
+2) Creeu el vostre primer joc seguint l'apartat el vostre primer joc
+3) Feu l'exemple de spritesheets
+4) Publiqueu el codi a render i entregueu editant aquest fitxer via PR (vegeu apartats per entregar més abaix)
+
 ## Getting started
 
 Feu el primer joc Hello World i llegiu tots els requeriments. Com experts en Javascript, npm/nodeJS, editors web a aquestes alçades ja no us vindrà res de nou.
