@@ -104,7 +104,12 @@ Events Laravel
 - Configurar Listener SendVideoCreatedNotification per ser executat quan es crea VideoCreated
 - Adaptar el esdeveniment VideoCreated per tal que sigui de tipus Broadcast. Documentació https://laravel.com/docs/9.x/broadcasting#defining-broadcast-events
 - Ha d'implementar la interfície **ShouldBroadcast**: class ServerCreated implements ShouldBroadcast
-- Ha d'implementar el mètode **broadcastOn** tornant un canal públic (de moment no cal implementar missatges privats seran missatges que reben tots els usuaris)
+- Ha d'implementar el mètode **broadcastOn**. Ha de tornar un canal públic (de moment no cal implementar missatges privats seran missatges que reben tots els usuaris). Utilitzeu doncs Channel **Illuminate\Broadcasting\Channel** en comptes de de PrivateChannel. El nom del canal: **notifications**
+
+Repassem com ho fariem amb TDD, ja vam fer en vídeos anteriors treball amb esdeveniments:
+
+- [Vídeo 128][(https://youtu.be/AUWTpfH-M44)
+- Cal afegir un test que s'asseguri que es disparà el esdeveniment quan toca. 
 
 
 Enrecordeu-vos que cada event porta un payload (com els paquets de qualsevol protocol) amb la info necessaria. En el nostre cas la info necessarìa serà 
