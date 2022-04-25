@@ -67,13 +67,15 @@ En dos fases:
 - Convertir la notificació en una Push Notification utilitzant Progressive Web Apps (PWA), concretament missatges push amb Service Workers.
 
 Coneixement previs:
-- Events Laravel
-- Notificacions Laravel
+- [Esdeveniments Laravel](https://laravel.com/docs/9.x/events#main-content)
+- [Notificacions Laravel](https://laravel.com/docs/9.x/notifications)
+
 
 ## Guió
 
 - Quina UI utilitzar https://tailwindui.com/components/application-ui/overlays/notifications
 - Creació i configuració dels esdeveniments i Listeners necessaris
+- Configuració de la abstracció Notification: Inicialment només implementarem una notificació tipus Push a navegador però en un futur potser també volem enviar Email o una notificació a un canal Telegram o qualsevol altre canal de comunicació. Si implementen una notificació o tindrem preparat.
 - Com ho implementem -> Implementació general, en qualsevol pàgina intranet el usuari pot rebre la notificació. Per tant cal afegir-ho al layout
 - Instal·lació i configuració de Laravel Broadcasting
 - Proves inicials locals amb driver log
