@@ -11,6 +11,11 @@ Quan el CSV s'ha creat i enviat per correu a l'usuari, podem utilitzar la difusi
 nostra aplicació. Un cop rebut l'esdeveniment, podem mostrar un missatge a l'usuari que li ha enviat el seu CSV per correu electrònic sense que mai 
 hagi d'actualitzar la pàgina.
 
+# Websockets
+
+http://acacha.org/mediawiki/Web_socket
+
+https://os.alfajango.com/websockets-slides/#/
   
 # Laravel Broadcasting
 
