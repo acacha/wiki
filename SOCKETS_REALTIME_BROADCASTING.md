@@ -1,3 +1,7 @@
+# Vídeotutorial:
+
+- https://youtu.be/mty7IKLiGts
+
 # Introducció
 
 En moltes aplicacions web modernes, els WebSockets s'utilitzen per implementar interfícies d'usuari actualitzades en temps real. 
