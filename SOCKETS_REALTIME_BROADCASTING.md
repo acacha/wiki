@@ -70,8 +70,10 @@ Coneixement previs:
 - Events Laravel
 - Notificacions Laravel
 
-Guió:
+## Guió
+
 - Quina UI utilitzar https://tailwindui.com/components/application-ui/overlays/notifications
+- Creació i configuració dels esdeveniments i Listeners necessaris
 - Com ho implementem -> Implementació general, en qualsevol pàgina intranet el usuari pot rebre la notificació. Per tant cal afegir-ho al layout
 - Instal·lació i configuració de Laravel Broadcasting
 - Proves inicials locals amb driver log
