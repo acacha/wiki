@@ -34,8 +34,6 @@ El servidor ja és un altre tema: tenim dos opcions:
 
 En el cas que ens ocupa (Laravel) tenim [múltiples opcions](https://laravel.com/docs/9.x/broadcasting#server-side-installation] que veurem més endavant al menys un cas.
 
-
-
 ## Socket.io
 
 Tot i el ampli suport dels navegadors per a la especificació HTML5 websocket:
@@ -55,6 +53,53 @@ WebSocket. La difusió dels vostres esdeveniments Laravel us permet compartir el
 del servidor i la vostra aplicació JavaScript del costat del client.
 
 Els conceptes bàsics darrere de la difusió són senzills: els clients es connecten a canals amb nom a la interfície, mentre que la vostra aplicació Laravel emet esdeveniments a aquests canals a la part posterior. Aquests esdeveniments poden contenir qualsevol dada addicional que vulgueu posar a disposició del frontend.
+
+# Casteaching
+
+https://tubeme.acacha.org/tdd
+
+- TODO link vídeo 145 i 146
+
+Que volem implementar?
+
+En dos fases:
+- Enviar una notificació en temps real. Volem poder enviar missatges/notificacions als usuaris amb una UI com https://tailwindui.com/components/application-ui/overlays/notifications
+- Convertir la notificació en una Push Notification utilitzant Progressive Web Apps (PWA), concretament missatges push amb Service Workers.
+
+Coneixement previs:
+- Events Laravel
+- Notificacions Laravel
+
+Guió:
+- Quina UI utilitzar https://tailwindui.com/components/application-ui/overlays/notifications
+- Com ho implementem -> Implementació general, en qualsevol pàgina intranet el usuari pot rebre la notificació. Per tant cal afegir-ho al layout
+- Instal·lació i configuració de Laravel Broadcasting
+- Proves inicials locals amb driver log
+- Configuració del SaaS per enviar realment els events via Broadcasting
+
+UI:
+![image](https://user-images.githubusercontent.com/4015406/165044727-80c70f07-f65c-41b4-bd92-cb4e008d158d.png)
+
+Quina notificació implementarem?
+
+Mirarem de fer-la una mica general utilitzant un objecte que tindrà:
+- Title: Títol de la notificació
+- Description (opcional):Descripció
+- Icona (opcional): serà el text del nom icona volem utilitzar de Tailwind UI
+
+Tot i tenir un cas general implementarem un cas concret:
+- Notificació: S'ha afegir un vídeo nou (Title del vídeo) a la sèrie (títol de la sèrie)
+
+Que necessitem a nivell de programació?
+
+Events Laravel: 
+- Crear o aprofitar un Event: VideoCreated
+- Crear un Listener: SendVideoCreatedNotification
+- Disparar event VideoCreated
+- Configurar Listener SendVideoCreatedNotification per ser executat quan es crea VideoCreated
+
+Enrecordeu-vos que cada event porta un payload (com els paquets de qualsevol protocol) amb la info necessaria. En el nostre cas la info necessarìa serà 
+l'objecte Video amb el vídeo que s'ha creat. Cal tenir en compte que cal que el objecte vídeo porti precarregat la relació serie amb la sèrie associada al vídeo. Per defecte Laravel fa Lazy Loading amb les relacions (no les porta carregades fins que no es necessiten) i les carrega quan les necessita. Però això només funciona en server side. Penseu que haurem de recuperar el vídeo al client un cop rebuda la notificació de broadcasting i per tant caldrà utilitzar Eager Loading al passar el objecte vídeo a l'esdeveniment VideoCreated.
 
 # Recursos
   
