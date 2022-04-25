@@ -107,6 +107,7 @@ Events Laravel
 
 Repassem com ho fariem amb TDD, ja vam fer en vídeos anteriors treball amb esdeveniments:
 
+- [Vídeo 127](https://youtu.be/8oAcBl63Pvg)
 - [Vídeo 128](https://youtu.be/AUWTpfH-M44)
 - Cal afegir un test que s'asseguri que es disparà el esdeveniment quan toca. Utilitzem Mocks, Event:fake i assertDispatched Ja ho tenim fet a https://github.com/acacha/casteaching/blob/60bbf5694bc2c46f6c2487eec9663ffb72019cf6/tests/Feature/Videos/VideosManageControllerTest.php#L143
 - Per tant la part del esdeveniment ja la teniu feta, només cal fer un nou Listener. O no? Ja en tenim un [**SendVideoCreatedNotification**](https://github.com/acacha/casteaching/blob/8ad7fcdc60aea6b944b23e0c6fe832f6765fd236/app/Listeners/SendVideoCreatedNotification.php#L10) l'únic que cal
