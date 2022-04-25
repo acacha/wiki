@@ -98,7 +98,7 @@ Tot i tenir un cas general implementarem un cas concret:
 Events Laravel
 
 - Crear o **reaprofitar** un Event: VideoCreated
-- Crear un Listener: **SendVideoCreatedNotification**
+- Crear o **reaprofitar** Listener: **SendVideoCreatedNotification**
 - Disparar event VideoCreated quan toca (ja ho hauria de tenir fet
 - Configurar Listener SendVideoCreatedNotification per ser executat quan es crea VideoCreated
 - Adaptar el esdeveniment VideoCreated per tal que sigui de tipus Broadcast. Documentació https://laravel.com/docs/9.x/broadcasting#defining-broadcast-events
