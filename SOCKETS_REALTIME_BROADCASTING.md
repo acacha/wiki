@@ -17,6 +17,25 @@ http://acacha.org/mediawiki/Web_socket
 
 https://os.alfajango.com/websockets-slides/#/
 
+![image](https://user-images.githubusercontent.com/4015406/165041989-20db7beb-cd2e-4300-ae81-5ddf4c4e7f18.png)
+
+Es tracta d'un nou protocol, per tal cal entendre que no utilitzem HTTP. Les URL seran:
+
+![image](https://user-images.githubusercontent.com/4015406/165042165-84ee0a4b-88a9-49b8-81de-c5f8d450bcb2.png)
+
+En cas de we socket segur serà wss.
+
+El client que utilitzem seran els navegadors moderns que tots suporten el protocol: https://caniuse.com/?search=websocket
+
+El servidor ja és un altre tema: tenim dos opcions:
+
+1) Muntar un servidor propi: és el que s'anomena una solució que necessita d'infraestructura propia 
+2) Utilitzar un servei SaaS que ens proporcioni el servei. Alguns dels serveis més coneguts són Pusher i Abbly
+
+En el cas que ens ocupa (Laravel) tenim [múltiples opcions](https://laravel.com/docs/9.x/broadcasting#server-side-installation] que veurem més endavant al menys un cas.
+
+
+
 ## Socket.io
 
 Tot i el ampli suport dels navegadors per a la especificació HTML5 websocket:
