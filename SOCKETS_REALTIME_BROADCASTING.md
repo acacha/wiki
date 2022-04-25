@@ -113,7 +113,12 @@ Repassem com ho fariem amb TDD, ja vam fer en vídeos anteriors treball amb esde
 - Per tant la part del esdeveniment ja la teniu feta, només cal fer un nou Listener. O no? Ja en tenim un [**SendVideoCreatedNotification**](https://github.com/acacha/casteaching/blob/8ad7fcdc60aea6b944b23e0c6fe832f6765fd236/app/Listeners/SendVideoCreatedNotification.php#L10) l'únic que cal
  es que utilitzi el canal broadcast a part de canal email. Adapteu el [test SendVideoCreatedNotificationTest](https://github.com/acacha/casteaching/blob/f1407efd7fe5524c52c3011751e703dcfd436202/tests/Unit/SendVideoCreatedNotificationTest.php#L17)
 
-Exercici: La Notificació [VideoCreated](https://github.com/acacha/casteaching/blob/de9f2d0e8818643c6eab212e3fd7be782902981c/app/Notifications/VideoCreated.php#L11) no té cap test. Creeu el test unitari **tests/Unit/Notificacions/VideoCreatedTest** i associeu-lo amb testedBy i @covers amb VideoCreated. Proveu de fer valtros el test del mètode toBroadCast i del ja existent toEmail. Recordeu les tres fases d'un test: 1) Preparar (crear un nou objecte VideoCreated via constructor i també les dependències: paràmetres injectats al constructor) 2) Executar el mètode toBroadcast i toMail 3) Comprovar que retorna el que toca.
+Exercici: La Notificació [VideoCreated](https://github.com/acacha/casteaching/blob/de9f2d0e8818643c6eab212e3fd7be782902981c/app/Notifications/VideoCreated.php#L11) no té cap test. Creeu el test unitari **tests/Unit/Notificacions/VideoCreatedTest** i associeu-lo amb testedBy i @covers amb VideoCreated. Proveu de fer valtros el test del mètode toBroadCast i del ja existent toEmail. 
+
+Recordeu les tres fases d'un test: 
+1) Preparar (crear un nou objecte VideoCreated via constructor i també les dependències: paràmetres injectats al constructor) 
+2) Executar el mètode toBroadcast i toMail 
+3) Comprovar que retorna el que toca (asserts)
 
 Enrecordeu-vos que cada event porta un payload (com els paquets de qualsevol protocol) amb la info necessaria. En el nostre cas la info necessarìa serà 
 l'objecte Video amb el vídeo que s'ha creat. Cal tenir en compte que cal que el objecte vídeo porti precarregat la relació serie amb la sèrie associada al vídeo. Per defecte Laravel fa Lazy Loading amb les relacions (no les porta carregades fins que no es necessiten) i les carrega quan les necessita. Però això només funciona en server side. Penseu que haurem de recuperar el vídeo al client un cop rebuda la notificació de broadcasting i per tant caldrà utilitzar Eager Loading al passar el objecte vídeo a l'esdeveniment VideoCreated.
