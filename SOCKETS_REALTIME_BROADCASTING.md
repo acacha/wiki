@@ -94,16 +94,27 @@ Mirarem de fer-la una mica general utilitzant un objecte que tindrà:
 Tot i tenir un cas general implementarem un cas concret:
 - Notificació: S'ha afegir un vídeo nou (Title del vídeo) a la sèrie (títol de la sèrie)
 
-Que necessitem a nivell de programació?
+**Que necessitem a nivell de programació?**
 
-Events Laravel: 
-- Crear o aprofitar un Event: VideoCreated
-- Crear un Listener: SendVideoCreatedNotification
-- Disparar event VideoCreated
+Events Laravel
+
+- Crear o **reaprofitar** un Event: VideoCreated
+- Crear un Listener: **SendVideoCreatedNotification**
+- Disparar event VideoCreated quan toca (ja ho hauria de tenir fet
 - Configurar Listener SendVideoCreatedNotification per ser executat quan es crea VideoCreated
+- Adaptar el esdeveniment VideoCreated per tal que sigui de tipus Broadcast. Documentació https://laravel.com/docs/9.x/broadcasting#defining-broadcast-events
+- Ha d'implementar la interfície **ShouldBroadcast**: class ServerCreated implements ShouldBroadcast
+- Ha d'implementar el mètode **broadcastOn** tornant un canal públic (de moment no cal implementar missatges privats seran missatges que reben tots els usuaris)
+
 
 Enrecordeu-vos que cada event porta un payload (com els paquets de qualsevol protocol) amb la info necessaria. En el nostre cas la info necessarìa serà 
 l'objecte Video amb el vídeo que s'ha creat. Cal tenir en compte que cal que el objecte vídeo porti precarregat la relació serie amb la sèrie associada al vídeo. Per defecte Laravel fa Lazy Loading amb les relacions (no les porta carregades fins que no es necessiten) i les carrega quan les necessita. Però això només funciona en server side. Penseu que haurem de recuperar el vídeo al client un cop rebuda la notificació de broadcasting i per tant caldrà utilitzar Eager Loading al passar el objecte vídeo a l'esdeveniment VideoCreated.
+
+Notificacions Laravel
+- **Reaprofitar** la notificació: VideoCreated
+- Afegiu un nou canal (a part del email) al mètode via. Consulteu els docs: [Especifying Delivery Channels](https://laravel.com/docs/9.x/notifications#specifying-delivery-channels)
+- El nou típus canal és **broadcast**. Vegeu els docs https://laravel.com/docs/9.x/notifications#broadcast-notifications
+- Cal implementar doncs el mètode **toBroadcast**
 
 # Recursos
   
