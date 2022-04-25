@@ -29,7 +29,7 @@ El client que utilitzem seran els navegadors moderns que tots suporten el protoc
 
 El servidor ja és un altre tema: tenim dos opcions:
 
-1) Muntar un servidor propi: és el que s'anomena una solució que necessita d'infraestructura propia 
+1) Muntar un servidor propi: és el que s'anomena una solució que necessita d'infraestructura propia. Teniu molt bones eines Open Source que ho permeten com [laravel-websockets](https://github.com/beyondcode/laravel-websockets) o [soketi](https://docs.soketi.app/)
 2) Utilitzar un servei SaaS que ens proporcioni el servei. Alguns dels serveis més coneguts són Pusher i Abbly
 
 En el cas que ens ocupa (Laravel) tenim [múltiples opcions](https://laravel.com/docs/9.x/broadcasting#server-side-installation] que veurem més endavant al menys un cas.
