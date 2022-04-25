@@ -113,21 +113,63 @@ Repassem com ho fariem amb TDD, ja vam fer en vídeos anteriors treball amb esde
 - Per tant la part del esdeveniment ja la teniu feta, només cal fer un nou Listener. O no? Ja en tenim un [**SendVideoCreatedNotification**](https://github.com/acacha/casteaching/blob/8ad7fcdc60aea6b944b23e0c6fe832f6765fd236/app/Listeners/SendVideoCreatedNotification.php#L10) l'únic que cal
  es que utilitzi el canal broadcast a part de canal email. Adapteu el [test SendVideoCreatedNotificationTest](https://github.com/acacha/casteaching/blob/f1407efd7fe5524c52c3011751e703dcfd436202/tests/Unit/SendVideoCreatedNotificationTest.php#L17)
 
-Exercici: La Notificació [VideoCreated](https://github.com/acacha/casteaching/blob/de9f2d0e8818643c6eab212e3fd7be782902981c/app/Notifications/VideoCreated.php#L11) no té cap test. Creeu el test unitari **tests/Unit/Notificacions/VideoCreatedTest** i associeu-lo amb testedBy i @covers amb VideoCreated. Proveu de fer valtros el test del mètode toBroadCast i del ja existent toEmail. 
-
-Recordeu les tres fases d'un test: 
-1) Preparar (crear un nou objecte VideoCreated via constructor i també les dependències: paràmetres injectats al constructor) 
-2) Executar el mètode toBroadcast i toMail 
-3) Comprovar que retorna el que toca (asserts)
-
-Enrecordeu-vos que cada event porta un payload (com els paquets de qualsevol protocol) amb la info necessaria. En el nostre cas la info necessarìa serà 
-l'objecte Video amb el vídeo que s'ha creat. Cal tenir en compte que cal que el objecte vídeo porti precarregat la relació serie amb la sèrie associada al vídeo. Per defecte Laravel fa Lazy Loading amb les relacions (no les porta carregades fins que no es necessiten) i les carrega quan les necessita. Però això només funciona en server side. Penseu que haurem de recuperar el vídeo al client un cop rebuda la notificació de broadcasting i per tant caldrà utilitzar Eager Loading al passar el objecte vídeo a l'esdeveniment VideoCreated.
-
 Notificacions Laravel
 - **Reaprofitar** la notificació: VideoCreated
 - Afegiu un nou canal (a part del email) al mètode via. Consulteu els docs: [Especifying Delivery Channels](https://laravel.com/docs/9.x/notifications#specifying-delivery-channels)
 - El nou típus canal és **broadcast**. Vegeu els docs https://laravel.com/docs/9.x/notifications#broadcast-notifications
 - Cal implementar doncs el mètode **toBroadcast**
+
+Exercici: La Notificació [VideoCreated](https://github.com/acacha/casteaching/blob/de9f2d0e8818643c6eab212e3fd7be782902981c/app/Notifications/VideoCreated.php#L11) no té cap test. Creeu el test unitari **tests/Unit/Notificacions/VideoCreatedTest** i associeu-lo amb testedBy i @covers amb VideoCreated. Proveu de fer valtros el test del mètode toBroadCast i del ja existent toEmail. 
+
+Recordeu les tres fases d'un test: 
+1) Preparar (crear un nou objecte VideoCreated via constructor i també les dependències: paràmetres injectats al constructor) 
+2) Executar el mètode toBroadcast i toMail 
+3) Comprovar que retorna el que toca (asserts). I que ha de tornar? Mireu la documentació [formatting-broadcast-notifications](https://laravel.com/docs/9.x/notifications#formatting-broadcast-notifications). Hi ha un objecte BroadcastMessage que conté la info del missatge. Els camps de l'objecte són els especificats: title, description i icon (és a dir la notificació que volem mostrar al client)
+
+Finalment anem a fer la configuració del server Side, la infraestructura per enviar els missatges de Broadcast
+
+**Fase 1. Fer proves amb driver log** 
+
+El driver log no enviar realment els missatges però serveix per comprovar el codi que hem fet fins ara sense necessitat de fer res més.
+
+La documentació es troba a https://laravel.com/docs/9.x/broadcasting#configuration . Activeu el driver log
+
+Ara proveu de crear un nou vídeo a la aplicació i mentrestant observeu el fitxer de log:
+
+```
+tail -f /home/sergi/Code/acacha/casteaching/storage/logs/laravel.log
+```
+
+Haurieu de veure un missatge de log simulant el missatge que s'enviaria
+
+**Fase 2. Pusher Channels**
+
+Ara configueu el SaaS Pusher. Seguiu la documentació:
+
+https://laravel.com/docs/9.x/broadcasting#pusher-channels
+
+
+Un heu de logar a :
+
+https://pusher.com/channels
+
+Vegeu el tutorial:
+
+https://pusher.com/tutorials/web-notifications-laravel-pusher-channels/
+
+Un cop tot configurat comproveu a la Debug Console de Pusher que rebeu els missatges. Com? Creant un vídeo nou i automaticament el pusher hauria de rebre una missatge a la Debug Console si ho heu fet tot correctament
+
+
+## Eager loading 
+
+Enrecordeu-vos que cada event porta un payload (com els paquets de qualsevol protocol) amb la info necessaria. En el nostre cas la info necessarìa serà 
+l'objecte Video amb el vídeo que s'ha creat. Cal tenir en compte que cal que el objecte vídeo porti precarregat la relació serie amb la sèrie associada al vídeo. Per defecte Laravel fa Lazy Loading amb les relacions (no les porta carregades fins que no es necessiten) i les carrega quan les necessita. Però això només funciona en server side. Penseu que haurem de recuperar el vídeo al client un cop rebuda la notificació de broadcasting i per tant caldrà utilitzar Eager Loading al passar el objecte vídeo a l'esdeveniment VideoCreated.
+
+Documentació Eager Loading -> https://laravel.com/docs/9.x/eloquent-relationships#eager-loading
+
+Exercici: Quins testos caldria adaptar i com per a comprovar que Video porta la relació serie precarregada? Un cop sapigueu quins són canvieu-ho.
+
+
 
 # Recursos
   
