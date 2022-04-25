@@ -16,6 +16,18 @@ hagi d'actualitzar la pàgina.
 http://acacha.org/mediawiki/Web_socket
 
 https://os.alfajango.com/websockets-slides/#/
+
+## Socket.io
+
+Tot i el ampli suport dels navegadors per a la especificació HTML5 websocket:
+
+https://caniuse.com/?search=websocket
+
+A la pràctica (igual que passa amb altres casos, per exemple fetch i axios) molts programadors utilitzen una llibreria anomenada socket.io
+
+http://acacha.org/mediawiki/Socket.io#.YmZOk9BBwkI
+
+Laravel Broadcasting i Laravel Echo utilitzen aquesta llibreria.
   
 # Laravel Broadcasting
 
