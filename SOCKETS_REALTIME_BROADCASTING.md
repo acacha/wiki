@@ -161,7 +161,7 @@ Un cop tot configurat comproveu a la Debug Console de Pusher que rebeu els missa
 
 ## Client Side configuration
 
-Un cop tenim el sistema de Server Side configurat, és a dir tenim els esdeveniments, els listeners i les notificacions de broadcast configurades per ser enviades a Pusher Channels (IMPORTANT: Comproveu que rebeu les notificacions a Pusher Channels i que teniu tota la info necessària: title, description, icon) podem fer la part de client.
+Un cop tenim el sistema de Server Side configurat, és a dir tenim els esdeveniments, els listeners i les notificacions de broadcast configurades per ser enviades a Pusher Channels (IMPORTANT: Comproveu que rebeu les notificacions a Pusher Channels i que teniu tota la info necessària: title, description) podem fer la part de client.
 
 Documentació Laravel: https://laravel.com/docs/9.x/broadcasting#client-side-installation
 
