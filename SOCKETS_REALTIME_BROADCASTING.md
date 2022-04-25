@@ -89,7 +89,6 @@ Quina notificació implementarem?
 Mirarem de fer-la una mica general utilitzant un objecte que tindrà:
 - Title: Títol de la notificació
 - Description (opcional):Descripció
-- Icona (opcional): serà el text del nom icona volem utilitzar de Tailwind UI
 
 Tot i tenir un cas general implementarem un cas concret:
 - Notificació: S'ha afegir un vídeo nou (Title del vídeo) a la sèrie (títol de la sèrie)
@@ -159,17 +158,54 @@ https://pusher.com/tutorials/web-notifications-laravel-pusher-channels/
 
 Un cop tot configurat comproveu a la Debug Console de Pusher que rebeu els missatges. Com? Creant un vídeo nou i automaticament el pusher hauria de rebre una missatge a la Debug Console si ho heu fet tot correctament
 
+## Client Side configuration
 
-## Eager loading 
+Un cop tenim el sistema de Server Side configurat, és a dir tenim els esdeveniments, els listeners i les notificacions de broadcast configurades per ser enviades a Pusher Channels (IMPORTANT: Comproveu que rebeu les notificacions a Pusher Channels i que teniu tota la info necessària: title, description, icon) podem fer la part de client.
 
-Enrecordeu-vos que cada event porta un payload (com els paquets de qualsevol protocol) amb la info necessaria. En el nostre cas la info necessarìa serà 
-l'objecte Video amb el vídeo que s'ha creat. Cal tenir en compte que cal que el objecte vídeo porti precarregat la relació serie amb la sèrie associada al vídeo. Per defecte Laravel fa Lazy Loading amb les relacions (no les porta carregades fins que no es necessiten) i les carrega quan les necessita. Però això només funciona en server side. Penseu que haurem de recuperar el vídeo al client un cop rebuda la notificació de broadcasting i per tant caldrà utilitzar Eager Loading al passar el objecte vídeo a l'esdeveniment VideoCreated.
+Documentació Laravel: https://laravel.com/docs/9.x/broadcasting#client-side-installation
 
-Documentació Eager Loading -> https://laravel.com/docs/9.x/eloquent-relationships#eager-loading
+Instal·leu pusher channels:
 
-Exercici: Quins testos caldria adaptar i com per a comprovar que Video porta la relació serie precarregada? Un cop sapigueu quins són canvieu-ho.
+https://laravel.com/docs/9.x/broadcasting#client-pusher-channels
+
+Utilitzarem una eina de Javascript proporcionada per Laravel anomenada [Laravel echo](https://github.com/laravel/echo). Llegiu també:
+
+https://laravel.com/docs/9.x/broadcasting#client-pusher-channels
+
+Per tal de crear window.Echo , és a dir un objecte Echo que estarà disponible en qualsevol codi Javascript i que ens permetra rebrè els missatges.
+
+Un cop configurat Echo anem a implementar el codi per mostrar els missatges. La meva proposta es que creeu un component Vue a **resources/js/components** anomenat **Notification.vue** (similar al Status.vue que vam fer anteriorment). Aquest component serà l'encarregat de mostrar la notificació.
+
+Documentació components Laravel Vue Components:https://laravel.com/docs/7.x/frontend#writing-vue-components
+
+Que ha de tenir el component:
+- La plantilla HTML extreta de: https://tailwindui.com/components/application-ui/overlays/notifications
+- Data: title, description i show (un booleà que controla quan es mostra o es deixa de mostrar la notificació)
+- Mètode mounted amb el codi que controla la recepció de notificacions. Us mostro un exemple més abaix. Primer fer una versió hardcoded que mostri smpre el mateix title i la mateixa descripció
+- Enrecordeu-vos d'implementar la icona close que tanca la notificació
+- Implementeu que les notificacions només es mostring una estona. Utilitzeu async/await per implementar el canvi de show a false al cap d'uns segons
 
 
+API:
+
+<x-notification/>
+
+Un cop preparat el component ja el podem utilitzar al layout **casteaching.blade.php**. Podeu posar el component al final del body. Primer poseu un valor hardoced fix de notificació amb un title X i una descripció Y i proveu apareix a totes les pàgines.
+
+El següent pas és fer que només aparequi quan es rep una nova notificació. Consulteu:
+
+https://laravel.com/docs/9.x/broadcasting#notifications
+
+Cal tenir en compte que l'exemple utilitza un canal privat. Adapteu el codi a canal public (Echo.channel en compte de Echo.private). El nom del canal l'hem definit més amunt com **notifications**
+
+El mètode notification s'executarà cada cop que es rebi una notificació noava al canal notifications i dins ja podeu fer els canvis per mostrar la notificació. Primer us recomano provar només amb console.log i després adatapr el component Vue.
+
+El codi de recepció l'heu de posar al mètode mounted. Us recordo:
+
+- Enrecordeu-vos d'implementar la icona close que tanca la notificació
+- Implementeu que les notificacions només es mostring una estona. Utilitzeu async/await per implementar el canvi de show a false al cap d'uns segons
+
+Ja tenim un sistema de notificacions implementar. Felicitacions!
 
 # Recursos
   
