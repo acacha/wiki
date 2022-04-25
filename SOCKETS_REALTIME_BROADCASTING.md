@@ -108,9 +108,10 @@ Events Laravel
 
 Repassem com ho fariem amb TDD, ja vam fer en vídeos anteriors treball amb esdeveniments:
 
-- [Vídeo 128][(https://youtu.be/AUWTpfH-M44)
-- Cal afegir un test que s'asseguri que es disparà el esdeveniment quan toca. 
-
+- [Vídeo 128](https://youtu.be/AUWTpfH-M44)
+- Cal afegir un test que s'asseguri que es disparà el esdeveniment quan toca. Utilitzem Mocks, Event:fake i assertDispatched Ja ho tenim fet a https://github.com/acacha/casteaching/blob/60bbf5694bc2c46f6c2487eec9663ffb72019cf6/tests/Feature/Videos/VideosManageControllerTest.php#L143
+- Per tant la part del esdeveniment ja la teniu feta, només cal fer un nou Listener. O no? Ja en tenim un [**SendVideoCreatedNotification**](https://github.com/acacha/casteaching/blob/8ad7fcdc60aea6b944b23e0c6fe832f6765fd236/app/Listeners/SendVideoCreatedNotification.php#L10) l'únic que cal
+ es que utilitzi el canal broadcast a part de canal email. Adapteu el [test SendVideoCreatedNotificationTest](https://github.com/acacha/casteaching/blob/f1407efd7fe5524c52c3011751e703dcfd436202/tests/Unit/SendVideoCreatedNotificationTest.php#L17)
 
 Enrecordeu-vos que cada event porta un payload (com els paquets de qualsevol protocol) amb la info necessaria. En el nostre cas la info necessarìa serà 
 l'objecte Video amb el vídeo que s'ha creat. Cal tenir en compte que cal que el objecte vídeo porti precarregat la relació serie amb la sèrie associada al vídeo. Per defecte Laravel fa Lazy Loading amb les relacions (no les porta carregades fins que no es necessiten) i les carrega quan les necessita. Però això només funciona en server side. Penseu que haurem de recuperar el vídeo al client un cop rebuda la notificació de broadcasting i per tant caldrà utilitzar Eager Loading al passar el objecte vídeo a l'esdeveniment VideoCreated.
