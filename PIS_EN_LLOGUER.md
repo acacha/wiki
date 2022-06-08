@@ -1,5 +1,7 @@
 **PIS EN LLOGUER. Carrer Ciutat num 3**
 
+- **PREU**: 400€/mes gastos de comunitat i basures incloses.
+
 ![image](https://user-images.githubusercontent.com/4015406/172611204-c2116401-319d-46a9-83fe-56369988208e.png)
 
 Característiques:
